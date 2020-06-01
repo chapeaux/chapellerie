@@ -85,11 +85,11 @@ export default class CPXQuery extends HTMLElement {
             detail: {
                 term: this.term,
                 filters: this.activeFilters,
-                facets: this.results.facet_counts || {},
+                //facets: this.results.facet_counts || {},
                 sort: this.sort,
                 limit: this.limit,
                 from: this.from,
-                results: this.results.hits,
+                results: this.results,
             },
             bubbles: true,
             composed: true

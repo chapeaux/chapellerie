@@ -27,7 +27,6 @@
       "strictPropertyInitialization": false,
       "suppressExcessPropertyErrors": false,
       "suppressImplicitAnyIndexErrors": false,
-      "useDefineForClassFields": false,
       "target": "ES6"
     }
   }

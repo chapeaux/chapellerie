@@ -195,12 +195,12 @@ ${this.thumbnail ? `<div class="thumb"><img src="${this.thumbnail.replace('http:
     set result(val) {
         if (this._result === val) return;
         this._result = val;
-        this.title = this._result.fields.sys_title[0] ? this._result.fields.sys_title[0] : 'Default Title';
-        this.description = this._result.fields.sys_description[0] ? this._result.fields.sys_description[0] : 'Default Description';
-        this.url = this._result.fields.sys_url_view[0] ? this._result.fields.sys_url_view[0] : '#';
+        this.title = this._result.title ? this._result.title : 'Default Title';
+        this.description = this._result.description ? this._result.description : 'Default Description';
+        this.url = this._result.url ? this._result.url : '#';
         this.kind = this._result._type ? this._result._type : 'webpage';
-        this.author = this._result.fields.author[0] ? this._result.fields.author[0] : undefined;
-        this.created = this._result.fields.sys_created[0] ? this._result.fields.sys_created[0] : 'Published'
+        this.author = this._result.author ? this._result.author : undefined;
+        this.created = this._result.created ? this._result.created : 'Published'
         // this.computeTitle(val);
         // this.computeKind(val);
         // this.computeCreated(val);

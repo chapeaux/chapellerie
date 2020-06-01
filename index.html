@@ -6,38 +6,63 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="patternfly/patternfly.min.css">
+    <link rel="stylesheet" href="patternfly/alignment.css">
+    <link rel="stylesheet" href="patternfly/sizing.css">
+    <link rel="stylesheet" href="patternfly/spacing.css">
+    <link rel="stylesheet" href="patternfly/input-group.css">
+    <link rel="stylesheet" href="patternfly/button.css">
     <link rel="stylesheet" href="style.css">
     <script type="module" src="scripts/cpx-query.js" defer></script>
+    <script type="module" src="scripts/cpx-result.js" defer></script>
+    <script type="module" src="scripts/cpx-results.js" defer></script>
+    <script type="module" src="scripts/pfelement/dist/pfelement.min.js" defer></script>
+    <script type="module" src="scripts/pfe-datetime/dist/pfe-datetime.min.js" defer></script>
   </head>  
   <body>
-    <cpx-layout>
-      <ul>
-        <li><a href="/">Base Theme</a></li>
-        <li><a href="/?theme=gradient">Gradient Theme</a></li>
-        <li><a href="/?theme=gray">Gray Theme</a></li>
-      </ul>
-      <h1>
-        <cpx-search-text onstart="Looking for your stuff" oncomplete="{{count}} Found">
-        Search
-        <cpx-search-text>
-      </h1>
-      <input>
-      <button>Find it</button>
+    <div class="pf-l-stack pf-m-gutter pf-u-px-3xl pf-u-mx-3xl pf-u-text-align-center">
+      <div class="">
+        <ul>
+          <li><a href="?">Base Theme</a></li>
+          <li><a href="?theme=gradient">Gradient Theme</a></li>
+          <li><a href="?theme=gray">Gray Theme</a></li>
+        </ul>
       </div>
-      <div>
-        
+      <div class="pf-u-px-3xl pf-u-mx-3xl">
+        <div class="pf-c-input-group">
+          <input class="pf-c-form-control" onchange="dispatchEvent(new CustomEvent('term-change',{bubbles: true, detail: {term: this.value}}))" type="search" id="term" name="term" aria-label="Search input example">
+          <button class="pf-c-button pf-m-control" type="button" onclick="document.querySelector('cpx-query').search()" aria-label="search button for search input">
+            <i class="fas fa-search" aria-hidden="true"></i>
+          </button>
+        </div>
       </div>
-      <cpx-results>
+      <cpx-results class="pf-m-fill pf-l-stack pf-m-gutter pf-u-px-3xl pf-u-mx-3xl">
         <template>
-          
+          <link rel="stylesheet" href="patternfly/patternfly.min.css">
+          <link rel="stylesheet" href="patternfly/card.css">
+          <style>:host, .pf-c-card { border-radius: var(--pf-global--BorderRadius--sm);</style>
+          <div class="pf-c-card pf-m-compact">
+            <div class="pf-c-card__header pf-c-title pf-m-md"><a href="{{url}}">{{title}}</a></div>
+            <div class="pf-c-card__body">
+              <pfe-datetime datetime="{{created}}" type="local" day="numeric" month="long" year="numeric">{{created}}</pfe-datetime>
+              <p>{{description}}</p>
+            </div>
+            <div class="pf-c-card__footer">{{author}}</div>
+          </div>
         </template>
       </cpx-results>
-    </cpx-layout>
-    <cpx-query auto term="quarkus" url="https://api.developers.stage.redhat.com/search/v1/graphql" fx="latestFusionBlogs"></cpx-query>
+    </div>
+    <cpx-query term="quarkus" url="https://api.developers.stage.redhat.com/search/v1/graphql" fx="latestFusionBlogs"></cpx-query>
     <script>
       let url = new URL(location.href);
       let theme = url.searchParams.get('theme');
       document.body.className = theme || "";
+
+      document.body.addEventListener('submit', e => {
+        console.log("SEARCH");
+        let q = document.querySelector('cpx-query');
+        q.term = document.querySelector('#term').value;
+        q.search();
+      });
     </script>
   </body>
 </html>

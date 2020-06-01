@@ -1,6 +1,6 @@
 //import {PFElement} from '../../@pfelements/pfelement.umd.js';
 //import PFElement from '@patternfly/pfelement/pfelement.umd';
-import CPXResult from './cpx-result.js';
+//import CPXResult from './cpx-result.js';
 
 export default class CPXResults extends HTMLElement {
     static tag = 'cpx-results';
@@ -168,9 +168,9 @@ export default class CPXResults extends HTMLElement {
     }
 
     addResult(result) {
-        var item = new CPXResult();
-        item.result = result;
-        item.layout = this.resultLayout;
+        var item = document.createElement('cpx-result');
+        item['result'] = result;
+        item['layout'] = this.resultLayout;
         this.appendChild(item);
     }
 
@@ -228,17 +228,16 @@ export default class CPXResults extends HTMLElement {
     }
 
     addResults(results) {
-        if (results && results.hits) {
-            let hits = results.hits;
-            let l = hits.length;
+        if (results) {
+            let l = results.length;
             for( let i = 0; i < l; i++ ) {
-                this.addResult(hits[i]);
+                this.addResult(results[i]);
             }
             this.last = this.last + l;
-            if (this.last >= results.numFound) {
+            if (this.last >= results.length) {
                 this.shadowRoot.querySelector('.end-of-results').removeAttribute('data-hide');
             }
-            if (l > 0 && this.last < results.numFound) {
+            if (l > 0 && this.last < results.length) {
                 this.shadowRoot.querySelector('.invalidMsg').setAttribute('data-hide','');
                 this.shadowRoot.querySelector('.end-of-results').setAttribute('data-hide','');
                 this.shadowRoot.querySelector('div.moreBtn').removeAttribute('data-hide');

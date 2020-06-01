@@ -20,10 +20,14 @@ body {
     margin: 0;
     padding: 0;
     background: var(--cpx-global--body-Background);
+    --pf-global--BorderRadius--sm: 0px;
 }
 
+.pf-c-form-control { border-radius: var(--pf-global--BorderRadius--sm); }
+
 .gradient {
-    --cpx-global--body-Background: linear-gradient(118deg, #1F79F2, #6058E8, #C026D9)
+    --cpx-global--body-Background: linear-gradient(118deg, #1F79F2, #6058E8, #C026D9);
+    --pf-global--BorderRadius--sm: 10px;
     /* 
     #1F79F2
     #6058E8
@@ -42,12 +46,6 @@ body {
     --cpx-global--body-Background: #D9D9D9;
 }
 
-cpx-layout {
-    
-    display: flex;
-    width: 100vw;
-    height: 100vh;
-    flex-direction: column;
-    justify-items: center;
-    align-items: center;
+cpx-result {
+    background-color: white;
 }
