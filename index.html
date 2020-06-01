@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Hello!</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="patternfly/patternfly.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script type="module" src="scripts/cpx-query.js" defer></script>
+  </head>  
+  <body>
+    <cpx-layout>
+      <ul>
+        <li><a href="/">Base Theme</a></li>
+        <li><a href="/?theme=gradient">Gradient Theme</a></li>
+        <li><a href="/?theme=gray">Gray Theme</a></li>
+      </ul>
+      <h1>
+        <cpx-search-text onstart="Looking for your stuff" oncomplete="{{count}} Found">
+        Search
+        <cpx-search-text>
+      </h1>
+      <input>
+      <button>Find it</button>
+      </div>
+      <div>
+        
+      </div>
+      <cpx-results>
+        <template>
+          
+        </template>
+      </cpx-results>
+    </cpx-layout>
+    <cpx-query auto term="quarkus" url="https://api.developers.stage.redhat.com/search/v1/graphql" fx="latestFusionBlogs"></cpx-query>
+    <script>
+      let url = new URL(location.href);
+      let theme = url.searchParams.get('theme');
+      document.body.className = theme || "";
+    </script>
+  </body>
+</html>
