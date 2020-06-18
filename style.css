@@ -49,3 +49,6 @@ body {
 cpx-result {
     background-color: white;
 }
+
+cpx-lever, cpx-rack { flex: 0 1 50%}
+cpx-porte {width: 100%; display:block; border: 3px dashed #151515;}
