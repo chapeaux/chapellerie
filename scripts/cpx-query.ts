@@ -6,6 +6,7 @@ export default class CPXQuery extends HTMLElement {
     _sort = 'relevance';
     _results: any;
     _term: string;
+    _method: string = 'post';
     _fx: string;
     _url: string;
     _valid = true;
@@ -16,6 +17,15 @@ export default class CPXQuery extends HTMLElement {
     }
     set auto(val) {
         this._auto = val !== null;
+    }
+
+    get method() {
+        return this._method;
+    }
+    set method(val) {
+        if (this._method === val) return;
+        this._method = val;
+        this.setAttribute('method',this._method);
     }
 
     get filters() {
@@ -173,7 +183,7 @@ export default class CPXQuery extends HTMLElement {
     }
 
     static get observedAttributes() {
-        return ['term', 'sort', 'limit', 'results', 'url', 'auto', 'fx'];
+        return ['term', 'sort', 'limit', 'results', 'url', 'auto', 'fx', 'method'];
     }
 
     attributeChangedCallback(name, oldVal, newVal) {
@@ -296,21 +306,26 @@ export default class CPXQuery extends HTMLElement {
             // console.log(this.activeFilters);
             // qURL.searchParams.set('fq', facetQuery.);
             //facetQuery // map reduce??
-            let post = {url: this.url, options: {
-                    method:'POST',
-                    headers: { 
-                    'Content-Type': 'application/graphql',
-                    'Accept': 'application/json'
-                    },
-                    mode: 'cors',
-                    body:`{${this.fx}(term:"${this.term || '*'}")(first{title id author url description}}`
+            let method = { 
+                post: {
+                    url: this.url, 
+                    options: {
+                        method:'POST',
+                        headers: { 
+                        'Content-Type': 'application/json',
+                        'Accept': 'application/json'
+                        },
+			body:JSON.stringify({query:`{${this.fx}(term:"${this.term || '*'}"){title created author url description}}`})
+                    }
+                },
+                get: {
+                    url: `${this.url}?query={${this.fx}(term:"${this.term || '*'}"){title author created url description}}`, 
+                    options: {
+                        method:'GET'
+                    }
                 }
             };
-            let get = {url: `${this.url}?query={${this.fx}(term:"${this.term || '*'}"){title author created url description}}`, options: {
-                    method:'GET'
-                }
-            };
-            fetch(get.url, get.options)
+            fetch(method[this.method].url, method[this.method].options)
                 .then((resp) => resp.json())
                 .then(resdata => {
                     this.results = resdata.data[this.fx];

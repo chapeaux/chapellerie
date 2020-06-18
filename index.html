@@ -39,7 +39,11 @@
         <template>
           <link rel="stylesheet" href="patternfly/patternfly.min.css">
           <link rel="stylesheet" href="patternfly/card.css">
-          <style>:host, .pf-c-card { border-radius: var(--pf-global--BorderRadius--sm);</style>
+          <style>
+          :host, .pf-c-card { 
+            border-radius: var(--pf-global--BorderRadius--sm);
+          }
+          </style>
           <div class="pf-c-card pf-m-compact">
             <div class="pf-c-card__header pf-c-title pf-m-md"><a href="{{url}}">{{title}}</a></div>
             <div class="pf-c-card__body">
@@ -51,7 +55,8 @@
         </template>
       </cpx-results>
     </div>
-    <cpx-query term="quarkus" url="https://api.developers.stage.redhat.com/search/v1/graphql" fx="latestFusionBlogs"></cpx-query>
+    <cpx-query auto term="quarkus" url="http://10.0.0.145/graphql" fx="getAllBlogs"></cpx-query>
+    <!--<cpx-query term="quarkus" url="https://api.developers.stage.redhat.com/search/v1/graphql" fx="latestFusionBlogs"></cpx-query>-->
     <script>
       document.body.addEventListener('submit', e => {
         console.log("SEARCH");

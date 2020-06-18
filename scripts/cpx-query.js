@@ -122,6 +122,7 @@ System.register("cpx-query", [], function (exports_1, context_1) {
           this._limit = 10;
           this._from = 0;
           this._sort = "relevance";
+          this._method = "post";
           this._valid = true;
           this._auto = false;
           this.urlTemplate = (
@@ -148,6 +149,16 @@ System.register("cpx-query", [], function (exports_1, context_1) {
         }
         set auto(val) {
           this._auto = val !== null;
+        }
+        get method() {
+          return this._method;
+        }
+        set method(val) {
+          if (this._method === val) {
+            return;
+          }
+          this._method = val;
+          this.setAttribute("method", this._method);
         }
         get filters() {
           return this._filters;
@@ -295,7 +306,16 @@ System.register("cpx-query", [], function (exports_1, context_1) {
           }
         }
         static get observedAttributes() {
-          return ["term", "sort", "limit", "results", "url", "auto", "fx"];
+          return [
+            "term",
+            "sort",
+            "limit",
+            "results",
+            "url",
+            "auto",
+            "fx",
+            "method",
+          ];
         }
         attributeChangedCallback(name, oldVal, newVal) {
           this[name] = newVal;
@@ -417,27 +437,32 @@ System.register("cpx-query", [], function (exports_1, context_1) {
             // console.log(this.activeFilters);
             // qURL.searchParams.set('fq', facetQuery.);
             //facetQuery // map reduce??
-            let post = {
-              url: this.url,
-              options: {
-                method: "POST",
-                headers: {
-                  "Content-Type": "application/graphql",
-                  "Accept": "application/json",
+            let method = {
+              post: {
+                url: this.url,
+                options: {
+                  method: "POST",
+                  headers: {
+                    "Content-Type": "application/json",
+                    "Accept": "application/json",
+                  },
+                  body: JSON.stringify(
+                    {
+                      query: `{${this.fx}(term:"${this.term ||
+                        "*"}"){title created author url description}}`,
+                    },
+                  ),
                 },
-                mode: "cors",
-                body: `{${this.fx}(term:"${this.term ||
-                  "*"}")(first{title id author url description}}`,
+              },
+              get: {
+                url: `${this.url}?query={${this.fx}(term:"${this.term ||
+                  "*"}"){title author created url description}}`,
+                options: {
+                  method: "GET",
+                },
               },
             };
-            let get = {
-              url: `${this.url}?query={${this.fx}(term:"${this.term ||
-                "*"}"){title author created url description}}`,
-              options: {
-                method: "GET",
-              },
-            };
-            fetch(get.url, get.options)
+            fetch(method[this.method].url, method[this.method].options)
               .then((resp) => resp.json())
               .then((resdata) => {
                 this.results = resdata.data[this.fx];
