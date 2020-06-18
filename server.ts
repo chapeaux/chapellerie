@@ -106,7 +106,7 @@ app.addEventListener('listen', ({hostname, port}) => {
   console.log(`Start listening on ${hostname}:${port}`);
 })
 
-await app.listen({hostname: "0.0.0.0", port: 8080 });
+await app.listen({hostname: "0.0.0.0", port: 80 });
 /*
 for await (const req of serve(`:${port}`)) {
   const { conn, r: bufReader, w: bufWriter, headers } = req;

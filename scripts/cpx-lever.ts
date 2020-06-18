@@ -6,6 +6,7 @@ export default class CPXLever extends HTMLElement {
     }
 
     connectedCallback() {
+        console.log("Lever Connected");
         Array.from({length: this.children.length}, this.setDraggable);
         this.addEventListener('dragstart', this.dragstart_handler);
     }
@@ -24,9 +25,9 @@ export default class CPXLever extends HTMLElement {
 
     dragstart_handler(ev) {
         console.log('Drag Started');
-        let img = new Image(); 
-        img.src = 'https://picsum.photos/20'; 
-        ev.dataTransfer.setDragImage(img, 20, 20);
+        // let img = new Image(); 
+        // img.src = 'https://picsum.photos/20'; 
+        // ev.dataTransfer.setDragImage(img, 20, 20);
         ev.dataTransfer.setData('text/html', ev.target.outerHTML);
         ev.dataTransfer.dropEffect = "copy";
     }

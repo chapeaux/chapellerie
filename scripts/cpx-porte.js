@@ -109,18 +109,35 @@ let System, __instantiateAsync, __instantiate;
 
 System.register("cpx-porte", [], function (exports_1, context_1) {
     "use strict";
-    var CPXPorte;
+    var setDroppable, CPXPorte;
     var __moduleName = context_1 && context_1.id;
     return {
         setters: [],
         execute: function () {
+            setDroppable = index => {
+                let child = this.children.item(index);
+                if (child.nodeName != 'STYLE' && child.getAttribute('cpx-drop')) {
+                    child.addEventListener('dragover', this.dragover_handler);
+                    child.setAttribute('cpx-drop', 'true');
+                }
+            };
             CPXPorte = class CPXPorte extends HTMLElement {
                 constructor() {
                     super();
+                    this.attachShadow({ mode: "open" });
+                    this.shadowRoot.innerHTML = "<style>:host { width: 100%; display:block; border: 3px dashed #151515;}</style><slot></slot>";
+                    this.self_drop_handler = this.self_drop_handler.bind(this);
+                    this.dragover_handler = this.dragover_handler.bind(this);
                 }
                 connectedCallback() {
-                    this.addEventListener('ondrop', this.drop_handler);
-                    this.addEventListener('ondragover', this.dragover_handler);
+                    console.log("Porte Connected");
+                    if (this.children.length > 1) {
+                        Array.from({ length: this.children.length }, setDroppable);
+                    }
+                    else {
+                        this.addEventListener('dragover', this.dragover_handler);
+                    }
+                    this.addEventListener('drop', this.self_drop_handler);
                 }
                 static get observedAttributes() {
                     return [];
@@ -128,17 +145,32 @@ System.register("cpx-porte", [], function (exports_1, context_1) {
                 attributeChangedCallback(name, oldVal, newVal) {
                     this[name] = newVal;
                 }
+                self_drop_handler(ev) {
+                    ev.preventDefault();
+                    const data = ev.dataTransfer.getData("text/html");
+                    console.log('Drop of', data, ' Started on', ev.target);
+                    ev.target.innerHTML += data;
+                    this.setAttribute('style', '');
+                    Array.from({ length: this.children.length }, (_, index) => {
+                        let child = this.children.item(index);
+                        //console.log(index, child.nodeName, child);
+                        if (child.nodeName != 'STYLE' && !child.getAttribute('cpx-drop')) {
+                            child.addEventListener('dragover', this.dragover_handler);
+                            child.setAttribute('cpx-drop', '');
+                        }
+                    });
+                    //this.removeEventListener('dragover', this.dragover_handler);
+                }
                 dragover_handler(ev) {
                     ev.preventDefault();
-                    console.log("DragOver");
-                    ev.dataTransfer.dropEffect = "move";
+                    ev.dataTransfer.dropEffect = "copy";
+                    this.setAttribute('style', 'border-color:#FF8833');
                 }
                 drop_handler(ev) {
                     ev.preventDefault();
-                    console.log('Drop Started');
                     const data = ev.dataTransfer.getData("text/html");
-                    console.log(data);
-                    //ev.target.appendChild(document.getElementById)
+                    console.log('Drop of', data, ' Started on', ev.target);
+                    ev.target.innerHTML += data;
                 }
             };
             exports_1("default", CPXPorte);

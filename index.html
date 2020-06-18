@@ -42,28 +42,96 @@
         <img height="100" width="100" src="https://picsum.photos/100">
         <div style="display: inline-block; height: 100px; width: 100px; background-color: red;"></div>
         <ul><li>Lions</li><li>Tigers</li><li>Bears</li></ul>
-        <cpx-results class="pf-m-fill pf-l-stack pf-m-gutter pf-u-px-3xl pf-u-mx-3xl">
-          <template>
-            <link rel="stylesheet" href="patternfly/patternfly.min.css">
-            <link rel="stylesheet" href="patternfly/card.css">
-            <style>
-            :host, .pf-c-card { 
-              border-radius: var(--pf-global--BorderRadius--sm);
-            }
-            </style>
-            <div class="pf-c-card pf-m-compact">
-              <div class="pf-c-card__header pf-c-title pf-m-md"><a href="{{url}}">{{title}}</a></div>
-              <div class="pf-c-card__body">
-                <pfe-datetime datetime="{{created}}" type="local" day="numeric" month="long" year="numeric">{{created}}</pfe-datetime>
-                <p>{{description}}</p>
+        <div class="ux-card" data-ux-justify="justify" data-ux-theme="dark" data-ux-card-background="resources-theme">
+          <div class="ux-card-header" data-ux-align="bleed" data-ux-section-theme="dark teal">
+              <h3 class="ux-card-header-label">
+                  <span class="rh-icon-paper"></span> Report
+              </h3>
+          </div> <!--end ux-card-header-->
+          <div class="ux-card-body">
+              <div class="ux-generic">
+                  <h4>Bain report: The path to digital and the role of containers</h4>
               </div>
-              <div class="pf-c-card__footer">{{author}}</div>
-            </div>
-          </template>
-        </cpx-results>
+          </div>
+          <div class="ux-card-footer">
+              <div class="ux-cta">
+                  <a href="https://engage.redhat.com/path-digital-containers-s-201611301504" class="ux-cta-link" data-ux-cta-type="secondary">Get the report</a>
+              </div>
+          </div>
+      </div>            
+      <div class="ux-card" data-ux-justify="justify" data-ux-theme="dark" data-ux-card-background="resources-theme">
+          <div class="ux-card-header" data-ux-align="bleed" data-ux-section-theme="dark teal">
+              <h3 class="ux-card-header-label">
+                  <span class="rh-icon-paper-lined"></span> Whitepaper
+              </h3>
+          </div> <!--end ux-card-header-->
+          <div class="ux-card-body">
+              <div class="ux-generic">
+                  <h4>Technology detail: An Introduction to Enterprise Kubernetes</h4>
+              </div>
+          </div>
+          <div class="ux-card-footer">
+              <div class="ux-cta">
+                  <a href="https://www.openshift.com/introduction-enterprise-kubernetes?intcmp=701f2000001OMH6AAO" class="ux-cta-link" data-ux-cta-type="secondary">Read the whitepaper</a>
+              </div>
+          </div>
+      </div>
+      <div class="ux-card" data-ux-justify="justify" data-ux-theme="dark" data-ux-card-background="resources-theme">
+          <div class="ux-card-header" data-ux-align="bleed" data-ux-section-theme="dark teal">
+              <h3 class="ux-card-header-label">
+                  <span class="rh-icon-paper"></span> E-book
+              </h3>
+          </div> <!--end ux-card-header-->
+          <div class="ux-card-body">
+              <div class="ux-generic">
+                  <h4>Best practices for migrating to containerized applications</h4>
+              </div>
+          </div>
+          <div class="ux-card-footer">
+              <div class="ux-cta">
+                  <a href="/en/resources/best-practices-container-migration-ebook" class="ux-cta-link" data-ux-cta-type="secondary">Read the e-book</a>
+              </div>
+          </div>
+      </div>
+      <div class="ux-card" data-ux-justify="justify" data-ux-theme="dark" data-ux-card-background="resources-theme">
+          <div class="ux-card-header" data-ux-align="bleed" data-ux-section-theme="dark teal">
+              <h3 class="ux-card-header-label">
+                  <span class="rh-icon-increase-productivity"></span> Case study
+              </h3>
+          </div> <!--end ux-card-header-->
+          <div class="ux-card-body">
+              <div class="ux-generic">
+                  <h4>Amadeus adds private cloud-based application platform</h4>
+              </div>
+          </div>
+          <div class="ux-card-footer">
+              <div class="ux-cta">
+                  <a href="/en/resources/amadeus-case-study" class="ux-cta-link" data-ux-cta-type="secondary">Read the study</a>
+              </div>
+          </div>
+      </div>
       </cpx-lever>
       <cpx-porte></cpx-porte>
     </div>
+    <cpx-results class="pf-m-fill pf-l-stack pf-m-gutter pf-u-px-3xl pf-u-mx-3xl">
+      <template>
+        <link rel="stylesheet" href="patternfly/patternfly.min.css">
+        <link rel="stylesheet" href="patternfly/card.css">
+        <style>
+        :host, .pf-c-card { 
+          border-radius: var(--pf-global--BorderRadius--sm);
+        }
+        </style>
+        <div class="pf-c-card pf-m-compact">
+          <div class="pf-c-card__header pf-c-title pf-m-md"><a href="{{url}}">{{title}}</a></div>
+          <div class="pf-c-card__body">
+            <pfe-datetime datetime="{{created}}" type="local" day="numeric" month="long" year="numeric">{{created}}</pfe-datetime>
+            <p>{{description}}</p>
+          </div>
+          <div class="pf-c-card__footer">{{author}}</div>
+        </div>
+      </template>
+    </cpx-results>
     </div>
     <cpx-query auto term="quarkus" url="http://localhost:8080/graphql" fx="getAllBlogs"></cpx-query>
     <!--<cpx-query term="quarkus" url="https://api.developers.stage.redhat.com/search/v1/graphql" fx="latestFusionBlogs"></cpx-query>-->
