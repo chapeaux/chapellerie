@@ -36,6 +36,17 @@ app.use(async (context, next) => {
   }
 });
 
+const users = [
+  {id: 1, username: 'User One', }
+];
+
+const products = [
+  {id: 'rhel', name: 'Red Hat Enterprise Linux'}
+];
+
+const evals = [
+
+]
 const blogs = [
   {author: 'Foo Bar', created: new Date('01/10/2010'), title: 'Foo Title', description: 'Descriptive Foo', url: 'http://127.0.0.1:8000'},
   {author: 'Bar Foo', created: new Date('01/12/2010'), title: 'Bar Title', description: 'Descriptive Bar', url: 'http://127.0.0.1:8000'},
@@ -49,6 +60,22 @@ type Blog {
   title: String
   description: String
   url: String
+}
+
+type User {
+  id: Int
+  username: String
+  evals: [Eval]
+}
+
+type Product {
+  id: String
+  name: String
+}
+
+type Eval {
+  product: Product
+  days_remaining: Int
 }
 
 scalar Date
@@ -85,7 +112,7 @@ const resolvers = {
 const GraphQLService = await applyGraphQL({
   typeDefs: types,
   resolvers: resolvers,
-//  usePlayground: false,
+  //  usePlayground: false,
   context: (ctx) => {
     return { user: 'Barfoo'};
   }
@@ -106,7 +133,7 @@ app.addEventListener('listen', ({hostname, port}) => {
   console.log(`Start listening on ${hostname}:${port}`);
 })
 
-await app.listen({hostname: "0.0.0.0", port: 80 });
+await app.listen({hostname: "0.0.0.0", port: 8080 });
 /*
 for await (const req of serve(`:${port}`)) {
   const { conn, r: bufReader, w: bufWriter, headers } = req;
