@@ -37,7 +37,18 @@ app.use(async (context, next) => {
 });
 
 const users = [
-  {id: 1, username: 'User One', }
+  {id: 0, username: 'User One', evals: [
+    {product:{id: 'rhel', name: 'Red Hat Enterprise Linux'}, days_remaining: 30}, 
+    {product:{id: 'openshift', name: 'Red Hat OpenShift Container Platform'}, days_remaining: 0}
+  ]},
+  {id: 1, username: 'User Two', evals: [
+    {product:{id: 'rhel', name: 'Red Hat Enterprise Linux'}, days_remaining: 30}, 
+    {product:{id: 'openshift', name: 'Red Hat OpenShift Container Platform'}, days_remaining: 30}
+  ]},
+  {id: 2, username: 'User Three', evals: [
+    {product:{id: 'rhel', name: 'Red Hat Enterprise Linux'}, days_remaining: 0}, 
+    {product:{id: 'openshift', name: 'Red Hat OpenShift Container Platform'}, days_remaining: 0}
+  ]}
 ];
 
 const products = [
@@ -82,6 +93,7 @@ scalar Date
 
 type Query {
   getAllBlogs(term: String): [Blog!]!
+  getUserById(id: Int): User!
 }
 `;
 
@@ -89,6 +101,10 @@ const resolvers = {
   Query: {
     getAllBlogs: (term:String) => {
       return blogs;
+    },
+    getUserById: (parent:any, {id}:any) => {
+      console.log('ID:',Number.parseInt(id));
+      return users[Number.parseInt(id)];
     }
   },
   Date: new GraphQLScalarType({
@@ -112,7 +128,7 @@ const resolvers = {
 const GraphQLService = await applyGraphQL({
   typeDefs: types,
   resolvers: resolvers,
-  //  usePlayground: false,
+  //usePlayground: false,
   context: (ctx) => {
     return { user: 'Barfoo'};
   }
