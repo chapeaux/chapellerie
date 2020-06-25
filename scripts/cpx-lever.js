@@ -123,6 +123,8 @@ System.register("cpx-lever", [], function (exports_1, context_1) {
                     console.log("Lever Connected");
                     Array.from({ length: this.children.length }, this.setDraggable);
                     this.addEventListener('dragstart', this.dragstart_handler);
+                    this.addEventListener('touchmove', this.touchmove_handler);
+                    this.addEventListener('touchend', this.touchend_handler);
                 }
                 static get observedAttributes() {
                     return [];
@@ -140,6 +142,14 @@ System.register("cpx-lever", [], function (exports_1, context_1) {
                     // ev.dataTransfer.setDragImage(img, 20, 20);
                     ev.dataTransfer.setData('text/html', ev.target.outerHTML);
                     ev.dataTransfer.dropEffect = "copy";
+                }
+                touchmove_handler(ev) {
+                    ev.preventDefault();
+                    console.log('Touch moved');
+                }
+                touchend_handler(ev) {
+                    ev.preventDefault();
+                    console.log('Touch End', ev.target);
                 }
             };
             exports_1("default", CPXLever);

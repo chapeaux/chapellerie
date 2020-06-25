@@ -169,7 +169,7 @@ System.register("cpx-porte", [], function (exports_1, context_1) {
                 drop_handler(ev) {
                     ev.preventDefault();
                     const data = ev.dataTransfer.getData("text/html");
-                    console.log('Drop of', data, ' Started on', ev.target);
+                    //console.log('Drop of',data,' Started on', ev.target);
                     ev.target.innerHTML += data;
                 }
             };
