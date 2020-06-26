@@ -11,10 +11,10 @@
     */
 }
 
-ul { list-style: none; padding: .25em; background: white; }
+/* ul { list-style: none; padding: .25em; background: white; }
 ul li { display: inline-block; }
 ul li::before {content: " | ";}
-ul li:first-child::before { content: ""; }
+ul li:first-child::before { content: ""; } */
 
 body {
     margin: 0;
@@ -22,6 +22,8 @@ body {
     background: var(--cpx-global--body-Background);
     --pf-global--BorderRadius--sm: 0px;
 }
+
+fieldset { display: inline-block; margin: 1em; padding: 1em;}
 
 .pf-c-form-control { border-radius: var(--pf-global--BorderRadius--sm); }
 

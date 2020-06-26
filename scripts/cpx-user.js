@@ -125,6 +125,10 @@ System.register("cpx-user", [], function (exports_1, context_1) {
                 ${val[ele.getAttribute('data-user')]}
             `;
                     });
+                    top.document.querySelectorAll('[data-eval]').forEach(ele => {
+                        let evals = val['evals'].filter(e => e['product']['id'] == ele.getAttribute('data-eval')).pop();
+                        ele.innerHTML = evals['product']['name'] + ' - ' + evals['days_remaining'];
+                    });
                 }
                 get id() {
                     return this._id;
@@ -134,6 +138,7 @@ System.register("cpx-user", [], function (exports_1, context_1) {
                         return;
                     this._id = Number.parseInt(val);
                     this.setAttribute('id', val.toString());
+                    console.log(val);
                     this.search();
                 }
                 get data() {
@@ -165,7 +170,7 @@ System.register("cpx-user", [], function (exports_1, context_1) {
                 }
                 connectedCallback() {
                     // Do stuff here
-                    this.search();
+                    // this.search();
                 }
                 static get observedAttributes() {
                     return ['id', 'username', 'data', 'for', 'method'];
@@ -191,7 +196,7 @@ System.register("cpx-user", [], function (exports_1, context_1) {
                                     'Content-Type': 'application/json',
                                     'Accept': 'application/json'
                                 },
-                                body: JSON.stringify({ query: `{${this.fx}(id:${this.id}){username evals { product { id } days_remaining }}}` })
+                                body: JSON.stringify({ query: `{${this.fx}(id:${this.id}){username evals { product { id name } days_remaining }}}` })
                             }
                         },
                         get: {

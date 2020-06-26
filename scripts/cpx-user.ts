@@ -18,6 +18,10 @@ export default class CPXUser extends HTMLElement {
             ele.innerHTML = `
                 ${val[ele.getAttribute('data-user')]}
             `
+        });
+        top.document.querySelectorAll('[data-eval]').forEach(ele => {
+            let evals = val['evals'].filter(e => e['product']['id'] == ele.getAttribute('data-eval')).pop();
+            ele.innerHTML = evals['product']['name']+' - '+evals['days_remaining'];
         })
     }
 
@@ -29,6 +33,7 @@ export default class CPXUser extends HTMLElement {
         if (this._id == val) return;
         this._id = Number.parseInt(val);
         this.setAttribute('id', val.toString());
+        console.log(val)
         this.search();
     }
 
@@ -66,7 +71,7 @@ export default class CPXUser extends HTMLElement {
 
     connectedCallback() {
         // Do stuff here
-        this.search();
+        // this.search();
     }
 
     static get observedAttributes() {
@@ -95,7 +100,7 @@ export default class CPXUser extends HTMLElement {
                     'Content-Type': 'application/json',
                     'Accept': 'application/json'
                     },
-        body:JSON.stringify({query:`{${this.fx}(id:${this.id}){username evals { product { id } days_remaining }}}`})
+        body:JSON.stringify({query:`{${this.fx}(id:${this.id}){username evals { product { id name } days_remaining }}}`})
                 }
             },
             get: {
