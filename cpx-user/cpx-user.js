@@ -148,7 +148,7 @@ export class CPXUser extends HTMLElement {
     set jwtToken(val) {
         if (this._jwtToken === val) return;
         this._jwtToken = val;
-        this.user = __default(this._jwtToken);
+        this.user = jwt_decode(this._jwtToken);
     }
     get kc() {
         return this.validateKCConfig();
