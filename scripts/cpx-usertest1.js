@@ -107,20 +107,22 @@ let System, __instantiateAsync, __instantiate;
   };
 })();
 
-System.register("cpx-user", [], function (exports_1, context_1) {
+System.register("cpx-usertest1", [], function (exports_1, context_1) {
     "use strict";
-    var CPXUser;
+    var CPXUserTest1;
     var __moduleName = context_1 && context_1.id;
     return {
         setters: [],
         execute: function () {
-            CPXUser = class CPXUser extends HTMLElement {
+            CPXUserTest1 = class CPXUserTest1 extends HTMLElement {
                 constructor() {
                     super();
                     this._method = 'post';
                     this._for = '';
                     this._data = '/graphql';
                     this._fx = 'getUserById';
+                    this.template = document.createElement("template");
+                    this.attachShadow({ mode: "open" });
                 }
                 get user() {
                     return this._user;
@@ -129,16 +131,17 @@ System.register("cpx-user", [], function (exports_1, context_1) {
                     if (this._user === val)
                         return;
                     this._user = val;
-                    top.document.querySelectorAll(`.user${this.id} [data-user]`).forEach(ele => {
-                        ele.innerHTML = `
-                ${val[ele.getAttribute('data-user')]}
-            `;
-                    });
-                    top.document.querySelectorAll(`.user${this.id} [data-eval]`).forEach(ele => {
-                        let evals = val['evals'].filter(e => e['product']['id'] == ele.getAttribute('data-eval')).pop();
-                        ele.innerHTML = evals['product']['name'] + ' - ' + evals['days_remaining'];
-                    });
-                    console.log(`ID ${this.id} done:`, performance.now() - this._timer);
+                    this.render();
+                    // top.document.querySelectorAll(`.user${this.id} [data-user]`).forEach(ele => {
+                    //     ele.innerHTML = `
+                    //         ${val[ele.getAttribute('data-user')]}
+                    //     `
+                    // });
+                    // top.document.querySelectorAll(`.user${this.id} [data-eval]`).forEach(ele => {
+                    //     let evals = val['evals'].filter(e => e['product']['id'] == ele.getAttribute('data-eval')).pop();
+                    //     ele.innerHTML = evals['product']['name']+' - '+evals['days_remaining'];
+                    // });
+                    console.log(`ID ${this.id} done`, performance.now() - this._timer);
                 }
                 get id() {
                     return this._id;
@@ -187,6 +190,14 @@ System.register("cpx-user", [], function (exports_1, context_1) {
                 attributeChangedCallback(name, oldVal, newVal) {
                     this[name] = newVal;
                 }
+                render() {
+                    this.shadowRoot.innerHTML = "";
+                    this.template.innerHTML = this.querySelector('template').innerHTML;
+                    if (window['ShadyCSS']) {
+                        window['ShadyCSS'].prepareTemplate(this.template, 'cpx-usertest1');
+                    }
+                    this.shadowRoot.appendChild(this.template.content.cloneNode(true));
+                }
                 search() {
                     let evt = { bubbles: true, composed: true };
                     this.dispatchEvent(new CustomEvent('user-start', evt));
@@ -224,11 +235,11 @@ System.register("cpx-user", [], function (exports_1, context_1) {
                     //fetch(qURL.toString()) //this.urlTemplate`${this.url}${this.term}${this.from}${this.limit}${this.sort}${this.filters}`)
                 }
             };
-            exports_1("default", CPXUser);
-            window.customElements.define('cpx-user', CPXUser);
+            exports_1("default", CPXUserTest1);
+            window.customElements.define('cpx-usertest1', CPXUserTest1);
         }
     };
 });
 
-const __exp = __instantiate("cpx-user");
+const __exp = __instantiate("cpx-usertest1");
 export default __exp["default"];

@@ -6,25 +6,141 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="style.css">
-    <script type="module" src="scripts/cpx-query.js" defer></script>
     <script type="module" src="scripts/cpx-user.js" defer></script>
-    <script type="module" src="scripts/cpx-result.js" defer></script>
-    <script type="module" src="scripts/cpx-results.js" defer></script>
-    <script type="module" src="scripts/cpx-lever.js" defer></script>
-    <script type="module" src="scripts/cpx-porte.js" defer></script>
-    <script type="module" src="scripts/pfelement/dist/pfelement.min.js" defer></script>
-    <script type="module" src="scripts/pfe-datetime/dist/pfe-datetime.min.js" defer></script>
+    <script type="module" src="scripts/cpx-usertest1.js" defer></script>
+    <script type="module" src="scripts/cpx-usertest2.js" defer></script>
   </head>  
   <body>
-    <h1 data-user="username"></h1>
-    <fieldset>
-      <legend>Evaluations</legend>
-      <ul>
-        <li data-eval="rhel"></li>
-        <li data-eval="openshift"></li>
-      </ul>
-    </fieldset>
+    <div class="user0">
+      <h1 data-user="username"></h1>
+      <fieldset>
+        <legend>Evaluations</legend>
+        <ul>
+          <li data-eval="rhel"></li>
+          <li data-eval="openshift"></li>
+          <li data-eval="rhel"></li>
+          <li data-eval="openshift"></li>
+          <li data-eval="rhel"></li>
+          <li data-eval="rhel"></li>
+          <li data-eval="openshift"></li>
+          <li data-eval="rhel"></li>
+          <li data-eval="openshift"></li>
+          <li data-eval="rhel"></li>
+          <li data-eval="rhel"></li>
+          <li data-eval="openshift"></li>
+          <li data-eval="rhel"></li>
+          <li data-eval="openshift"></li>
+          <li data-eval="rhel"></li>
+          <li data-eval="rhel"></li>
+          <li data-eval="openshift"></li>
+          <li data-eval="rhel"></li>
+          <li data-eval="openshift"></li>
+          <li data-eval="rhel"></li>
+          <li data-eval="rhel"></li>
+          <li data-eval="openshift"></li>
+          <li data-eval="rhel"></li>
+          <li data-eval="openshift"></li>
+          <li data-eval="rhel"></li>
+          <li data-eval="rhel"></li>
+          <li data-eval="openshift"></li>
+          <li data-eval="rhel"></li>
+          <li data-eval="openshift"></li>
+          <li data-eval="rhel"></li>
+          <li data-eval="rhel"></li>
+          <li data-eval="openshift"></li>
+          <li data-eval="rhel"></li>
+          <li data-eval="openshift"></li>
+          <li data-eval="rhel"></li>
+          <li data-eval="rhel"></li>
+          <li data-eval="openshift"></li>
+          <li data-eval="rhel"></li>
+          <li data-eval="openshift"></li>
+          <li data-eval="rhel"></li>
+          <li data-eval="rhel"></li>
+          <li data-eval="openshift"></li>
+          <li data-eval="rhel"></li>
+          <li data-eval="openshift"></li>
+          <li data-eval="rhel"></li>
+          <li data-eval="rhel"></li>
+          <li data-eval="openshift"></li>
+          <li data-eval="rhel"></li>
+          <li data-eval="openshift"></li>
+          <li data-eval="rhel"></li>
+        </ul>
+      </fieldset>
+    </div>
+    <div class="user1">
+      
+    </div>
+    <div class="user2">
+      <h1 data-user="username"></h1>
+      <fieldset>
+        <legend>Evaluations</legend>
+        <ul>
+          <li data-eval="rhel"></li>
+          <li data-eval="openshift"></li>
+          <li data-eval="rhel"></li>
+          <li data-eval="openshift"></li>
+          <li data-eval="rhel"></li>
+          <li data-eval="rhel"></li>
+          <li data-eval="openshift"></li>
+          <li data-eval="rhel"></li>
+          <li data-eval="openshift"></li>
+          <li data-eval="rhel"></li>
+          <li data-eval="rhel"></li>
+          <li data-eval="openshift"></li>
+          <li data-eval="rhel"></li>
+          <li data-eval="openshift"></li>
+          <li data-eval="rhel"></li>
+          <li data-eval="rhel"></li>
+          <li data-eval="openshift"></li>
+          <li data-eval="rhel"></li>
+          <li data-eval="openshift"></li>
+          <li data-eval="rhel"></li>
+          <li data-eval="rhel"></li>
+          <li data-eval="openshift"></li>
+          <li data-eval="rhel"></li>
+          <li data-eval="openshift"></li>
+          <li data-eval="rhel"></li>
+          <li data-eval="rhel"></li>
+          <li data-eval="openshift"></li>
+          <li data-eval="rhel"></li>
+          <li data-eval="openshift"></li>
+          <li data-eval="rhel"></li>
+          <li data-eval="rhel"></li>
+          <li data-eval="openshift"></li>
+          <li data-eval="rhel"></li>
+          <li data-eval="openshift"></li>
+          <li data-eval="rhel"></li>
+          <li data-eval="rhel"></li>
+          <li data-eval="openshift"></li>
+          <li data-eval="rhel"></li>
+          <li data-eval="openshift"></li>
+          <li data-eval="rhel"></li>
+          <li data-eval="rhel"></li>
+          <li data-eval="openshift"></li>
+          <li data-eval="rhel"></li>
+          <li data-eval="openshift"></li>
+          <li data-eval="rhel"></li>
+          <li data-eval="rhel"></li>
+          <li data-eval="openshift"></li>
+          <li data-eval="rhel"></li>
+          <li data-eval="openshift"></li>
+          <li data-eval="rhel"></li>
+        </ul>
+      </fieldset>
+    </div>
     <cpx-user id="0"></cpx-user>
+    <cpx-usertest1 id="1">
+      <template>
+        <h1>${this.user.username}</h1>
+        <fieldset>
+          <legend>Evaluations</legend>
+          <ul>${this.user.evals.map(e => `<li>${e.name} - ${e.days_remaining}</li>`)}</ul>
+        </fieldset>
+        </template>
+    </cpx-usertest1>
+    <cpx-usertest2 id="2"></cpx-usertest2>
     <script>
       document.body.addEventListener('submit', e => {
         console.log("SEARCH");

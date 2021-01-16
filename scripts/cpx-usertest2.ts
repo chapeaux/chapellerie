@@ -1,4 +1,4 @@
-export default class CPXUser extends HTMLElement {
+export default class CPXUserTest2 extends HTMLElement {
     _id;
     _username;
     _evals;
@@ -15,16 +15,8 @@ export default class CPXUser extends HTMLElement {
     set user(val) {
         if (this._user === val) return;
         this._user = val;
-        top.document.querySelectorAll(`.user${this.id} [data-user]`).forEach(ele => {
-            ele.innerHTML = `
-                ${val[ele.getAttribute('data-user')]}
-            `
-        });
-        top.document.querySelectorAll(`.user${this.id} [data-eval]`).forEach(ele => {
-            let evals = val['evals'].filter(e => e['product']['id'] == ele.getAttribute('data-eval')).pop();
-            ele.innerHTML = evals['product']['name']+' - '+evals['days_remaining'];
-        });
-        console.log(`ID ${this.id} done:`, performance.now()-this._timer);
+        let evt = { bubbles: true, composed: true, details: val };
+        this.dispatchEvent(new CustomEvent('user-complete', evt));
     }
 
     get id() {
@@ -72,7 +64,10 @@ export default class CPXUser extends HTMLElement {
 
     connectedCallback() {
         // Do stuff here
-        // this.search();
+        top.addEventListener('user-complete', evt => {
+            console.log(evt['details']);
+            console.log(`ID ${this.id} done`, performance.now()-this._timer);
+        });
     }
 
     static get observedAttributes() {
@@ -121,4 +116,4 @@ export default class CPXUser extends HTMLElement {
     }
 }
 
-window.customElements.define('cpx-user', CPXUser);
+window.customElements.define('cpx-usertest2', CPXUserTest2);

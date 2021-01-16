@@ -103,7 +103,7 @@ const resolvers = {
       return blogs;
     },
     getUserById: (parent:any, {id}:any) => {
-      console.log('ID:',Number.parseInt(id));
+      //console.log('ID:',Number.parseInt(id));
       return users[Number.parseInt(id)];
     }
   },

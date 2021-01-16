@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CPX-USER</title>
+    <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display&family=Red+Hat+Text:wght@400;500;700&display=swap" rel="stylesheet">
+    <script src="https://sso.stage.redhat.com/auth/js/keycloak.js"></script>
+</head>
+<body>
+    <cpx-user kc-url="https://sso.stage.redhat.com/auth" kc-realm="redhat-external" kc-client-id="rhd-web"></cpx-user>
+    <cpx-user jwt-cookie="userStatus"></cpx-user>
+    <cpx-user>
+        <script type="data">
+            {
+                "exp": 1603803270,
+                "iat": 1603802370,
+                "auth_time": 1603802369,
+                "jti": "{{GUID}}",
+                "iss": "https://sso.redhat.com/auth/realms/redhat-external",
+                "aud": "customer-portal",
+                "sub": "f:{{GUID}}:{{USERNAME}}",
+                "typ": "Bearer",
+                "azp": "customer-portal",
+                "nonce": "{{GUID}}",
+                "session_state": "{{GUID}}",
+                "acr": "1",
+                "allowed-origins": [
+                 "https://prod.foo.redhat.com:1337",
+                 "https://www.redhat.com",
+                 "https://access.redhat.com"
+                ],
+                "realm_access": {
+                 "roles": [
+                  "authenticated",
+                  "candlepin_system_access_view_edit_personal",
+                  "idp_authenticated",
+                  "portal_manage_subscriptions",
+                  "errata:notification_status_enabled",
+                  "errata:notification:enhancement",
+                  "portal_manage_cases",
+                  "errata:notification:security",
+                  "errata:notification_level_system-visible",
+                  "errata:notification:bugfix",
+                  "offline_access",
+                  "uma_authorization",
+                  "portal_system_management",
+                  "cloud_access_1",
+                  "errata:notification_delivery_instant",
+                  "portal_download"
+                 ]
+                },
+                "resource_access": {
+                 "rhd-dm": {
+                  "roles": [
+                   "rhuser"
+                  ]
+                 },
+                 "account": {
+                  "roles": [
+                   "manage-account",
+                   "manage-account-links",
+                   "view-profile"
+                  ]
+                 }
+                },
+                "scope": "openid Legacy_IDP_OpenID",
+                "REDHAT_LOGIN": "{{USERNAME}}",
+                "lastName": "User",
+                "country": "US",
+                "account_number": "{{ACCT_NO}}",
+                "preferred_username": "{{USERNAME}}",
+                "firstName": "Test",
+                "account_id": "{{ACCT_ID}}",
+                "user_id": "{{USER_ID}}",
+                "organization_id": "00Dm0000000116C",
+                "siteId": "redhat",
+                "siteID": "redhat",
+                "portal_id": "06060000000D0af",
+                "lang": "en_US",
+                "region": "US",
+                "email": "test123@test123.com",
+                "RHAT_LOGIN": "{{USERNAME}}",
+                "username": "{{USERNAME}}"
+               }
+        </script>
+    </cpx-user>
+    <!-- <script type="module" src="jwt_decode.js"></script> -->
+    <script type="module" src="cpx-user.js"></script>
+    <script>
+        window.addEventListener('user-ready', e => {
+            console.log('USER Ready: ',e.detail);
+        });
+        window.addEventListener('user-update', e => {
+            console.log('USER Update: ',e.detail);
+        });
+    </script>
+</body>
+</html>

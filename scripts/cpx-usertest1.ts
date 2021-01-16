@@ -1,4 +1,4 @@
-export default class CPXUser extends HTMLElement {
+export default class CPXUserTest1 extends HTMLElement {
     _id;
     _username;
     _evals;
@@ -8,6 +8,7 @@ export default class CPXUser extends HTMLElement {
     _fx = 'getUserById';
     _user;
     _timer;
+    template;
 
     get user() {
         return this._user;
@@ -15,16 +16,17 @@ export default class CPXUser extends HTMLElement {
     set user(val) {
         if (this._user === val) return;
         this._user = val;
-        top.document.querySelectorAll(`.user${this.id} [data-user]`).forEach(ele => {
-            ele.innerHTML = `
-                ${val[ele.getAttribute('data-user')]}
-            `
-        });
-        top.document.querySelectorAll(`.user${this.id} [data-eval]`).forEach(ele => {
-            let evals = val['evals'].filter(e => e['product']['id'] == ele.getAttribute('data-eval')).pop();
-            ele.innerHTML = evals['product']['name']+' - '+evals['days_remaining'];
-        });
-        console.log(`ID ${this.id} done:`, performance.now()-this._timer);
+        this.render();
+        // top.document.querySelectorAll(`.user${this.id} [data-user]`).forEach(ele => {
+        //     ele.innerHTML = `
+        //         ${val[ele.getAttribute('data-user')]}
+        //     `
+        // });
+        // top.document.querySelectorAll(`.user${this.id} [data-eval]`).forEach(ele => {
+        //     let evals = val['evals'].filter(e => e['product']['id'] == ele.getAttribute('data-eval')).pop();
+        //     ele.innerHTML = evals['product']['name']+' - '+evals['days_remaining'];
+        // });
+        console.log(`ID ${this.id} done`, performance.now()-this._timer);
     }
 
     get id() {
@@ -67,7 +69,8 @@ export default class CPXUser extends HTMLElement {
 
     constructor() {
         super();
-
+        this.template = document.createElement("template");
+        this.attachShadow({ mode: "open" });
     }
 
     connectedCallback() {
@@ -81,6 +84,18 @@ export default class CPXUser extends HTMLElement {
 
     attributeChangedCallback(name, oldVal, newVal) {
         this[name] = newVal;
+    }
+
+    render() {
+        this.shadowRoot.innerHTML = "";
+        let txt = 
+        this.template.innerHTML = String.raw({ raw: 'test' }, 0, 1, 2); String.raw(this.querySelector('template').innerHTML, this);
+
+        if (window['ShadyCSS']) {
+        window['ShadyCSS'].prepareTemplate(this.template, 'cpx-usertest1');
+        }
+
+        this.shadowRoot.appendChild(this.template.content.cloneNode(true));
     }
 
     search() {
@@ -121,4 +136,4 @@ export default class CPXUser extends HTMLElement {
     }
 }
 
-window.customElements.define('cpx-user', CPXUser);
+window.customElements.define('cpx-usertest1', CPXUserTest1);
