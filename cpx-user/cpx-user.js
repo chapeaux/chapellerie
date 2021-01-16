@@ -137,7 +137,9 @@ export class CPXUser extends HTMLElement {
         if (this._jwtCookie == val) return;
         this._jwtCookie = val;
         this.setAttribute('jwt-Cookie', this._jwtCookie);
-        this.user = this._cookies[this._jwtCookie];
+        if (this._cookies[this._jwtCookie]) {
+            this.jwtToken = this._cookies[this._jwtCookie];
+        }
     }
     _jwtToken = '';
     get jwtToken() {
