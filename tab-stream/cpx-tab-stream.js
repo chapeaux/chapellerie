@@ -17,7 +17,7 @@ class CPXTabStream extends HTMLElement {
     connectedCallback() {
         navigator.getUserMedia({
             video: true,
-            audio: true
+            audio: false
         }, (stream)=>{
             this.video.srcObject = stream;
             this.video.play();
