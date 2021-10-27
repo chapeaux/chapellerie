@@ -23,7 +23,6 @@
     <script type="module" src="../scripts/cpx-operator-graph.js"></script>
     <script>
         const pkg = document.getElementById('package');
-        const opgraph = document.getElementById('opgraph');
         document.getElementById('updateForm').addEventListener('submit', evt => {
             evt.preventDefault();
             //console.log(pkg.value);
@@ -34,7 +33,15 @@
                     "Accept": "application/json"
                 },
                 body: `{"query":"query GetPackageBundles($package: StringFilter) {find_operator_bundles(filter: {package: $package}) {data {_id channel_name csv_name latest_in_channel package ocp_version version skips skip_range replaces }}}","variables":{"package":{"all":"${pkg.value}"}}}`
-            }).then(resp=>resp.json()).then(data=>opgraph['data']=data['data']['find_operator_bundles']['data']);
+            }).then(resp=>resp.json()).then(data=> {
+                if (data) {
+                    document.body.removeChild(document.getElementById('opgraph'));
+                    const newOpGraph = document.createElement('cpx-operator-graph');
+                    newOpGraph.id = 'opgraph';
+                    newOpGraph['data']=data['data']['find_operator_bundles']['data'];
+                    document.body.appendChild(newOpGraph);
+                }
+            })
             return false;
         });
     </script>
