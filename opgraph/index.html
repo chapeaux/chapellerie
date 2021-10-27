@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Operator Graph Tester</title>
+    <link rel="stylesheet" href="../scripts/pfelement/dist/pfelement.min.css">
+
+</head>
+<body>
+    <fieldset>
+        <legend>Package Name</legend>
+        <form id="updateForm">
+        <input id="package">
+        <input type="submit" id="update" value="Update">
+        </form>
+    </fieldset>
+    
+    <cpx-operator-graph id="opgraph"></cpx-operator-graph>
+    <script type="module" src="../scripts/pfelement/dist/pfelement.min.js"></script>
+    <script type="module" src="../scripts/pfe-select/dist/pfe-select.min.js"></script>
+    <script type="module" src="../scripts/cpx-operator-graph.js"></script>
+    <script>
+        const pkg = document.getElementById('package');
+        const opgraph = document.getElementById('opgraph');
+        document.getElementById('updateForm').addEventListener('submit', evt => {
+            evt.preventDefault();
+            //console.log(pkg.value);
+            fetch('https://catalog.redhat.com/api/containers/graphql/', {
+                method: 'POST',
+                headers: {
+                    "Content-Type": "application/json",
+                    "Accept": "application/json"
+                },
+                body: `{"query":"query GetPackageBundles($package: StringFilter) {find_operator_bundles(filter: {package: $package}) {data {_id channel_name csv_name latest_in_channel package ocp_version version skips skip_range replaces }}}","variables":{"package":{"all":"${pkg.value}"}}}`
+            }).then(resp=>resp.json()).then(data=>opgraph['data']=data['data']['find_operator_bundles']['data']);
+            return false;
+        });
+    </script>
+</body>
+</html>

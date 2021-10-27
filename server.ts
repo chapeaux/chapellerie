@@ -1,6 +1,6 @@
 import { Application, HttpError, Status } from "https://deno.land/x/oak/mod.ts";
-import { applyGraphQL, gql} from "https://deno.land/x/oak_graphql/mod.ts";
-import { GraphQLScalarType, Kind } from "https://deno.land/x/oak_graphql/deps.ts";
+// import { applyGraphQL, gql} from "https://deno.land/x/oak_graphql/mod.ts";
+// import { GraphQLScalarType, Kind } from "https://deno.land/x/oak_graphql/deps.ts";
 
 /*
 import { watch } from "https://deno.land/x/watch@1.1.0/mod.ts";
@@ -64,77 +64,77 @@ const blogs = [
   {author: 'Foobar Barfoo', created: new Date('01/11/2010'), title: 'Foobar Title', description: 'Descriptive Foobar', url: 'http://127.0.0.1:8000'},
 ]
 
-const types = (gql as any)`
-type Blog {
-  author: String
-  created: Date
-  title: String
-  description: String
-  url: String
-}
+// const types = (gql as any)`
+// type Blog {
+//   author: String
+//   created: Date
+//   title: String
+//   description: String
+//   url: String
+// }
 
-type User {
-  id: Int
-  username: String
-  evals: [Eval]
-}
+// type User {
+//   id: Int
+//   username: String
+//   evals: [Eval]
+// }
 
-type Product {
-  id: String
-  name: String
-}
+// type Product {
+//   id: String
+//   name: String
+// }
 
-type Eval {
-  product: Product
-  days_remaining: Int
-}
+// type Eval {
+//   product: Product
+//   days_remaining: Int
+// }
 
-scalar Date
+// scalar Date
 
-type Query {
-  getAllBlogs(term: String): [Blog!]!
-  getUserById(id: Int): User!
-}
-`;
+// type Query {
+//   getAllBlogs(term: String): [Blog!]!
+//   getUserById(id: Int): User!
+// }
+// `;
 
-const resolvers = {
-  Query: {
-    getAllBlogs: (term:String) => {
-      return blogs;
-    },
-    getUserById: (parent:any, {id}:any) => {
-      //console.log('ID:',Number.parseInt(id));
-      return users[Number.parseInt(id)];
-    }
-  },
-  Date: new GraphQLScalarType({
-    name: 'Date',
-    description: 'Date custom scalar type',
-    parseValue(val) {
-      return new Date(val);
-    },
-    serialize(val:Date) {
-      return val;
-    },
-    parseLiteral(ast:any) {
-      if (ast.kind === Kind.INT) {
-        return new Date(+ast.value);
-      }
-      return null;
-    }
-  })
-}
+// const resolvers = {
+//   Query: {
+//     getAllBlogs: (term:String) => {
+//       return blogs;
+//     },
+//     getUserById: (parent:any, {id}:any) => {
+//       //console.log('ID:',Number.parseInt(id));
+//       return users[Number.parseInt(id)];
+//     }
+//   },
+//   Date: new GraphQLScalarType({
+//     name: 'Date',
+//     description: 'Date custom scalar type',
+//     parseValue(val) {
+//       return new Date(val);
+//     },
+//     serialize(val:Date) {
+//       return val;
+//     },
+//     parseLiteral(ast:any) {
+//       if (ast.kind === Kind.INT) {
+//         return new Date(+ast.value);
+//       }
+//       return null;
+//     }
+//   })
+// }
 
-const GraphQLService = await applyGraphQL({
-  typeDefs: types,
-  resolvers: resolvers,
-  //usePlayground: false,
-  context: (ctx) => {
-    return { user: 'Barfoo'};
-  }
-})
+// const GraphQLService = await applyGraphQL({
+//   typeDefs: types,
+//   resolvers: resolvers,
+//   //usePlayground: false,
+//   context: (ctx) => {
+//     return { user: 'Barfoo'};
+//   }
+// })
 
-app.use(GraphQLService.routes(), GraphQLService.allowedMethods());
+// app.use(GraphQLService.routes(), GraphQLService.allowedMethods());
 
 //Static serving
 app.use(async (ctx) => {
