@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EDDL Test</title>
+    <script type="module" src="https://unpkg.com/@chapeaux/cpx-newsdesk/newsdesk.js"></script>
+    <script type="module">
+      import { ReporterEvent } from "https://unpkg.com/@chapeaux/cpx-reporter/reporter.js";
+      document.dispatchEvent(new ReporterEvent('Page Load Started', {my:'data'}));
+    </script>
+    <style>
+        fieldset {
+            margin-bottom: 1em;
+        }
+        ol {
+            /* list-style: none; */
+        }
+        pre { overflow:hidden; }
+    </style>
+</head>
+<body>
+    <h1>Chapeaux Newsdesk Demo</h1>
+    <ol id="results"></ol>
+
+    <script>
+        const results = document.getElementById('results');
+        top.addEventListener('newsflash', e => {
+            const li = document.createElement('li');
+            li.innerHTML = `<strong>${e.detail.event}</strong>
+<pre>${JSON.stringify(e.detail,null,2)}</pre>`;
+            results.appendChild(li);
+            console.log('NEWSFLASH:', e.detail)
+        });
+    </script>
+</body>
+</html>
