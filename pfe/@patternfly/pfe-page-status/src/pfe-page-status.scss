@@ -1,0 +1,67 @@
+@import "../../pfe-sass/pfe-sass";
+
+$LOCAL: status;
+
+$LOCAL-VARIABLES: (
+  Color: pfe-var(text--on-dark),
+  BackgroundColor: pfe-var(feedback--default),
+  TextTransform: uppercase,
+  Right: 0
+);
+
+:host {
+  background-color: pfe-local(BackgroundColor);
+  position: fixed;
+  right: pfe-local(Right);
+  top: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 3rem;
+}
+
+:host([hidden]) {
+  display: none;
+}
+
+.flag {
+  transform: rotateZ(90deg);
+  > span {
+    color:          pfe-local(Color);
+    display:        inline-block;
+    text-transform: pfe-local(TextTransform);
+    font-size:      0.875rem;
+    font-family:    pfe-var(font-family);
+    font-size:      pfe-var(font-size);
+    font-weight: bold;
+    line-height: 1em;
+    white-space: nowrap;
+    // writing-mode: vertical-rl;
+    // text-orientation: mixed;
+  }
+}
+
+@each $state in (important, critical, success, info) {
+  :host([status="#{$state}"]) {
+    --pfe-status--BackgroundColor:  #{pfe-var(feedback--#{$state})};
+    --pfe-status--Color: #{pfe-var(text--on-dark)};
+  }
+}
+
+:host([status="moderate"]),
+:host([status="warning"]) {
+  --pfe-status--BackgroundColor:  #{pfe-var(feedback--moderate)};
+  --pfe-status--Color: #{pfe-var(text)};
+}
+
+:host([status="normal"]) {
+  --pfe-status--BackgroundColor: #{pfe-var(ui-accent)};
+  --pfe-status--Color: #{pfe-var(ui-accent--text)};
+}
+
+:host([status="accent"]) {
+  --pfe-status--BackgroundColor: #{pfe-var(ui-accent)};
+  --pfe-status--Color: #{pfe-var(ui-accent--text)};
+}

@@ -1,0 +1,92 @@
+{
+  "_args": [
+    [
+      "@cpelements/pfe-navigation@1.0.59",
+      "/home/ldary/rh/cp-elements"
+    ]
+  ],
+  "_development": true,
+  "_from": "@cpelements/pfe-navigation@1.0.59",
+  "_id": "@cpelements/pfe-navigation@1.0.59",
+  "_inBundle": false,
+  "_integrity": "sha512-IjI4qIW66uc0JLAZAiluqvWtwpWq5zgBJQuQh6xL+SF/navjcoUcjh8iqnbOyMc4EaDFkhjLsNp597GxCX8Z9A==",
+  "_location": "/@cpelements/pfe-navigation",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "@cpelements/pfe-navigation@1.0.59",
+    "name": "@cpelements/pfe-navigation",
+    "escapedName": "@cpelements%2fpfe-navigation",
+    "scope": "@cpelements",
+    "rawSpec": "1.0.59",
+    "saveSpec": null,
+    "fetchSpec": "1.0.59"
+  },
+  "_requiredBy": [
+    "#DEV:/"
+  ],
+  "_resolved": "https://registry.npmjs.org/@cpelements/pfe-navigation/-/pfe-navigation-1.0.59.tgz",
+  "_spec": "1.0.59",
+  "_where": "/home/ldary/rh/cp-elements",
+  "bugs": {
+    "url": "https://github.com/patternfly/patternfly-elements/issues"
+  },
+  "contributors": [
+    {
+      "name": "wesruv"
+    }
+  ],
+  "dependencies": {
+    "@patternfly/pfe-avatar": "1.9.2",
+    "@patternfly/pfe-icon": "1.9.2",
+    "@patternfly/pfelement": "1.9.2"
+  },
+  "description": "Navigation element for PatternFly Elements",
+  "devDependencies": {
+    "@cpelements/rh-account-dropdown": "^1.0.37",
+    "@patternfly/pfe-sass": "1.9.2"
+  },
+  "files": [
+    "dist"
+  ],
+  "generator-pfelement-version": "1.1.0",
+  "homepage": "https://github.com/patternfly/patternfly-elements#readme",
+  "keywords": [
+    "web-components",
+    "html"
+  ],
+  "license": "MIT",
+  "main": "./dist/pfe-navigation.umd.js",
+  "module": "./dist/pfe-navigation.js",
+  "name": "@cpelements/pfe-navigation",
+  "pfelement": {
+    "className": "PfeNavigation",
+    "elementName": "pfe-navigation",
+    "files": {
+      "styles": "./src/pfe-navigation.scss",
+      "template": "./src/pfe-navigation.html",
+      "js": "./src/pfe-navigation.js"
+    },
+    "assets": [
+      "pfe-navigation--lightdom.*css",
+      "ie-polyfills.js"
+    ]
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/patternfly/patternfly-elements.git",
+    "directory": "elements/pfe-navigation"
+  },
+  "scripts": {
+    "build": "../../node_modules/.bin/gulp && ../../node_modules/.bin/prettier --ignore-path ../../.prettierignore --write '**/*.{js,json}' && ./build-extras.sh",
+    "dev": "../../node_modules/.bin/gulp dev",
+    "test": "echo \"👉 Run tests from the project root with 'npm run test:watch --element=pfe-navigation'\"",
+    "watch": "../../node_modules/.bin/gulp watch"
+  },
+  "unpkg": "./dist/pfe-navigation.umd.min.js",
+  "version": "1.0.59"
+}

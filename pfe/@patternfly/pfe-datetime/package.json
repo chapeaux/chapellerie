@@ -1,0 +1,54 @@
+{
+  "name": "@patternfly/pfe-datetime",
+  "pfelement": {
+    "className": "PfeDatetime",
+    "elementName": "pfe-datetime",
+    "preview": "datetime--screenshot.png"
+  },
+  "version": "1.12.3",
+  "publishConfig": {
+    "access": "public"
+  },
+  "description": "Datetime element for PFElements",
+  "repository": {
+    "type": "git",
+    "url": "github:patternfly/patternfly-elements",
+    "directory": "elements/pfe-datetime"
+  },
+  "browserslist": [
+    "last 2 versions",
+    "Firefox >= 78",
+    "iOS >= 8",
+    "ie 11"
+  ],
+  "main": "./dist/pfe-datetime.umd.js",
+  "module": "./dist/pfe-datetime.js",
+  "unpkg": "./dist/pfe-datetime.umd.min.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "../../node_modules/.bin/gulp && ../../node_modules/.bin/prettier --ignore-path ../../.prettierignore --write '**/*.{js,json}'",
+    "dev": "../../node_modules/.bin/gulp dev",
+    "watch": "../../node_modules/.bin/gulp watch",
+    "test": "../../node_modules/.bin/wct --configFile ../../wct.conf.json elements/pfe-datetime/test/"
+  },
+  "authors": [
+    {
+      "name": "Luke Dary"
+    },
+    {
+      "name": "Kyle Buchanan",
+      "email": "kylebuch8@gmail.com",
+      "url": "https://github.com/kylebuch8"
+    }
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "@patternfly/pfelement": "^1.12.3"
+  },
+  "generator-pfelement-version": "0.2.8",
+  "bugs": {
+    "url": "https://github.com/patternfly/patternfly-elements/issues"
+  }
+}

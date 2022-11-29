@@ -1,0 +1,47 @@
+@import "../../pfe-sass/pfe-sass";
+
+$LOCAL: icon-panel;
+
+/// ===========================================================================
+/// DEFAULT ICON PANEL
+/// ===========================================================================
+
+:host {
+  display: flex;
+  align-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+
+  margin-top: calc(-1 * #{pfe-var(container-spacer)});
+  margin-right: calc(-1 * #{pfe-var(container-spacer)});
+  @media (min-width: pfe-breakpoint(sm)) {
+		flex-direction: row;
+  }
+}
+
+// Limit the width of the content for IE11 to prevent overflow
+@include browser-query(ie11) {
+  ::slotted(*) {
+    max-width: 100%;
+  }
+}
+  
+:host([stacked]:not([stacked="false"])),
+:host([stacked]) {
+  flex-direction: column;
+}
+
+.pfe-icon-panel {
+  &__content {
+    margin-top: pfe-var(container-spacer);
+    margin-left: 0;
+
+    @media (min-width: pfe-breakpoint(sm)) {
+      margin-top: 0;
+      margin-left: pfe-var(container-spacer);
+    }
+  }
+  &__footer {
+    margin-top: pfe-var(content-spacer);
+  }
+}

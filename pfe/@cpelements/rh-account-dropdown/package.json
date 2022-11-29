@@ -1,0 +1,50 @@
+{
+  "name": "@cpelements/rh-account-dropdown",
+  "description": "Navigation account element for PatternFly Elements",
+  "pfelement": {
+    "className": "RhAccountDropdown",
+    "elementName": "rh-account-dropdown",
+    "files": {
+      "styles": "./src/rh-account-dropdown.scss",
+      "template": "./src/rh-account-dropdown.html",
+      "js": "./src/rh-account-dropdown.js"
+    },
+    "assets": []
+  },
+  "version": "1.0.56",
+  "keywords": [
+    "web-components",
+    "html"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "github:patternfly/patternfly-elements",
+    "directory": "elements/rh-account-dropdown"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "main": "./dist/rh-account-dropdown.umd.js",
+  "module": "./dist/rh-account-dropdown.js",
+  "unpkg": "./dist/rh-account-dropdown.umd.min.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "../../node_modules/.bin/gulp && ../../node_modules/.bin/prettier --ignore-path ../../.prettierignore --write '**/*.{js,json}'",
+    "dev": "../../node_modules/.bin/gulp dev",
+    "watch": "../../node_modules/.bin/gulp watch",
+    "test": "../../node_modules/.bin/wct --configFile ../../wct.conf.json elements/rh-account-dropdown/test/"
+  },
+  "contributors": [
+    {
+      "name": "wesruv"
+    }
+  ],
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "@patternfly/pfelement": "^1.3.0",
+    "@cpelements/pfe-navigation": "^1.0.58"
+  }
+}

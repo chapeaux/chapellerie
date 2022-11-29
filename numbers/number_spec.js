@@ -35,19 +35,25 @@ describe("Number format tests", () => {
         });
     });
     describe("Bytes format", () => {
-        it
+        it("should display 'b'", () => {
+            expect(bytes`12.345${'kilobit'}${'short'}`).toBe('12,345 bits');
+        });
     });
     // describe("Abbreviation format", () => {
 
     // });
-    // describe("Percent format", () => {
-
-    // });
-    // describe("E Notation format", () => {
-
-    // });
+    describe("Percent format", () => {
+        it("should display '10%'", () => {
+            expect(percent`0.10`).toBe('10%');
+        })
+    });
+    describe("E Notation format", () => {
+        it("should display '9.877E8'", () => {
+            expect(enotation`987654321`).toBe('9.877E8');
+        });
+    });
     // describe("Thousands format", () => {
 
     // });
     
-})
+});

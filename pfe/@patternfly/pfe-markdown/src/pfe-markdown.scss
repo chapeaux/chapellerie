@@ -1,0 +1,11 @@
+@import "../../pfe-sass/pfe-sass";
+@include pfe-contexts; // imports on="light" etc support
+
+:host {
+  display: block;
+  color: pfe-broadcasted(text);
+}
+
+:host([hidden]) {
+  display: none;
+}

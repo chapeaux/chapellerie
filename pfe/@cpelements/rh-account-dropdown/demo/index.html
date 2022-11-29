@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, minimum-scale=1.0, initial-scale=1.0, user-scalable=yes"
+    />
+    <title>PatternFly Element | rh-account-dropdown Demo</title>
+
+    <noscript>
+      <link
+        href="../../../@patternfly/pfelement/dist/pfelement-noscript.min.css"
+        rel="stylesheet"
+      />
+    </noscript>
+
+    <link
+      href="../../../@patternfly/pfelement/dist/pfelement.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Stylesheets for testing light DOM styles.
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap-reboot.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/typebase.css/0.5.0/typebase.css">
+    -->
+
+    <link
+      rel="stylesheet"
+      href="../../../@patternfly/pfe-styles/dist/pfe-base.css"
+    />
+    <link
+      rel="stylesheet"
+      href="../../../@patternfly/pfe-styles/dist/pfe-context.css"
+    />
+    <link
+      rel="stylesheet"
+      href="../../../@patternfly/pfe-styles/dist/pfe-layouts.css"
+    />
+
+    <!-- IE11 test: use bundle + require with umd files -->
+    <!-- <script src="https://unpkg.com/@webcomponents/webcomponentsjs@2.4.1/custom-elements-es5-adapter.js"></script>
+    <script src="https://unpkg.com/@webcomponents/webcomponentsjs@2.4.1/webcomponents-bundle.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.5/require.min.js"></script>
+    <script>require([
+      "../../@patternfly/pfe-icon/dist/pfe-icon.umd.js",
+      // "https://unpkg.com/@patternfly/pfe-icon@1.0.0/dist/pfe-icon.umd.js",
+      "../dist/rh-account-dropdown.umd.js",
+      // "https://unpkg.com/@chapeaux/cpx-user@0.2.4/cpx-user.js",
+    ])</script> -->
+
+    <script src="../dist/rh-account-dropdown.js" type="module"></script>
+
+    <!--
+  <script type="module" src="../dist/rh-account-dropdown.js"></script>
+  <script type="module" src="../node_modules/@chapeaux/cpx-user/cpx-user.js"></script>
+  -->
+    <script src="fake-wes-auth.js"></script>
+  </head>
+  <body unresolved>
+    <h1><code>rh-account-dropdown</code></h1>
+    <rh-account-dropdown
+      lang="en"
+      login-link="#log-in"
+      logout-link="#log-out"
+    ></rh-account-dropdown>
+  </body>
+</html>

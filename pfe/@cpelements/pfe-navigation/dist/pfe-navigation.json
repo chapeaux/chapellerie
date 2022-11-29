@@ -1,0 +1,78 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "Navigation",
+  "description": "Site navigation for Red Hat web sites",
+  "type": "object",
+  "tag": "pfe-navigation",
+  "class": "PfeNavigation",
+  "category": "combo",
+  "properties": {
+    "slots": {
+      "title": "Slots",
+      "description": "Definition of the supported slots",
+      "type": "object",
+      "properties": {
+        "default": {
+          "title": "Default slot",
+          "type": "array",
+          "namedSlot": false,
+          "items": {
+            "oneOf": [
+              {
+                "$ref": "raw"
+              }
+            ]
+          }
+        },
+        "search": {
+          "title": "Search",
+          "type": "array",
+          "namedSlot": true,
+          "items": {
+            "title": "Search item",
+            "oneOf": [
+              {
+                "$ref": "raw"
+              }
+            ]
+          }
+        },
+        "customlinks": {
+          "title": "Customlinks",
+          "type": "array",
+          "namedSlot": true,
+          "items": {
+            "title": "Customlinks item",
+            "oneOf": [
+              {
+                "$ref": "raw"
+              }
+            ]
+          }
+        }
+      },
+      "required": ["default"]
+    },
+    "attributes": {
+      "title": "Attributes",
+      "type": "object",
+      "properties": {
+        "state": {
+          "title": "State",
+          "type": "string",
+          "enum": [],
+          "default": "",
+          "prefixed": true
+        }
+      }
+    },
+    "events": {
+      "title": "Events",
+      "description": "Definition of the supported events",
+      "type": "object",
+      "properties": {}
+    }
+  },
+  "required": ["slots", "attributes", "events"],
+  "additionalProperties": false
+}

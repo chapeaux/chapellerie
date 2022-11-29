@@ -1,0 +1,58 @@
+{
+  "name": "@patternfly/pfe-health-index",
+  "pfelement": {
+    "className": "PfeHealthIndex",
+    "elementName": "pfe-health-index",
+    "preview": "health-index--screenshot.png"
+  },
+  "version": "1.12.3",
+  "publishConfig": {
+    "access": "public"
+  },
+  "description": "Health index for PatternFly Elements",
+  "keywords": [
+    "web-components",
+    "html"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "github:patternfly/patternfly-elements",
+    "directory": "elements/pfe-health-index"
+  },
+  "browserslist": [
+    "last 2 versions",
+    "Firefox >= 78",
+    "iOS >= 8",
+    "ie 11"
+  ],
+  "main": "./dist/pfe-health-index.umd.js",
+  "module": "./dist/pfe-health-index.js",
+  "unpkg": "./dist/pfe-health-index.umd.min.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "../../node_modules/.bin/gulp && ../../node_modules/.bin/prettier --ignore-path ../../.prettierignore --write '**/*.{js,json}'",
+    "dev": "../../node_modules/.bin/gulp dev",
+    "watch": "../../node_modules/.bin/gulp watch",
+    "test": "../../node_modules/.bin/wct --configFile ../../wct.conf.json elements/pfe-health-index/test/"
+  },
+  "contributors": [
+    {
+      "name": "Kyle Buchanan",
+      "email": "kylebuch8@gmail.com",
+      "url": "https://github.com/kylebuch8"
+    }
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "@patternfly/pfe-sass": "^1.12.3"
+  },
+  "dependencies": {
+    "@patternfly/pfelement": "^1.12.3"
+  },
+  "generator-pfelement-version": "0.6.3",
+  "bugs": {
+    "url": "https://github.com/patternfly/patternfly-elements/issues"
+  }
+}

@@ -1,0 +1,653 @@
+@import "sass-includes/variables-mixins";
+$pfe-navigation-id: 'pfe-navigation'!default;
+
+/// @note Overridden collapse mixin to update selectors for light dom
+@mixin collapse($section) {
+  @if $section == 'nav' {
+    .pfe-navigation--collapse-main-menu & {
+      @content;
+    }
+  }
+  @else if $section == 'secondary-links' {
+    .pfe-navigation--collapse-secondary-links & {
+      @content;
+    }
+  }
+}
+
+pfe-navigation [slot],
+.pfe-navigation__menu {
+  @media print {
+    display: none!important;
+  }
+}
+
+pfe-navigation {
+  --pfe-reveal-duration: 0.1618s;
+  --pfe-reveal-delay: 2s;
+
+  > * {
+    // Added @supports to prevent old browsers from using these styles
+    @supports (display: grid) {
+      transition: opacity var(--pfe-reveal-duration, 0.1618s) ease-in-out;
+      opacity: 0;
+      visibility: hidden;
+      animation: reveal var(--pfe-reveal-duration, 0.1618s) var(--pfe-reveal-delay, 2s) 1 forwards;
+    }
+  }
+
+  @include pfe-set-broadcast-context(light);
+  &.pfe-navigation--processed  > * {
+    animation-delay: 0;
+  }
+}
+
+pfe-navigation-dropdown {
+  color: pfe-local(Color, $region: dropdown);
+}
+
+@keyframes reveal {
+  0% {
+    visibility: hidden;
+    opacity: 0;
+  }
+  1% {
+    visibility: visible;
+  }
+  100% {
+    opacity: 1;
+    visibility: visible;
+  }
+}
+
+// Scoping styles in ID to fight other light dom styles
+#{'#' + $pfe-navigation-id},
+pfe-navigation {
+
+  &,
+  * {
+    box-sizing: border-box;
+  }
+
+  // Hide fallback login link if component has mounted
+  [pfelement] {
+    .pfe-navigation__log-in-link {
+      display: none;
+    }
+  }
+
+  // No JS Styles
+  // --------------------------------------------------------
+  & {
+    @include pfe-navigation__wrapper;
+    @include pfe-navigation__wrapper--mobile;
+    position: relative;
+    height: auto;
+    min-height: pfe-local(Height, $region: nav-bar);
+    @include breakpoint('secondary-links-expand') {
+      @include pfe-navigation__wrapper--collapsed-menu;
+      flex-wrap: wrap;
+    }
+    @include breakpoint('nav-expand') {
+      @include pfe-navigation__wrapper--desktop;
+    }
+
+    // Hide dropdowns unless component mounts
+    .pfe-navigation__dropdown,
+    pfe-navigation-dropdown {
+      display: none;
+    }
+
+    // Hide slotted elements unless component mounts
+    > [slot] {
+      width: 0;
+      height: 0;
+      overflow: hidden;
+      visibility: hidden;
+    }
+
+    // @note Have to qualify class with the tag because of Shady CSS
+    nav.pfe-navigation {
+      @include breakpoint('secondary-links-expand') {
+        display: flex;
+        align-items: stretch;
+        flex-wrap: wrap;
+      }
+      @include breakpoint(lg) {
+        flex-wrap: nowrap;
+      }
+    }
+
+    .pfe-navigation__logo-wrapper {
+      @include pfe-navigation__logo-wrapper;
+      min-width: 150px;
+    }
+
+    .pfe-navigation__logo-link {
+      @include pfe-navigation__logo-link;
+    }
+
+    .pfe-navigation__logo-image {
+      @include pfe-navigation__logo-image;
+    }
+
+    .pfe-navigation__log-in-link,
+    .pfe-navigation__menu-link,
+    .pfe-navigation__fallback-links a {
+      @include top-level-button;
+      justify-content: center;
+      align-items: center;
+      color: pfe-local(Color--default, $region: nav-bar);
+
+      // Specificity bump
+      &[class],
+      &[href] {
+        justify-content: center;
+        align-items: center;
+      }
+    }
+
+    .pfe-navigation__menu,
+    .pfe-navigation__fallback-links {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      font-size: inherit;
+      @include breakpoint('secondary-links-expand') {
+        display: flex;
+        align-items: stretch;
+      }
+
+      li {
+        margin: 0;
+        padding: 0;
+        font-size: inherit;
+
+        &:before {
+          content: none;
+        }
+      }
+    }
+
+    .pfe-navigation__fallback-links {
+      margin-left: auto;
+    }
+
+    .pfe-navigation__menu-link {
+      display: flex;
+      white-space: nowrap;
+      font-size: pfe-var(FontSize--md);
+    }
+  }
+
+  &.pfe-navigation--processed {
+    display: block;
+    padding: 0;
+
+    &:before {
+      content: none;
+    }
+
+    // Unhide when component connected
+    > [slot] {
+      visibility: visible;
+      width: auto;
+      height: auto;
+      overflow: visible;
+    }
+
+    // Unhide when component connected
+    pfe-navigation-dropdown {
+      display: block;
+    }
+
+    // Fade hidden elements in
+    .pfe-navigation__dropdown,
+    pfe-navigation-dropdown,
+    > [slot] {
+      opacity: 1;
+      animation: none;
+    }
+
+    // Slotted content styles
+    // --------------------------------------------------------
+    [slot='secondary-links'] {
+      @include secondary-links-li;
+
+      > a,
+      > button {
+        @include top-level-button;
+
+        &:focus {
+          @include breakpoint('secondary-links-expand') {
+            @include alt-focus-styles(pfe-local(Color--default, $region: nav-bar));
+          }
+          @include collapse('secondary-links') {
+            box-shadow: none;
+          }
+        }
+
+        &[aria-expanded='true'] {
+          @include breakpoint('secondary-links-expand') {
+            color: pfe-local(Color--active, $region: nav-bar);
+            background: pfe-local(toggle--BackgroundColor--active, $region: nav-bar);
+          }
+          @include collapse('secondary-links') {
+            box-shadow: none;
+            background: transparent;
+          }
+        }
+      }
+    }
+
+    .pfe-navigation__custom-dropdown__wrapper--single-column {
+      position: relative;
+    }
+
+    // Slotted li to secondary-links after the component has mounted
+    .pfe-navigation__custom-dropdown__wrapper {
+      display: block;
+    }
+
+    // @note Slot prefix is for ShadyCSS/IE11
+    [slot="secondary-links"] .pfe-navigation__dropdown-wrapper {
+      &[class] { // Specificity bump
+        height: 0;
+        transition: pfe-local(accordion-transition);
+        @media (prefers-reduced-motion) {
+          transition: none;
+        }
+        @include breakpoint('secondary-links-expand') {
+          position: absolute;
+          top: pfe-local(Height, $region: nav-bar);
+          right: 0;
+        }
+        @include collapse('secondary-links') {
+          position: static;
+        }
+
+        &[aria-hidden='false'] {
+          @include breakpoint('secondary-links-expand') {
+            height: auto;
+          }
+          @include collapse('secondary-links') {
+            height: 0;
+          }
+        }
+      }
+    }
+
+    &[breakpoint='mobile'] [slot="secondary-links"][mobile-slider] .pfe-navigation__dropdown-wrapper {
+      $vertical-offset: pfe-local(PaddingVertical, $region: mobile-dropdown);
+      $horizontal-offset: pfe-local(PaddingHorizontal, $region: mobile-dropdown);
+      position: absolute;
+      top: 0;
+      left: 100vw;
+      left: calc(100vw - #{$horizontal-offset});
+      width: 100vw;
+
+      &[aria-hidden='false'] {
+        height: 100vh;
+        height: calc(100vh - #{pfe-local(Height, $region: nav-bar)});
+        overflow-y: scroll;
+      }
+    }
+
+    .pfe-navigation__dropdown-wrapper--default-styles,
+    .pfe-navigation-item__tray--container,
+    .pfe-navigation__site-switcher .pfe-navigation__dropdown-wrapper {
+      padding: 0 pfe-local('full-width--spacing--mobile', $region: 'dropdown');
+      background: pfe-local(Background, $region: dropdown);
+      @include breakpoint('secondary-links-expand') {
+        padding: 0 #{pfe-local('full-width--spacing--desktop', $region: 'dropdown')} + #{pfe-local('full-width--spacing--mobile', $region: 'dropdown')};
+      }
+      @include collapse('secondary-links') {
+        padding: 0 pfe-local('full-width--spacing--mobile', $region: 'dropdown');
+      }
+
+      ul,
+      li {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+      }
+
+      @include pfe-navigation__dropdown-content-styling;
+    }
+
+    // Dropdown content wrapper - lays out dropdown internals
+    // Layout mixins are shared with lightdom styles, can be found in _variables-mixins.scss
+    .pfe-navigation__dropdown--default-styles,
+    .pfe-navigation-grid, // @note v1.x support
+    site-switcher {
+      @include pfe-navigation__dropdown-layout--mobile;
+      margin-left: auto;
+      margin-right: auto;
+      font-size: pfe-var(FontSize--md);
+      color: pfe-local(Color, $region: dropdown);
+      @include breakpoint('secondary-links-expand') {
+        @include pfe-navigation__dropdown-layout--tablet;
+      }
+      @include breakpoint('nav-expand') {
+        @include pfe-navigation__dropdown-layout--desktop;
+      }
+      @include collapse('nav') {
+        @include pfe-navigation__dropdown-layout--tablet;
+      }
+      @include collapse('secondary-links') {
+        @include pfe-navigation__dropdown-layout--mobile;
+      }
+
+      .pfe-navigation__menu-item--open & {
+        visibility: visible;
+        transition-delay: 0s;
+      }
+
+      > * {
+        $mobile-margin: 0 0 18px;
+        margin: $mobile-margin;
+        break-inside: avoid;
+        @include breakpoint('nav-expand') {
+          margin: 0;
+        }
+        @include collapse('nav') {
+          margin: $mobile-margin;
+        }
+      }
+    }
+
+    .pfe-navigation__dropdown--1-x {
+      display: block;
+    }
+
+    .pfe-navigation__site-switcher .pfe-navigation__dropdown {
+      background: #fff;
+    }
+
+    .pfe-navigation__dropdown-wrapper--invisible {
+      pfe-navigation-dropdown {
+        visibility: hidden;
+      }
+    }
+
+    .pfe-navigation__custom-dropdown--single-column[class] {
+      @include single-column-dropdown('secondary-links');
+      padding: 0;
+      @include breakpoint('secondary-links') {
+        right: 0;
+      }
+    }
+
+    .pfe-navigation__custom-dropdown--full[class] {
+      width: 100%;
+      @include breakpoint('secondary-links-expand') {
+        position: absolute;
+        left: 0;
+        right: 0;
+      }
+      @include collapse('secondary-links') {
+        position: static;
+      }
+
+      .pfe-navigation__dropdown {
+        width: 100%;
+      }
+    }
+
+    // Base default styles for search bar and search button
+    // @todo Since this is opt in light DOM styling, don't think we need color var here?
+    .pfe-navigation__search--default-styles {
+      padding-left: 16px;
+      padding-right: 16px;
+
+      form {
+        display: flex;
+        align-items: center;
+      }
+
+      input,
+      button {
+        padding: 10px;
+        transition: box-shadow 0.2s;
+      }
+
+      input {
+        flex-grow: 1;
+        flex-shrink: 1;
+        flex-basis: 0%;
+        margin-right: 8px;
+        border: 1px solid #f0f0f0;
+        border-bottom: 1px solid #8b8e91;
+        color: #717579;
+        font-size: pfe-var(FontSize--md);
+      }
+
+      input::placeholder {
+        color: #717579;
+      }
+
+      button {
+        flex-grow: 0;
+        flex-shrink: 1;
+        flex-basis: auto;
+        border-radius: 2px;
+        border: 1px solid #e00;
+        background-color: #e00;
+        color: #fff;
+        font-size: pfe-var(FontSize--md);
+      }
+
+      input:focus,
+      input:hover {
+        @include alt-focus-styles(#000);
+      }
+
+      button:focus,
+      button:hover {
+        @include alt-focus-styles(#fff);
+      }
+    }
+  }
+
+  // Hide Back to Menu button everywhere but mobile
+  .pfe-navigation__site-switcher__back-wrapper {
+    display: block;
+    border-bottom: pfe-local(separator--Border, $region: dropdown);
+
+    @include breakpoint('secondary-links-expand') {
+      display: none;
+    }
+    @include collapse('secondary-links') {
+      display: block;
+    }
+  }
+
+  .pfe-navigation__site-switcher__back-button {
+    position: relative;
+    width: 100%;
+    padding: 21px 21px 21px 45px;
+    border: 1px solid transparent;
+    font-size: pfe-var(FontSize--md);
+    color: pfe-local(link--Color, $region: dropdown);
+    text-align: left;
+    background-color: transparent;
+    cursor: pointer;
+
+    &:before {
+      @include pfe-navigation__back__before--mobile;
+      content: '';
+    }
+
+    &:focus,
+    &:hover {
+      color: pfe-local(link--Color--hover, $region: dropdown);
+      @include focus-styles(pfe-local(Color, $region: dropdown), 1px);
+    }
+  }
+
+  &.pfe-navigation--processed site-switcher {
+    display: block;
+    columns: auto;
+    max-width: 100%;
+  }
+
+  &.pfe-navigation--stuck {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: pfe-zindex(navigation);
+  }
+
+  ///
+  // @note IE11/Crusty browser overrides
+  ///
+  &.pfe-navigation--in-crusty-browser {
+    .pfe-navigation__menu-item {
+      display: block;
+    }
+
+    .pfe-navigation__menu-link[aria-expanded="true"] {
+      color: pfe-local(Color--active, $region: nav-bar);
+      background: pfe-local(toggle--BackgroundColor--active, $region: nav-bar);
+
+      &:focus {
+        @include alt-focus-styles(currentColor);
+      }
+    }
+
+    .pfe-navigation__dropdown {
+      display: flex;
+      flex-wrap: wrap;
+
+      > .style-scope { // .style-scope is added by ShadyCSS
+        flex-basis: 25%;
+      }
+
+      .pfe-navigation__footer.style-scope {
+        flex-basis: 100%;
+
+        > .style-scope {
+          margin-right: 16px;
+        }
+      }
+    }
+
+    .pfe-navigation__dropdown--single-column {
+
+      &,
+      & > .style-scope,
+      ul {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+      }
+
+      > .style-scope {
+        flex-basis: auto;
+      }
+    }
+
+    .pfe-navigation__secondary-link,
+    [slot="secondary-links"] > a,
+    .pfe-navigation__search-toggle {
+      color: #fff!important;
+      justify-content: center!important;
+
+      &[aria-expanded="true"] {
+        color: #151515!important;
+      }
+
+      // @note Hiding icons in IE11, they are really buggy in IE
+      .secondary-link__icon-wrapper,
+      pfe-icon {
+        display: none!important;
+      }
+
+    }
+
+    .pfe-navigation__account-wrapper--logged-in {
+      .pfe-navigation__log-in-link {
+        display: none!important;
+      }
+    }
+  }
+} // @end main pfe-navigation styles
+
+
+.pfe-navigation__dropdown-wrapper {
+  overflow: hidden; // @note: Should not be set to visible
+}
+
+.pfe-navigation__custom-dropdown--single-column {
+  @include breakpoint('secondary-links') {
+    min-width: 25em;
+  }
+  @include collapse('secondary-links') {
+    min-width: 0;
+  }
+}
+
+.secondary-link__icon-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.secondary-link__alert-count {
+  display: block;
+  font-size: var(--pfe-navigation--FontSize--xs, 12px);
+  line-height: 20px;
+  min-width: 23px;
+  margin: 0 4px 0 2px;
+  padding: 0 8px;
+  border-radius: 20px;
+  overflow: hidden;
+  color: pfe-local(Color--on-highlight, $region: nav-bar);
+  background: pfe-local(alert-color, $region: nav-bar);
+
+  &:empty {
+    display: none;
+  }
+}
+
+#pfe-navigation__1x-skip-links {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  &,
+  li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 0;
+    height: 0;
+  }
+}
+
+.skip-link[class][class] { // Adding specificity to beat out site styles
+  font-size: pfe-var(FontSize--sm);
+  line-height: 18px;
+
+  &:focus {
+    position: fixed;
+    top: 8px;
+    left: 50%;
+    z-index: 99999;
+    width: auto;
+    height: auto;
+    padding: (6 / 14 * 1em) (8 / 14 * 1em);
+    border-radius: (3 / 14 * 1em);
+    transform: translateX(-50%);
+    clip: auto;
+    background: pfe-local(BackgroundColor, $region: skip-link);
+    color: pfe-local(Color, $region: skip-link);
+    text-decoration: none;
+  }
+}
+
+pfe-navigation pfe-navigation-account[slot="account"] {
+  width: 100%;
+  background: pfe-local(Background, $region: dropdown);
+}

@@ -1,0 +1,19 @@
+@import "shared-assets";
+
+:host {
+  display: block;
+  position: relative;
+  overflow: hidden;
+  margin: 0;
+
+  width: pfe-local(Width);
+}
+
+:host {
+  // This is required for the focus state to overflow the container
+  overflow: visible;
+}
+
+:host([hidden]) {
+  display: none;
+}

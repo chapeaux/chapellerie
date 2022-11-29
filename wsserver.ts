@@ -12,10 +12,6 @@ class User {
 
 const users = new Map<Uint8Array, User>()
 
-const listener = await Deno.listen({ port: 3000 });
-for await(const conn of listener) {
-  dispatchConnection(conn);
-}
 
 async function dispatchConnection(conn: Deno.Conn) {
   for await(const { request, respondWith } of Deno.serveHttp(conn)) {
@@ -84,6 +80,12 @@ async function dispatchConnection(conn: Deno.Conn) {
     }
     
   }
+}
+
+
+const listener = await Deno.listen({ port: 3000 });
+for await(const conn of listener) {
+  dispatchConnection(conn);
 }
 
 /*

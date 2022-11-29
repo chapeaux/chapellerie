@@ -8,8 +8,18 @@ export function ordinal(s) {
     return v+({'other':'th','one':'st','two':'nd','few':'rd'}[plural.select(v)]);
 }
 
-export function bytes(s) {
-    return [...s].join('');   
+/*
+    unit values: 
+        bit, byte, 
+        gigabit, gigabyte, 
+        kilobit, kilobyte,
+        megabit, megabyte,
+        petabyte, 
+        terabit, terabyte
+    unitDisplay: short, long, narrow
+*/
+export function bytes(s,f,u) {
+    return new Intl.NumberFormat(navigator.language, {style:'unit', unit: f||'byte', unitDisplay: u||'long'}).format([...s].join(''));   
 }
 
 export function abbrev(s) {
@@ -17,11 +27,11 @@ export function abbrev(s) {
 }
 
 export function percent(s) {
-    return [...s].join('');
+    return new Intl.NumberFormat(navigator.language, {style:'percent'}).format([...s].join(''));
 }
 
 export function enotation(s) {
-    return [...s].join('');
+    return new Intl.NumberFormat(navigator.language, {notation:'scientific'}).format(parseFloat([...s].join('')));   
 }
 
 export function thousands(s) {

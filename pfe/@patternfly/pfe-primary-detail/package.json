@@ -1,0 +1,63 @@
+{
+  "name": "@patternfly/pfe-primary-detail",
+  "description": "Primary detail element for PatternFly Elements",
+  "pfelement": {
+    "className": "PfePrimaryDetail",
+    "elementName": "pfe-primary-detail",
+    "preview": "pfe-primary-detail.png",
+    "files": {
+      "styles": "./src/pfe-primary-detail.scss",
+      "template": "./src/pfe-primary-detail.html",
+      "js": "./src/pfe-primary-detail.js"
+    },
+    "assets": [
+      "pfe-primary-detail--lightdom.*css"
+    ]
+  },
+  "version": "1.12.3",
+  "keywords": [
+    "web-components",
+    "html"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "github:patternfly/patternfly-elements",
+    "directory": "elements/pfe-primary-detail"
+  },
+  "browserslist": [
+    "last 2 versions",
+    "Firefox >= 78",
+    "iOS >= 8",
+    "ie 11"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "main": "./dist/pfe-primary-detail.umd.js",
+  "module": "./dist/pfe-primary-detail.js",
+  "unpkg": "./dist/pfe-primary-detail.umd.min.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "../../node_modules/.bin/gulp && ../../node_modules/.bin/prettier --ignore-path ../../.prettierignore --write '**/*.{js,json}'",
+    "dev": "../../node_modules/.bin/gulp dev",
+    "watch": "../../node_modules/.bin/gulp watch",
+    "test": "echo \"👉 Run tests from the project root with 'npm run test:watch --element=pfe-primary-detail'\""
+  },
+  "contributors": [
+    {
+      "name": "Tyler Martin"
+    }
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "@patternfly/pfe-sass": "^1.12.3"
+  },
+  "dependencies": {
+    "@patternfly/pfelement": "^1.12.3"
+  },
+  "bugs": {
+    "url": "https://github.com/patternfly/patternfly-elements/issues"
+  }
+}
