@@ -1,0 +1,885 @@
+<https://pie.gd/users/yaypie/following?page=1> <https://www.w3.org/ns/activitystreams#partOf> <https://pie.gd/users/yaypie/following> .
+<https://pie.gd/users/yaypie/following?page=1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://www.w3.org/ns/activitystreams#OrderedCollectionPage> .
+<https://pie.gd/users/yaypie/following?page=1> <https://www.w3.org/ns/activitystreams#items> _:ab59a2c8784709f34c85249c65d86d90 .
+<https://pie.gd/users/yaypie/following?page=1> <https://www.w3.org/ns/activitystreams#totalItems> "150"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://pie.gd/users/yaypie/following?page=1> <https://www.w3.org/ns/activitystreams#next> <https://pie.gd/users/yaypie/following?page=2> .
+<https://mastodon.social/users/jaffathecake#main-key> <https://w3id.org/security#publicKeyPem> "-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAxnH7QBIC6LQ9PImAy4Gr\nPpYLUeJ8xVTvJGEL1ShitgIsaGJSeMUvGCImMetCX8jkgaa0dKnp+TYW+CE2VxIE\nCxA7V009DdaMRiMMMHSZfRNtXkciM19OiO582DDAEebYdJDB5zLpCKpl2arawOfs\n0gAJ1LYhDjnUqe/rJzSK0Yz0H74KB/hTEmQweXORsuMNw/3z7kVZ9+E8ngGtHf2z\ni7jVQo7wg52VpB/LIt8lFt8YOx9oUMnSb6DiWPg1t0Xy1QtmSriDv8t1zH1yLzW6\nc3qKAmqAZ4S8sgVWGweiB+5Dw5zLM2j1Wmtt1vy2hFY46NEvR5nD4ThL9UnQxsc/\nCwIDAQAB\n-----END PUBLIC KEY-----\n" .
+<https://mastodon.social/users/jaffathecake#main-key> <https://w3id.org/security#owner> <https://mastodon.social/users/jaffathecake> .
+<https://indieweb.social/users/addyosmani/following?page=1> <https://www.w3.org/ns/activitystreams#partOf> <https://indieweb.social/users/addyosmani/following> .
+<https://indieweb.social/users/addyosmani/following?page=1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://www.w3.org/ns/activitystreams#OrderedCollectionPage> .
+<https://indieweb.social/users/addyosmani/following?page=1> <https://www.w3.org/ns/activitystreams#items> _:93c7c84b71e4e4bce77dc2a07d4944a .
+<https://indieweb.social/users/addyosmani/following?page=1> <https://www.w3.org/ns/activitystreams#totalItems> "492"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://indieweb.social/users/addyosmani/following?page=1> <https://www.w3.org/ns/activitystreams#next> <https://indieweb.social/users/addyosmani/following?page=2> .
+<https://fosstodon.org/users/nzakas/following> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://www.w3.org/ns/activitystreams#OrderedCollection> .
+<https://fosstodon.org/users/nzakas/following> <https://www.w3.org/ns/activitystreams#totalItems> "13"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://fosstodon.org/users/nzakas/following> <https://www.w3.org/ns/activitystreams#first> <https://fosstodon.org/users/nzakas/following?page=1> .
+<https://mastodon.social/users/robpalmer/following?page=1> <https://www.w3.org/ns/activitystreams#partOf> <https://mastodon.social/users/robpalmer/following> .
+<https://mastodon.social/users/robpalmer/following?page=1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://www.w3.org/ns/activitystreams#OrderedCollectionPage> .
+<https://mastodon.social/users/robpalmer/following?page=1> <https://www.w3.org/ns/activitystreams#items> _:5e2aba13e31a0a28f5dad4f737310c4f .
+<https://mastodon.social/users/robpalmer/following?page=1> <https://www.w3.org/ns/activitystreams#totalItems> "111"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://mastodon.social/users/robpalmer/following?page=1> <https://www.w3.org/ns/activitystreams#next> <https://mastodon.social/users/robpalmer/following?page=2> .
+<https://mastodon.social/users/rust_discussions#main-key> <https://w3id.org/security#publicKeyPem> "-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAyy1dG3sUONHaN1GPZ0mN\nLo7XMcrAynEvrDFfkJ7wKzVyjtjv4uUYe8EZhC5aFvrQ5CfLtwCguFypRsjHbvOS\n6z9yo8rOKt3EFrFMFcYeXrW5a5gEFTbXDdjaDYnfsc6ShfaWVNOL98mEHS2pnvdY\ny0a4GAX8eu+QBkmLGF6DAPww3c68szvTUXUE3jOREDqN4va6CkWpCCfMR4kcaQcZ\npWkB2uWRm+0uyt5QtbGsQj3Nc/KfV3x4inoy4Fe5ayc4ut4XFTt/mZQNE8ScMa1j\ncko6bGTJePbDCCH3DHXO2wmI7faI1f+X1Vd+bdwVv/65EogVUk7JC3hSr8b6V2pa\njQIDAQAB\n-----END PUBLIC KEY-----\n" .
+<https://mastodon.social/users/rust_discussions#main-key> <https://w3id.org/security#owner> <https://mastodon.social/users/rust_discussions> .
+<https://fosstodon.org/users/caridy/following> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://www.w3.org/ns/activitystreams#OrderedCollection> .
+<https://fosstodon.org/users/caridy/following> <https://www.w3.org/ns/activitystreams#totalItems> "12"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://fosstodon.org/users/caridy/following> <https://www.w3.org/ns/activitystreams#first> <https://fosstodon.org/users/caridy/following?page=1> .
+<https://a11y.info/users/scottohara#main-key> <https://w3id.org/security#publicKeyPem> "-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAvCULBSpJrJ+Tx0LgaLp0\nzChy5Qhgl3pCl6uYVbcyDf/ZIukClfkyiXJsVsFs48SO0Fn42z7CPdFq82Rfebmq\nUwKAZUItp1gMxFRhivovgMxj0D3Jg4zI39V69bVcYhZBx6Ckf/2z2MeYoZFESpLf\nMaGFHs8Da3Oa+UcWlpFDr5JJd24c4ddrRHg2z3kaDteCBcaJgG1wvBDF3eqngY9m\nxpIZSGicE708Ylna1RGxnfwycWMlhmIiUzH2Bf/aNwFGf/cJgiAfAzJtCuNjf48x\nuVBjcRW5iY7bpd2KRfG10MpzCCkHjGuBKk0LFDpyNimsFEUQ5dRpfAKKqepRHE/t\nxwIDAQAB\n-----END PUBLIC KEY-----\n" .
+<https://a11y.info/users/scottohara#main-key> <https://w3id.org/security#owner> <https://a11y.info/users/scottohara> .
+<https://pie.gd/users/yaypie> <https://www.w3.org/ns/activitystreams#icon> _:b6b8e6f18a54e795e257af159a5e9445 .
+<https://pie.gd/users/yaypie> <http://joinmastodon.org/ns#featuredTags> <https://pie.gd/users/yaypie/collections/tags> .
+<https://pie.gd/users/yaypie> <https://www.w3.org/ns/activitystreams#published> "2022-11-09T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://pie.gd/users/yaypie> <https://www.w3.org/ns/activitystreams#following> <https://pie.gd/users/yaypie/following> .
+<https://pie.gd/users/yaypie> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://www.w3.org/ns/activitystreams#Person> .
+<https://pie.gd/users/yaypie> <https://www.w3.org/ns/activitystreams#followers> <https://pie.gd/users/yaypie/followers> .
+<https://pie.gd/users/yaypie> <https://www.w3.org/ns/activitystreams#url> <https://pie.gd/@yaypie> .
+<https://pie.gd/users/yaypie> <https://www.w3.org/ns/activitystreams#summary> "<p>I like movies and pie!</p><p>I work on frontend platforms at SmugMug. Previously I co-founded Cake (R.I.P.), worked on Search and YUI at Yahoo, and did other things at other places.</p><p>Co-protagonist of <span class=\"h-card\"><a href=\"https://pie.gd/@faerye\" class=\"u-url mention\">@<span>faerye</span></a></span>.</p><p>He/him.</p>" .
+<https://pie.gd/users/yaypie> <http://joinmastodon.org/ns#devices> <https://pie.gd/users/yaypie/collections/devices> .
+<https://pie.gd/users/yaypie> <https://www.w3.org/ns/activitystreams#name> "Ryan Grove" .
+<https://pie.gd/users/yaypie> <https://www.w3.org/ns/activitystreams#endpoints> _:c9437317b1bc8c45198882dfa54f1576 .
+<https://pie.gd/users/yaypie> <https://w3id.org/security#publicKey> <https://pie.gd/users/yaypie#main-key> .
+<https://pie.gd/users/yaypie> <https://www.w3.org/ns/activitystreams#outbox> <https://pie.gd/users/yaypie/outbox> .
+<https://pie.gd/users/yaypie> <https://www.w3.org/ns/activitystreams#attachment> _:fbcd9541a07e02a9fa32288a7a34a3c .
+<https://pie.gd/users/yaypie> <https://www.w3.org/ns/activitystreams#attachment> _:43caf287152ee72849130e9064d678f1 .
+<https://pie.gd/users/yaypie> <https://www.w3.org/ns/activitystreams#attachment> _:b01c02153dd85f00dc6f6d069366bd5f .
+<https://pie.gd/users/yaypie> <https://www.w3.org/ns/activitystreams#attachment> _:bca71551df10623cc600dba9d0b3552b .
+<https://pie.gd/users/yaypie> <https://www.w3.org/ns/activitystreams#preferredUsername> "yaypie" .
+<https://pie.gd/users/yaypie> <http://joinmastodon.org/ns#featured> <https://pie.gd/users/yaypie/collections/featured> .
+<https://pie.gd/users/yaypie> <http://joinmastodon.org/ns#discoverable> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<https://pie.gd/users/yaypie> <https://www.w3.org/ns/activitystreams#manuallyApprovesFollowers> "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<https://pie.gd/users/yaypie> <https://www.w3.org/ns/activitystreams#alsoKnownAs> <https://mastodon.social/users/yaypie> .
+<https://pie.gd/users/yaypie> <http://www.w3.org/ns/ldp#inbox> <https://pie.gd/users/yaypie/inbox> .
+<https://pie.gd/users/yaypie> <https://www.w3.org/ns/activitystreams#image> _:e9812b28bdd9fde9da7f18078588ff27 .
+<https://toot.cafe/users/paul_irish> <https://www.w3.org/ns/activitystreams#icon> _:b52b0ad6ce443cd1e12bdfefb65633f8 .
+<https://toot.cafe/users/paul_irish> <http://joinmastodon.org/ns#featuredTags> <https://toot.cafe/users/paul_irish/collections/tags> .
+<https://toot.cafe/users/paul_irish> <https://www.w3.org/ns/activitystreams#published> "2018-09-07T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://toot.cafe/users/paul_irish> <https://www.w3.org/ns/activitystreams#following> <https://toot.cafe/users/paul_irish/following> .
+<https://toot.cafe/users/paul_irish> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://www.w3.org/ns/activitystreams#Person> .
+<https://toot.cafe/users/paul_irish> <https://www.w3.org/ns/activitystreams#followers> <https://toot.cafe/users/paul_irish/followers> .
+<https://toot.cafe/users/paul_irish> <https://www.w3.org/ns/activitystreams#url> <https://toot.cafe/@paul_irish> .
+<https://toot.cafe/users/paul_irish> <https://www.w3.org/ns/activitystreams#summary> "<p>In &#39;97 I wrote a paper for English class on HTML Image Maps. I haven&#39;t changed much since.</p>" .
+<https://toot.cafe/users/paul_irish> <http://joinmastodon.org/ns#devices> <https://toot.cafe/users/paul_irish/collections/devices> .
+<https://toot.cafe/users/paul_irish> <https://www.w3.org/ns/activitystreams#name> "Paul Irish" .
+<https://toot.cafe/users/paul_irish> <https://www.w3.org/ns/activitystreams#endpoints> _:55d0c2508d33d7fc319c3fc2de92865d .
+<https://toot.cafe/users/paul_irish> <https://w3id.org/security#publicKey> <https://toot.cafe/users/paul_irish#main-key> .
+<https://toot.cafe/users/paul_irish> <https://www.w3.org/ns/activitystreams#outbox> <https://toot.cafe/users/paul_irish/outbox> .
+<https://toot.cafe/users/paul_irish> <https://www.w3.org/ns/activitystreams#attachment> _:3c8364849892f92729625d62213777b7 .
+<https://toot.cafe/users/paul_irish> <https://www.w3.org/ns/activitystreams#preferredUsername> "paul_irish" .
+<https://toot.cafe/users/paul_irish> <http://joinmastodon.org/ns#featured> <https://toot.cafe/users/paul_irish/collections/featured> .
+<https://toot.cafe/users/paul_irish> <http://joinmastodon.org/ns#discoverable> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<https://toot.cafe/users/paul_irish> <https://www.w3.org/ns/activitystreams#manuallyApprovesFollowers> "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<https://toot.cafe/users/paul_irish> <http://www.w3.org/ns/ldp#inbox> <https://toot.cafe/users/paul_irish/inbox> .
+<https://toot.cafe/users/paul_irish> <https://www.w3.org/ns/activitystreams#image> _:a6ccf426504adb42b0d5561a1cb88230 .
+<https://indieweb.social/users/dalmaer#main-key> <https://w3id.org/security#publicKeyPem> "-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAxmmiNIIr0Z0hjkYolYjD\nyaMGFcrrKQdPKKi3+vS4wV1UB2veU3q38VT1/jcSTvZY0UJfJvWDga0AwaSNMaJb\nWrTOju0VvXl4c9au+l35gdZbr7mWu1S5qKzTO8qMVvk0UoaINW418bF5fmcc8ym2\n7asZ5k/zAONlxSfJTAW7WhxAXE8fISdM0JN83YrgTVgVwWEp3ibfplOVnZT8mfsq\nIqTrZw9NZ/mheiK9QhmX7EM46go3wvKWAPfY2TjrLQa3272To47Ky3mhgotnBhSm\n4jrh4OYUI+HlQLG16mzSXRo3RMVbROihPRz8hDbitNI5cAoge3lzuniZaGBmX+bw\nyQIDAQAB\n-----END PUBLIC KEY-----\n" .
+<https://indieweb.social/users/dalmaer#main-key> <https://w3id.org/security#owner> <https://indieweb.social/users/dalmaer> .
+<https://mastodon.social/users/jaffathecake> <https://www.w3.org/ns/activitystreams#icon> _:6322d231595358d163cd4c65d93410f6 .
+<https://mastodon.social/users/jaffathecake> <http://joinmastodon.org/ns#featuredTags> <https://mastodon.social/users/jaffathecake/collections/tags> .
+<https://mastodon.social/users/jaffathecake> <https://www.w3.org/ns/activitystreams#published> "2016-11-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://mastodon.social/users/jaffathecake> <https://www.w3.org/ns/activitystreams#following> <https://mastodon.social/users/jaffathecake/following> .
+<https://mastodon.social/users/jaffathecake> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://www.w3.org/ns/activitystreams#Person> .
+<https://mastodon.social/users/jaffathecake> <https://www.w3.org/ns/activitystreams#followers> <https://mastodon.social/users/jaffathecake/followers> .
+<https://mastodon.social/users/jaffathecake> <https://www.w3.org/ns/activitystreams#url> <https://mastodon.social/@jaffathecake> .
+<https://mastodon.social/users/jaffathecake> <https://www.w3.org/ns/activitystreams#summary> "<p>Developer advocate working on Chrome. Once swam to the end of an infinity pool. No thought goes unpublished. &#39;IMO&#39; implicit. He/him.</p>" .
+<https://mastodon.social/users/jaffathecake> <http://joinmastodon.org/ns#devices> <https://mastodon.social/users/jaffathecake/collections/devices> .
+<https://mastodon.social/users/jaffathecake> <https://www.w3.org/ns/activitystreams#name> "Jake Archibald" .
+<https://mastodon.social/users/jaffathecake> <https://www.w3.org/ns/activitystreams#endpoints> _:2f224f51a5150a7e446f0eeaafcdfa1 .
+<https://mastodon.social/users/jaffathecake> <https://w3id.org/security#publicKey> <https://mastodon.social/users/jaffathecake#main-key> .
+<https://mastodon.social/users/jaffathecake> <https://www.w3.org/ns/activitystreams#outbox> <https://mastodon.social/users/jaffathecake/outbox> .
+<https://mastodon.social/users/jaffathecake> <https://www.w3.org/ns/activitystreams#preferredUsername> "jaffathecake" .
+<https://mastodon.social/users/jaffathecake> <http://joinmastodon.org/ns#featured> <https://mastodon.social/users/jaffathecake/collections/featured> .
+<https://mastodon.social/users/jaffathecake> <http://joinmastodon.org/ns#discoverable> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<https://mastodon.social/users/jaffathecake> <https://www.w3.org/ns/activitystreams#manuallyApprovesFollowers> "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<https://mastodon.social/users/jaffathecake> <http://www.w3.org/ns/ldp#inbox> <https://mastodon.social/users/jaffathecake/inbox> .
+<https://mastodon.social/users/jaffathecake> <https://www.w3.org/ns/activitystreams#image> _:744beb37baa617efb9ca97780979884f .
+<https://fosstodon.org/users/pamelafox#main-key> <https://w3id.org/security#publicKeyPem> "-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA32nIzrk8lfMtMWHB3Njf\nLEp2r4XRPOBlzO4ZmCAWjUPBa0Q2JdHeqRxcr/GxTEWqDYI/T0L0ksVP7m3oht2n\nC2tg47y13j9X5q0uLqBVRM34lvsq8CjbsTDnJq/nU/JKkpLPNZ97pjx0AG5dw97s\ny5xc8A+ZoIhxcZpV5efdhIUqM96cT72l/9RUzWAwbvYn3CGWHAvpPgBEbwntFY6g\nK4dWmB0CD/Qnp/Iy6e8a8cW40Efb8Q8gFqJqjEJffjJUlSSN4yHpq5+4I98E4hxG\nTkqfye5Z3YzVgjjI4LLX6lwlaCdIfyFojhIbR6eAza8rKDPkCYHMUHGI6xnx0DDG\nowIDAQAB\n-----END PUBLIC KEY-----\n" .
+<https://fosstodon.org/users/pamelafox#main-key> <https://w3id.org/security#owner> <https://fosstodon.org/users/pamelafox> .
+<https://fosstodon.org/users/pamelafox> <https://www.w3.org/ns/activitystreams#icon> _:c192e725ac5b038c39671e5a09c73604 .
+<https://fosstodon.org/users/pamelafox> <http://joinmastodon.org/ns#featuredTags> <https://fosstodon.org/users/pamelafox/collections/tags> .
+<https://fosstodon.org/users/pamelafox> <https://www.w3.org/ns/activitystreams#published> "2022-11-04T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://fosstodon.org/users/pamelafox> <https://www.w3.org/ns/activitystreams#following> <https://fosstodon.org/users/pamelafox/following> .
+<https://fosstodon.org/users/pamelafox> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://www.w3.org/ns/activitystreams#Person> .
+<https://fosstodon.org/users/pamelafox> <https://www.w3.org/ns/activitystreams#followers> <https://fosstodon.org/users/pamelafox/followers> .
+<https://fosstodon.org/users/pamelafox> <https://www.w3.org/ns/activitystreams#url> <https://fosstodon.org/@pamelafox> .
+<https://fosstodon.org/users/pamelafox> <https://www.w3.org/ns/activitystreams#summary> "<p>(she/her) I like to teach, learn, and create. Currently a Principal Cloud Advocate in Python at Microsoft.</p>" .
+<https://fosstodon.org/users/pamelafox> <http://joinmastodon.org/ns#devices> <https://fosstodon.org/users/pamelafox/collections/devices> .
+<https://fosstodon.org/users/pamelafox> <https://www.w3.org/ns/activitystreams#name> "Pamela Fox" .
+<https://fosstodon.org/users/pamelafox> <https://www.w3.org/ns/activitystreams#endpoints> _:5a971f5b1219c2ac3a342d6f75cdd65e .
+<https://fosstodon.org/users/pamelafox> <https://w3id.org/security#publicKey> <https://fosstodon.org/users/pamelafox#main-key> .
+<https://fosstodon.org/users/pamelafox> <https://www.w3.org/ns/activitystreams#outbox> <https://fosstodon.org/users/pamelafox/outbox> .
+<https://fosstodon.org/users/pamelafox> <https://www.w3.org/ns/activitystreams#attachment> _:368be0095173f986b3774b5e64759b54 .
+<https://fosstodon.org/users/pamelafox> <https://www.w3.org/ns/activitystreams#attachment> _:902647999c0831a83ed543e418524163 .
+<https://fosstodon.org/users/pamelafox> <https://www.w3.org/ns/activitystreams#preferredUsername> "pamelafox" .
+<https://fosstodon.org/users/pamelafox> <http://joinmastodon.org/ns#featured> <https://fosstodon.org/users/pamelafox/collections/featured> .
+<https://fosstodon.org/users/pamelafox> <http://joinmastodon.org/ns#discoverable> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<https://fosstodon.org/users/pamelafox> <https://www.w3.org/ns/activitystreams#manuallyApprovesFollowers> "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<https://fosstodon.org/users/pamelafox> <http://www.w3.org/ns/ldp#inbox> <https://fosstodon.org/users/pamelafox/inbox> .
+<https://indieweb.social/users/dalmaer/following> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://www.w3.org/ns/activitystreams#OrderedCollection> .
+<https://indieweb.social/users/dalmaer/following> <https://www.w3.org/ns/activitystreams#totalItems> "1224"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://indieweb.social/users/dalmaer/following> <https://www.w3.org/ns/activitystreams#first> <https://indieweb.social/users/dalmaer/following?page=1> .
+<https://indieweb.social/users/dalmaer> <https://www.w3.org/ns/activitystreams#icon> _:1a3f9b13b10644487ae113a8a6d953d9 .
+<https://indieweb.social/users/dalmaer> <http://joinmastodon.org/ns#featuredTags> <https://indieweb.social/users/dalmaer/collections/tags> .
+<https://indieweb.social/users/dalmaer> <https://www.w3.org/ns/activitystreams#published> "2022-11-04T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://indieweb.social/users/dalmaer> <https://www.w3.org/ns/activitystreams#following> <https://indieweb.social/users/dalmaer/following> .
+<https://indieweb.social/users/dalmaer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://www.w3.org/ns/activitystreams#Person> .
+<https://indieweb.social/users/dalmaer> <https://www.w3.org/ns/activitystreams#followers> <https://indieweb.social/users/dalmaer/followers> .
+<https://indieweb.social/users/dalmaer> <https://www.w3.org/ns/activitystreams#url> <https://indieweb.social/@dalmaer> .
+<https://indieweb.social/users/dalmaer> <https://www.w3.org/ns/activitystreams#summary> "<p>Bringing nuance to a knife fight 🔪, surprisingly older than @bgalbs, and working for @ShopifyDevs.  Past: Ajaxian, Google, Mozilla, webOS, and more!</p>" .
+<https://indieweb.social/users/dalmaer> <http://joinmastodon.org/ns#devices> <https://indieweb.social/users/dalmaer/collections/devices> .
+<https://indieweb.social/users/dalmaer> <https://www.w3.org/ns/activitystreams#name> "Dion Almaer" .
+<https://indieweb.social/users/dalmaer> <https://www.w3.org/ns/activitystreams#endpoints> _:d51bc10b9852d443deb55d96a7ea3f9c .
+<https://indieweb.social/users/dalmaer> <https://w3id.org/security#publicKey> <https://indieweb.social/users/dalmaer#main-key> .
+<https://indieweb.social/users/dalmaer> <https://www.w3.org/ns/activitystreams#outbox> <https://indieweb.social/users/dalmaer/outbox> .
+<https://indieweb.social/users/dalmaer> <https://www.w3.org/ns/activitystreams#preferredUsername> "dalmaer" .
+<https://indieweb.social/users/dalmaer> <http://joinmastodon.org/ns#featured> <https://indieweb.social/users/dalmaer/collections/featured> .
+<https://indieweb.social/users/dalmaer> <http://joinmastodon.org/ns#discoverable> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<https://indieweb.social/users/dalmaer> <https://www.w3.org/ns/activitystreams#manuallyApprovesFollowers> "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<https://indieweb.social/users/dalmaer> <http://www.w3.org/ns/ldp#inbox> <https://indieweb.social/users/dalmaer/inbox> .
+<https://indieweb.social/users/dalmaer> <https://www.w3.org/ns/activitystreams#image> _:957a3381b653b59e9bf8e2f49d4477fb .
+<https://indieweb.social/users/addyosmani> <https://www.w3.org/ns/activitystreams#icon> _:280b9e5adaaba8c8b7ca8a754b26aa3b .
+<https://indieweb.social/users/addyosmani> <http://joinmastodon.org/ns#featuredTags> <https://indieweb.social/users/addyosmani/collections/tags> .
+<https://indieweb.social/users/addyosmani> <https://www.w3.org/ns/activitystreams#published> "2022-11-05T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://indieweb.social/users/addyosmani> <https://www.w3.org/ns/activitystreams#following> <https://indieweb.social/users/addyosmani/following> .
+<https://indieweb.social/users/addyosmani> <https://www.w3.org/ns/activitystreams#tag> _:28bbe66e82ad2ef1a5515a2aedb3b4e4 .
+<https://indieweb.social/users/addyosmani> <https://www.w3.org/ns/activitystreams#tag> _:6777ca1cfad62c43a4ca42a0658abb91 .
+<https://indieweb.social/users/addyosmani> <https://www.w3.org/ns/activitystreams#tag> _:8d2ca13e35d8f04ab1fee29446f2b4c3 .
+<https://indieweb.social/users/addyosmani> <https://www.w3.org/ns/activitystreams#tag> _:cef21c462bda92ef3f4d3e244cbfcc58 .
+<https://indieweb.social/users/addyosmani> <https://www.w3.org/ns/activitystreams#tag> _:e82d1293f9f231a441f007a29d373fa7 .
+<https://indieweb.social/users/addyosmani> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://www.w3.org/ns/activitystreams#Person> .
+<https://indieweb.social/users/addyosmani> <https://www.w3.org/ns/activitystreams#followers> <https://indieweb.social/users/addyosmani/followers> .
+<https://indieweb.social/users/addyosmani> <https://www.w3.org/ns/activitystreams#url> <https://indieweb.social/@addyosmani> .
+<https://indieweb.social/users/addyosmani> <https://www.w3.org/ns/activitystreams#summary> "<p>Engineering leader working on Google Chrome. </p><p>I tend to talk about <a href=\"https://indieweb.social/tags/softwareengineering\" class=\"mention hashtag\" rel=\"tag\">#<span>softwareengineering</span></a>, share tips on <a href=\"https://indieweb.social/tags/webdevelopment\" class=\"mention hashtag\" rel=\"tag\">#<span>webdevelopment</span></a> <a href=\"https://indieweb.social/tags/webperformance\" class=\"mention hashtag\" rel=\"tag\">#<span>webperformance</span></a> <a href=\"https://indieweb.social/tags/leadership\" class=\"mention hashtag\" rel=\"tag\">#<span>leadership</span></a> and <a href=\"https://indieweb.social/tags/management\" class=\"mention hashtag\" rel=\"tag\">#<span>management</span></a>.</p>" .
+<https://indieweb.social/users/addyosmani> <http://joinmastodon.org/ns#devices> <https://indieweb.social/users/addyosmani/collections/devices> .
+<https://indieweb.social/users/addyosmani> <https://www.w3.org/ns/activitystreams#name> "Addy Osmani" .
+<https://indieweb.social/users/addyosmani> <https://www.w3.org/ns/activitystreams#endpoints> _:8536a6e0050f9e395f7a76c4a4b7ddf2 .
+<https://indieweb.social/users/addyosmani> <https://w3id.org/security#publicKey> <https://indieweb.social/users/addyosmani#main-key> .
+<https://indieweb.social/users/addyosmani> <https://www.w3.org/ns/activitystreams#outbox> <https://indieweb.social/users/addyosmani/outbox> .
+<https://indieweb.social/users/addyosmani> <https://www.w3.org/ns/activitystreams#attachment> _:2a17b551a5c9481dd447dbc2dfd30691 .
+<https://indieweb.social/users/addyosmani> <https://www.w3.org/ns/activitystreams#attachment> _:414d216edfa330269ffe56788c83ad08 .
+<https://indieweb.social/users/addyosmani> <https://www.w3.org/ns/activitystreams#attachment> _:754db7b9bf50517a10a351f7c3068430 .
+<https://indieweb.social/users/addyosmani> <https://www.w3.org/ns/activitystreams#attachment> _:cb81a811117d2e9898b7e67339545bc3 .
+<https://indieweb.social/users/addyosmani> <https://www.w3.org/ns/activitystreams#preferredUsername> "addyosmani" .
+<https://indieweb.social/users/addyosmani> <http://joinmastodon.org/ns#featured> <https://indieweb.social/users/addyosmani/collections/featured> .
+<https://indieweb.social/users/addyosmani> <http://joinmastodon.org/ns#discoverable> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<https://indieweb.social/users/addyosmani> <https://www.w3.org/ns/activitystreams#manuallyApprovesFollowers> "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<https://indieweb.social/users/addyosmani> <https://www.w3.org/ns/activitystreams#alsoKnownAs> <https://toot.cafe/users/addyosmani> .
+<https://indieweb.social/users/addyosmani> <http://www.w3.org/ns/ldp#inbox> <https://indieweb.social/users/addyosmani/inbox> .
+<https://indieweb.social/users/addyosmani> <https://www.w3.org/ns/activitystreams#image> _:6e2e219a4e190a74fea0134ea133541d .
+<https://mastodon.social/users/jaffathecake/following?page=1> <https://www.w3.org/ns/activitystreams#partOf> <https://mastodon.social/users/jaffathecake/following> .
+<https://mastodon.social/users/jaffathecake/following?page=1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://www.w3.org/ns/activitystreams#OrderedCollectionPage> .
+<https://mastodon.social/users/jaffathecake/following?page=1> <https://www.w3.org/ns/activitystreams#items> _:22ac4fb0802a0bc623d29d041113ddf .
+<https://mastodon.social/users/jaffathecake/following?page=1> <https://www.w3.org/ns/activitystreams#totalItems> "265"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://mastodon.social/users/jaffathecake/following?page=1> <https://www.w3.org/ns/activitystreams#next> <https://mastodon.social/users/jaffathecake/following?page=2> .
+<https://mastodon.social/users/robpalmer/following> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://www.w3.org/ns/activitystreams#OrderedCollection> .
+<https://mastodon.social/users/robpalmer/following> <https://www.w3.org/ns/activitystreams#totalItems> "111"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://mastodon.social/users/robpalmer/following> <https://www.w3.org/ns/activitystreams#first> <https://mastodon.social/users/robpalmer/following?page=1> .
+<https://front-end.social/users/SaraSoueidan/following> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://www.w3.org/ns/activitystreams#OrderedCollection> .
+<https://front-end.social/users/SaraSoueidan/following> <https://www.w3.org/ns/activitystreams#totalItems> "52"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://front-end.social/users/SaraSoueidan/following> <https://www.w3.org/ns/activitystreams#first> <https://front-end.social/users/SaraSoueidan/following?page=1> .
+<https://pie.gd/users/yaypie/following> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://www.w3.org/ns/activitystreams#OrderedCollection> .
+<https://pie.gd/users/yaypie/following> <https://www.w3.org/ns/activitystreams#totalItems> "150"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://pie.gd/users/yaypie/following> <https://www.w3.org/ns/activitystreams#first> <https://pie.gd/users/yaypie/following?page=1> .
+<https://toot.cafe/users/slightlyoff> <https://www.w3.org/ns/activitystreams#icon> _:14b6f99571d496d5dea9afad50ad7e7c .
+<https://toot.cafe/users/slightlyoff> <http://joinmastodon.org/ns#featuredTags> <https://toot.cafe/users/slightlyoff/collections/tags> .
+<https://toot.cafe/users/slightlyoff> <https://www.w3.org/ns/activitystreams#published> "2017-04-07T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://toot.cafe/users/slightlyoff> <https://www.w3.org/ns/activitystreams#following> <https://toot.cafe/users/slightlyoff/following> .
+<https://toot.cafe/users/slightlyoff> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://www.w3.org/ns/activitystreams#Person> .
+<https://toot.cafe/users/slightlyoff> <https://www.w3.org/ns/activitystreams#followers> <https://toot.cafe/users/slightlyoff/followers> .
+<https://toot.cafe/users/slightlyoff> <https://www.w3.org/ns/activitystreams#url> <https://toot.cafe/@slightlyoff> .
+<https://toot.cafe/users/slightlyoff> <https://www.w3.org/ns/activitystreams#summary> "<p>Trying to make the web work for *everyone*.</p><p><a href=\"https://infrequently.org/about-me/\" target=\"_blank\" rel=\"nofollow noopener noreferrer\"><span class=\"invisible\">https://</span><span class=\"\">infrequently.org/about-me/</span><span class=\"invisible\"></span></a></p>" .
+<https://toot.cafe/users/slightlyoff> <http://joinmastodon.org/ns#devices> <https://toot.cafe/users/slightlyoff/collections/devices> .
+<https://toot.cafe/users/slightlyoff> <https://www.w3.org/ns/activitystreams#name> "Alex Russell" .
+<https://toot.cafe/users/slightlyoff> <https://www.w3.org/ns/activitystreams#endpoints> _:1305259eba6ec19016e5d03ee9c7298d .
+<https://toot.cafe/users/slightlyoff> <https://w3id.org/security#publicKey> <https://toot.cafe/users/slightlyoff#main-key> .
+<https://toot.cafe/users/slightlyoff> <https://www.w3.org/ns/activitystreams#outbox> <https://toot.cafe/users/slightlyoff/outbox> .
+<https://toot.cafe/users/slightlyoff> <https://www.w3.org/ns/activitystreams#attachment> _:52caa6e33271dd6f490342064cb6ffc6 .
+<https://toot.cafe/users/slightlyoff> <https://www.w3.org/ns/activitystreams#attachment> _:7aa767dc87c8a87ed12ce07b24cc5fd5 .
+<https://toot.cafe/users/slightlyoff> <https://www.w3.org/ns/activitystreams#attachment> _:807200655cbcc69f138f7f1ebca61224 .
+<https://toot.cafe/users/slightlyoff> <https://www.w3.org/ns/activitystreams#attachment> _:d42483c22e4ad7c8874a8cc4535f7a34 .
+<https://toot.cafe/users/slightlyoff> <https://www.w3.org/ns/activitystreams#preferredUsername> "slightlyoff" .
+<https://toot.cafe/users/slightlyoff> <http://joinmastodon.org/ns#featured> <https://toot.cafe/users/slightlyoff/collections/featured> .
+<https://toot.cafe/users/slightlyoff> <http://joinmastodon.org/ns#discoverable> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<https://toot.cafe/users/slightlyoff> <https://www.w3.org/ns/activitystreams#manuallyApprovesFollowers> "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<https://toot.cafe/users/slightlyoff> <http://www.w3.org/ns/ldp#inbox> <https://toot.cafe/users/slightlyoff/inbox> .
+<https://toot.cafe/users/slightlyoff> <https://www.w3.org/ns/activitystreams#image> _:d7281c2f3415bc0e664d276591d01eea .
+<https://front-end.social/users/SaraSoueidan> <https://www.w3.org/ns/activitystreams#icon> _:59df086739a188ddcdb3d685bf2f412f .
+<https://front-end.social/users/SaraSoueidan> <http://joinmastodon.org/ns#featuredTags> <https://front-end.social/users/SaraSoueidan/collections/tags> .
+<https://front-end.social/users/SaraSoueidan> <https://www.w3.org/ns/activitystreams#published> "2022-11-05T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://front-end.social/users/SaraSoueidan> <https://www.w3.org/ns/activitystreams#following> <https://front-end.social/users/SaraSoueidan/following> .
+<https://front-end.social/users/SaraSoueidan> <https://www.w3.org/ns/activitystreams#tag> _:3279d7b463b2d4a54635f63a01952b2d .
+<https://front-end.social/users/SaraSoueidan> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://www.w3.org/ns/activitystreams#Person> .
+<https://front-end.social/users/SaraSoueidan> <https://www.w3.org/ns/activitystreams#followers> <https://front-end.social/users/SaraSoueidan/followers> .
+<https://front-end.social/users/SaraSoueidan> <https://www.w3.org/ns/activitystreams#url> <https://front-end.social/@SaraSoueidan> .
+<https://front-end.social/users/SaraSoueidan> <https://www.w3.org/ns/activitystreams#summary> "<p>🇱🇧 Independent inclusive UI/design engineer, author, &amp; speaker • Accessibility &amp; progressive enhancement advocate • Minimalist • Working on an <a href=\"https://front-end.social/tags/a11y\" class=\"mention hashtag\" rel=\"tag\">#<span>a11y</span></a> course coming soon @ <a href=\"https://practical-accessibility.today\" target=\"_blank\" rel=\"nofollow noopener noreferrer\"><span class=\"invisible\">https://</span><span class=\"\">practical-accessibility.today</span><span class=\"invisible\"></span></a></p>" .
+<https://front-end.social/users/SaraSoueidan> <http://joinmastodon.org/ns#devices> <https://front-end.social/users/SaraSoueidan/collections/devices> .
+<https://front-end.social/users/SaraSoueidan> <https://www.w3.org/ns/activitystreams#name> "Sara Soueidan" .
+<https://front-end.social/users/SaraSoueidan> <https://www.w3.org/ns/activitystreams#endpoints> _:523b353444c77d5c41262ad53ed9df02 .
+<https://front-end.social/users/SaraSoueidan> <https://w3id.org/security#publicKey> <https://front-end.social/users/SaraSoueidan#main-key> .
+<https://front-end.social/users/SaraSoueidan> <https://www.w3.org/ns/activitystreams#outbox> <https://front-end.social/users/SaraSoueidan/outbox> .
+<https://front-end.social/users/SaraSoueidan> <https://www.w3.org/ns/activitystreams#attachment> _:49af351d1f40fac002e33218d458c2e .
+<https://front-end.social/users/SaraSoueidan> <https://www.w3.org/ns/activitystreams#attachment> _:60e35a9e9eea6de1e47a908ff57e1ad8 .
+<https://front-end.social/users/SaraSoueidan> <https://www.w3.org/ns/activitystreams#attachment> _:8cdd67eec97aa1ef77e30b2ee901450f .
+<https://front-end.social/users/SaraSoueidan> <https://www.w3.org/ns/activitystreams#attachment> _:95d7646f3eb4979e5280faedcd2e538d .
+<https://front-end.social/users/SaraSoueidan> <https://www.w3.org/ns/activitystreams#preferredUsername> "SaraSoueidan" .
+<https://front-end.social/users/SaraSoueidan> <http://joinmastodon.org/ns#featured> <https://front-end.social/users/SaraSoueidan/collections/featured> .
+<https://front-end.social/users/SaraSoueidan> <http://joinmastodon.org/ns#discoverable> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<https://front-end.social/users/SaraSoueidan> <https://www.w3.org/ns/activitystreams#manuallyApprovesFollowers> "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<https://front-end.social/users/SaraSoueidan> <https://www.w3.org/ns/activitystreams#alsoKnownAs> <https://mastodon.social/users/SaraSoueidan> .
+<https://front-end.social/users/SaraSoueidan> <http://www.w3.org/ns/ldp#inbox> <https://front-end.social/users/SaraSoueidan/inbox> .
+<https://front-end.social/users/SaraSoueidan> <https://www.w3.org/ns/activitystreams#image> _:793b69fdb74456f0eaa9afc99b2c0098 .
+<https://fosstodon.org/users/nzakas/following?page=1> <https://www.w3.org/ns/activitystreams#partOf> <https://fosstodon.org/users/nzakas/following> .
+<https://fosstodon.org/users/nzakas/following?page=1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://www.w3.org/ns/activitystreams#OrderedCollectionPage> .
+<https://fosstodon.org/users/nzakas/following?page=1> <https://www.w3.org/ns/activitystreams#items> _:c1f1a35789850b2706199042ec044a1 .
+<https://fosstodon.org/users/nzakas/following?page=1> <https://www.w3.org/ns/activitystreams#totalItems> "13"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://fosstodon.org/users/nzakas/following?page=1> <https://www.w3.org/ns/activitystreams#next> <https://fosstodon.org/users/nzakas/following?page=2> .
+<https://mastodon.social/users/robpalmer> <https://www.w3.org/ns/activitystreams#icon> _:e1edc209784b1da7ccd265351d21aed5 .
+<https://mastodon.social/users/robpalmer> <http://joinmastodon.org/ns#featuredTags> <https://mastodon.social/users/robpalmer/collections/tags> .
+<https://mastodon.social/users/robpalmer> <https://www.w3.org/ns/activitystreams#published> "2022-11-13T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://mastodon.social/users/robpalmer> <https://www.w3.org/ns/activitystreams#following> <https://mastodon.social/users/robpalmer/following> .
+<https://mastodon.social/users/robpalmer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://www.w3.org/ns/activitystreams#Person> .
+<https://mastodon.social/users/robpalmer> <https://www.w3.org/ns/activitystreams#followers> <https://mastodon.social/users/robpalmer/followers> .
+<https://mastodon.social/users/robpalmer> <https://www.w3.org/ns/activitystreams#url> <https://mastodon.social/@robpalmer> .
+<https://mastodon.social/users/robpalmer> <https://www.w3.org/ns/activitystreams#summary> "<p>JavaScript Infrastructure &amp; Tooling at Bloomberg. Co-chairing TC39. Likely to post about JS &amp; software performance. Opinions are my own.</p>" .
+<https://mastodon.social/users/robpalmer> <http://joinmastodon.org/ns#devices> <https://mastodon.social/users/robpalmer/collections/devices> .
+<https://mastodon.social/users/robpalmer> <https://www.w3.org/ns/activitystreams#name> "Rob Palmer" .
+<https://mastodon.social/users/robpalmer> <https://www.w3.org/ns/activitystreams#endpoints> _:620b5081214930dbbe74763ebbe69367 .
+<https://mastodon.social/users/robpalmer> <https://w3id.org/security#publicKey> <https://mastodon.social/users/robpalmer#main-key> .
+<https://mastodon.social/users/robpalmer> <https://www.w3.org/ns/activitystreams#outbox> <https://mastodon.social/users/robpalmer/outbox> .
+<https://mastodon.social/users/robpalmer> <https://www.w3.org/ns/activitystreams#preferredUsername> "robpalmer" .
+<https://mastodon.social/users/robpalmer> <http://joinmastodon.org/ns#featured> <https://mastodon.social/users/robpalmer/collections/featured> .
+<https://mastodon.social/users/robpalmer> <http://joinmastodon.org/ns#discoverable> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<https://mastodon.social/users/robpalmer> <https://www.w3.org/ns/activitystreams#manuallyApprovesFollowers> "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<https://mastodon.social/users/robpalmer> <http://www.w3.org/ns/ldp#inbox> <https://mastodon.social/users/robpalmer/inbox> .
+<https://mastodon.social/users/robpalmer> <https://www.w3.org/ns/activitystreams#image> _:a5f95eeeaab82c6cdbc85b2bbdce5fc6 .
+<https://mastodon.social/users/rust_discussions/following?page=1> <https://www.w3.org/ns/activitystreams#partOf> <https://mastodon.social/users/rust_discussions/following> .
+<https://mastodon.social/users/rust_discussions/following?page=1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://www.w3.org/ns/activitystreams#OrderedCollectionPage> .
+<https://mastodon.social/users/rust_discussions/following?page=1> <https://www.w3.org/ns/activitystreams#items> _:f473c1d7611f85c9bdca3db63e08a9c2 .
+<https://mastodon.social/users/rust_discussions/following?page=1> <https://www.w3.org/ns/activitystreams#totalItems> "41"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://mastodon.social/users/rust_discussions/following?page=1> <https://www.w3.org/ns/activitystreams#next> <https://mastodon.social/users/rust_discussions/following?page=2> .
+<https://toot.cafe/users/slightlyoff/following?page=1> <https://www.w3.org/ns/activitystreams#partOf> <https://toot.cafe/users/slightlyoff/following> .
+<https://toot.cafe/users/slightlyoff/following?page=1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://www.w3.org/ns/activitystreams#OrderedCollectionPage> .
+<https://toot.cafe/users/slightlyoff/following?page=1> <https://www.w3.org/ns/activitystreams#items> _:70b1dd3a35ec59a49f5ea0f6a7b9b29f .
+<https://toot.cafe/users/slightlyoff/following?page=1> <https://www.w3.org/ns/activitystreams#totalItems> "567"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://toot.cafe/users/slightlyoff/following?page=1> <https://www.w3.org/ns/activitystreams#next> <https://toot.cafe/users/slightlyoff/following?page=2> .
+<https://toot.cafe/users/paul_irish/following?page=1> <https://www.w3.org/ns/activitystreams#partOf> <https://toot.cafe/users/paul_irish/following> .
+<https://toot.cafe/users/paul_irish/following?page=1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://www.w3.org/ns/activitystreams#OrderedCollectionPage> .
+<https://toot.cafe/users/paul_irish/following?page=1> <https://www.w3.org/ns/activitystreams#items> _:abddc35dcc2e2e6ba1804dbee9c3daf9 .
+<https://toot.cafe/users/paul_irish/following?page=1> <https://www.w3.org/ns/activitystreams#totalItems> "1097"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://toot.cafe/users/paul_irish/following?page=1> <https://www.w3.org/ns/activitystreams#next> <https://toot.cafe/users/paul_irish/following?page=2> .
+<https://mastodon.social/users/jaffathecake/following> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://www.w3.org/ns/activitystreams#OrderedCollection> .
+<https://mastodon.social/users/jaffathecake/following> <https://www.w3.org/ns/activitystreams#totalItems> "265"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://mastodon.social/users/jaffathecake/following> <https://www.w3.org/ns/activitystreams#first> <https://mastodon.social/users/jaffathecake/following?page=1> .
+<https://indieweb.social/users/dalmaer/following?page=1> <https://www.w3.org/ns/activitystreams#partOf> <https://indieweb.social/users/dalmaer/following> .
+<https://indieweb.social/users/dalmaer/following?page=1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://www.w3.org/ns/activitystreams#OrderedCollectionPage> .
+<https://indieweb.social/users/dalmaer/following?page=1> <https://www.w3.org/ns/activitystreams#items> _:489346df57333b326f03971620a240f6 .
+<https://indieweb.social/users/dalmaer/following?page=1> <https://www.w3.org/ns/activitystreams#totalItems> "1224"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://indieweb.social/users/dalmaer/following?page=1> <https://www.w3.org/ns/activitystreams#next> <https://indieweb.social/users/dalmaer/following?page=2> .
+<https://fosstodon.org/users/caridy#main-key> <https://w3id.org/security#publicKeyPem> "-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAq/JoeU+dhjFi24VrvK7Z\nw5mf3Zk6x2zybocTnX1A491nkmsIJ/31+U0UP/aSYarobRex4WHdjaYXxOXp5TFr\ngv895+z4opSjqvkfSrvbmetgJAmLDZBXg4tRQrMmHybAdnbMRLww/0KW+j3izMGI\n/vQ8z5E/oxDNKkntMGubspl67Db3KT76G7fb/1HbUY/ZWJBINbUaoi7TjOvRoF8a\np2iqT2fs8gNEoJPcTNxf8Xnt/KNrDQdXqB8msblXih5x9x9r4am7XcYKpudtGvCR\niIV4c+/A+iVI0UQ/HNGK17ysx/4OBM6+TemsIlVUv1ZMCsN6hNgfsJNHluM+ODbr\nQQIDAQAB\n-----END PUBLIC KEY-----\n" .
+<https://fosstodon.org/users/caridy#main-key> <https://w3id.org/security#owner> <https://fosstodon.org/users/caridy> .
+<https://toot.cafe/users/slightlyoff#main-key> <https://w3id.org/security#publicKeyPem> "-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAx4CJfiYqHjKhK/MadStF\nnM7iCWtQn8dPU/LZ6vpTO5/5h4udNE3zVX5lBZEC2FVuDT90VWp8PVnqPe0josKv\nwVegIxQl/SIlGp0GfwZ7j9+zpZ97yjC+bgHq2z3VbEXJByqjgA21k2o7jefkuZhH\ntH9Cx0aLi8xHVfMUgD9n+sD6Ou/mtCt0ZdwIOzuG96Am9o9XTvdir6L4InAi1kn4\nMQcMfg8uRSrehMvn5UbWYtUZk1lj+07/ZdVEctVzC2auFp+/E+Okf4iYtrTbIe7f\nn6hUx6uAmM8wikwbVCJCt2zmrOpWNyumhqoVir7aUIwsAmtbSASlZWmhMy+xttul\nnwIDAQAB\n-----END PUBLIC KEY-----\n" .
+<https://toot.cafe/users/slightlyoff#main-key> <https://w3id.org/security#owner> <https://toot.cafe/users/slightlyoff> .
+<https://a11y.info/users/scottohara/following?page=1> <https://www.w3.org/ns/activitystreams#partOf> <https://a11y.info/users/scottohara/following> .
+<https://a11y.info/users/scottohara/following?page=1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://www.w3.org/ns/activitystreams#OrderedCollectionPage> .
+<https://a11y.info/users/scottohara/following?page=1> <https://www.w3.org/ns/activitystreams#items> _:d263a5dcbc2e079e2f2f74b8ea2a5651 .
+<https://a11y.info/users/scottohara/following?page=1> <https://www.w3.org/ns/activitystreams#totalItems> "46"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://a11y.info/users/scottohara/following?page=1> <https://www.w3.org/ns/activitystreams#next> <https://a11y.info/users/scottohara/following?page=2> .
+<https://toot.cafe/users/paul_irish/following> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://www.w3.org/ns/activitystreams#OrderedCollection> .
+<https://toot.cafe/users/paul_irish/following> <https://www.w3.org/ns/activitystreams#totalItems> "1097"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://toot.cafe/users/paul_irish/following> <https://www.w3.org/ns/activitystreams#first> <https://toot.cafe/users/paul_irish/following?page=1> .
+<https://mastodon.social/users/robpalmer#main-key> <https://w3id.org/security#publicKeyPem> "-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA5OBsW/QM58R8q00TgrGi\ns3Hey8P31d+1opPttStxhgD1oeYRirDOtT54lyRSOVEhG3XyBdKcFxbo/UtUbNXU\nsjCtCVLkxEtxSI12b8go3WtevnyswmSUabAZEdm6Ms+AB8Pod0AY6Yq7M+YpyyfC\nf7b//pHLM9kpfx+LCvPgQpGAx0/DCr4CdsiOynTFO0aDDt3WuPi/WUHDhvQVSJJm\nrqY1yJValW20QgSLvVI5oBRApcUaEWrDqoRFKjes7dGAp2mG/5FAiqTQ01pprITi\nowt8xd0jKEbuGKXsVxuOLsgoi+6mYQPBC/RgCTsipt/RR4S83gtS07BTKswXQV/q\nzQIDAQAB\n-----END PUBLIC KEY-----\n" .
+<https://mastodon.social/users/robpalmer#main-key> <https://w3id.org/security#owner> <https://mastodon.social/users/robpalmer> .
+<https://pie.gd/users/yaypie#main-key> <https://w3id.org/security#publicKeyPem> "-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAsRYoGkWq8Nl2jZ4zD4yb\n15cUB03A7dwtPX2ysfUBM+YyRMbmpTY1IhMkEK46+oy8kKVYeOSqBb2+LOr04OPm\nBJT9+8lGnNMBbLdCpTtc/fnfrCGHNl/D84QNPjsqIz++7ozBVjrUbDymPfYCRafs\nGcQTe1LInLSxXNujX9+iWcqnnd3dlls31SVYimUgCwYolb9Dl2b6qWS5SvMeI8Y8\nNHLqGq7v+bBqTEKFYi010JcEBoV7wi5nC3Ng52DpJM9p4il5baMxH+vXQf/O76sP\n6Id4xn0SgaFwvvAUZa7W2vagXP34W16nwwPcKT9LBBPqxiFMDTHCQTzm5D9uLX6j\ndQIDAQAB\n-----END PUBLIC KEY-----\n" .
+<https://pie.gd/users/yaypie#main-key> <https://w3id.org/security#owner> <https://pie.gd/users/yaypie> .
+<https://a11y.info/users/scottohara/following> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://www.w3.org/ns/activitystreams#OrderedCollection> .
+<https://a11y.info/users/scottohara/following> <https://www.w3.org/ns/activitystreams#totalItems> "46"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://a11y.info/users/scottohara/following> <https://www.w3.org/ns/activitystreams#first> <https://a11y.info/users/scottohara/following?page=1> .
+<https://mastodon.social/users/rust_discussions/following> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://www.w3.org/ns/activitystreams#OrderedCollection> .
+<https://mastodon.social/users/rust_discussions/following> <https://www.w3.org/ns/activitystreams#totalItems> "41"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://mastodon.social/users/rust_discussions/following> <https://www.w3.org/ns/activitystreams#first> <https://mastodon.social/users/rust_discussions/following?page=1> .
+<https://indieweb.social/users/addyosmani/following> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://www.w3.org/ns/activitystreams#OrderedCollection> .
+<https://indieweb.social/users/addyosmani/following> <https://www.w3.org/ns/activitystreams#totalItems> "492"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://indieweb.social/users/addyosmani/following> <https://www.w3.org/ns/activitystreams#first> <https://indieweb.social/users/addyosmani/following?page=1> .
+<https://fosstodon.org/users/nzakas> <https://www.w3.org/ns/activitystreams#icon> _:521b24bf23888ca220068ea6bdb0436e .
+<https://fosstodon.org/users/nzakas> <http://joinmastodon.org/ns#featuredTags> <https://fosstodon.org/users/nzakas/collections/tags> .
+<https://fosstodon.org/users/nzakas> <https://www.w3.org/ns/activitystreams#published> "2022-11-04T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://fosstodon.org/users/nzakas> <https://www.w3.org/ns/activitystreams#following> <https://fosstodon.org/users/nzakas/following> .
+<https://fosstodon.org/users/nzakas> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://www.w3.org/ns/activitystreams#Person> .
+<https://fosstodon.org/users/nzakas> <https://www.w3.org/ns/activitystreams#followers> <https://fosstodon.org/users/nzakas/followers> .
+<https://fosstodon.org/users/nzakas> <https://www.w3.org/ns/activitystreams#url> <https://fosstodon.org/@nzakas> .
+<https://fosstodon.org/users/nzakas> <https://www.w3.org/ns/activitystreams#summary> "<p>Creator of ESLint. Author, programmer, speaker, coach.</p>" .
+<https://fosstodon.org/users/nzakas> <http://joinmastodon.org/ns#devices> <https://fosstodon.org/users/nzakas/collections/devices> .
+<https://fosstodon.org/users/nzakas> <https://www.w3.org/ns/activitystreams#name> "Nicholas C. Zakas" .
+<https://fosstodon.org/users/nzakas> <https://www.w3.org/ns/activitystreams#endpoints> _:50785cce6ad852b8e0e3bb45368d7103 .
+<https://fosstodon.org/users/nzakas> <https://w3id.org/security#publicKey> <https://fosstodon.org/users/nzakas#main-key> .
+<https://fosstodon.org/users/nzakas> <https://www.w3.org/ns/activitystreams#outbox> <https://fosstodon.org/users/nzakas/outbox> .
+<https://fosstodon.org/users/nzakas> <https://www.w3.org/ns/activitystreams#preferredUsername> "nzakas" .
+<https://fosstodon.org/users/nzakas> <http://joinmastodon.org/ns#featured> <https://fosstodon.org/users/nzakas/collections/featured> .
+<https://fosstodon.org/users/nzakas> <http://joinmastodon.org/ns#discoverable> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<https://fosstodon.org/users/nzakas> <https://www.w3.org/ns/activitystreams#manuallyApprovesFollowers> "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<https://fosstodon.org/users/nzakas> <http://www.w3.org/ns/ldp#inbox> <https://fosstodon.org/users/nzakas/inbox> .
+<https://front-end.social/users/SaraSoueidan#main-key> <https://w3id.org/security#publicKeyPem> "-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAy63jysZbWWRnuTF7tyYg\nJIHWWlieHwKVdnUdtNQBUQ6iaWzH05XyJNHRXmpi19Pw0+pN4XYCdXt29Q5bE+dJ\ntziTxDoA50UuqNaw/aLiEAbNcI7Dp7qwgpG40dN2JRfRslcsPeNBcOqxI6n7F7SJ\n3dF/+yA2eaovp08Hqv81tDaaPfB9/pP0zY9/igpWxuuddPCHvRfqxISg8cuuC29O\nZZZb65a7LRYdt8bmPUKthHY/f39KNE1vTuvhJILQPr60tOwvU5X76HsxD3z9rALj\nHAFEmPLWCPOpobZXpNpqgNsFb596jpHuZEroCx+a+69T2/A7AlDmS6igMGzdJb7A\nswIDAQAB\n-----END PUBLIC KEY-----\n" .
+<https://front-end.social/users/SaraSoueidan#main-key> <https://w3id.org/security#owner> <https://front-end.social/users/SaraSoueidan> .
+<https://fosstodon.org/users/caridy> <https://www.w3.org/ns/activitystreams#icon> _:3745d97043aa8a8ad9929d2743a407ad .
+<https://fosstodon.org/users/caridy> <http://joinmastodon.org/ns#featuredTags> <https://fosstodon.org/users/caridy/collections/tags> .
+<https://fosstodon.org/users/caridy> <https://www.w3.org/ns/activitystreams#published> "2022-10-31T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://fosstodon.org/users/caridy> <https://www.w3.org/ns/activitystreams#following> <https://fosstodon.org/users/caridy/following> .
+<https://fosstodon.org/users/caridy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://www.w3.org/ns/activitystreams#Person> .
+<https://fosstodon.org/users/caridy> <https://www.w3.org/ns/activitystreams#followers> <https://fosstodon.org/users/caridy/followers> .
+<https://fosstodon.org/users/caridy> <https://www.w3.org/ns/activitystreams#url> <https://fosstodon.org/@caridy> .
+<https://fosstodon.org/users/caridy> <https://www.w3.org/ns/activitystreams#summary> "<p>Computer Scientist, ECMA TC39 Member, Former Editor of ECMA402. Principal Architect at Salesforce working on LWC, Web Components and Web Security. Yahoo! Alumni &amp; Former YUI Core Team.</p>" .
+<https://fosstodon.org/users/caridy> <http://joinmastodon.org/ns#devices> <https://fosstodon.org/users/caridy/collections/devices> .
+<https://fosstodon.org/users/caridy> <https://www.w3.org/ns/activitystreams#name> "caridy" .
+<https://fosstodon.org/users/caridy> <https://www.w3.org/ns/activitystreams#endpoints> _:2a92f7c9b20c38fc9be6674d5ae9d825 .
+<https://fosstodon.org/users/caridy> <https://w3id.org/security#publicKey> <https://fosstodon.org/users/caridy#main-key> .
+<https://fosstodon.org/users/caridy> <https://www.w3.org/ns/activitystreams#outbox> <https://fosstodon.org/users/caridy/outbox> .
+<https://fosstodon.org/users/caridy> <https://www.w3.org/ns/activitystreams#preferredUsername> "caridy" .
+<https://fosstodon.org/users/caridy> <http://joinmastodon.org/ns#featured> <https://fosstodon.org/users/caridy/collections/featured> .
+<https://fosstodon.org/users/caridy> <http://joinmastodon.org/ns#discoverable> "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<https://fosstodon.org/users/caridy> <https://www.w3.org/ns/activitystreams#manuallyApprovesFollowers> "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<https://fosstodon.org/users/caridy> <http://www.w3.org/ns/ldp#inbox> <https://fosstodon.org/users/caridy/inbox> .
+<https://front-end.social/users/SaraSoueidan/following?page=1> <https://www.w3.org/ns/activitystreams#partOf> <https://front-end.social/users/SaraSoueidan/following> .
+<https://front-end.social/users/SaraSoueidan/following?page=1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://www.w3.org/ns/activitystreams#OrderedCollectionPage> .
+<https://front-end.social/users/SaraSoueidan/following?page=1> <https://www.w3.org/ns/activitystreams#items> _:a0a87609eeffdf5b1d88d5abbff17c0b .
+<https://front-end.social/users/SaraSoueidan/following?page=1> <https://www.w3.org/ns/activitystreams#totalItems> "52"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://front-end.social/users/SaraSoueidan/following?page=1> <https://www.w3.org/ns/activitystreams#next> <https://front-end.social/users/SaraSoueidan/following?page=2> .
+<https://toot.cafe/users/paul_irish#main-key> <https://w3id.org/security#publicKeyPem> "-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA07o6C7jJjKekJMtI4Cg5\nflUwTp/XR3BmSC8FMf9+v3mGVzDiMKt10Xd9xDAB6xvfFEXGqYg3EUExP7gJwyox\nZT9z/meBxGHHu1TTQrz8/ePuoH7lbDlonmQ22pZ3SW2FkfMoK3xEnAL3xjssxf6z\nqefdypQJN14dMjIIEKrUXopyK0uS8+BlwQt2Ux38nuDajtimbiQ+lFL3XtUJx48d\nywWzydTvCm+sx3zGw/14WnfBQ/1lrB1w0HnA4qt+ks9UGZj3HfcWJBEt07jklLrj\nU+HUyXBLDNb/tEjbDE274jmlGKnrKQlsudtca4mc1yJGpm7zWw6iZsC6pBbes5Hv\nFwIDAQAB\n-----END PUBLIC KEY-----\n" .
+<https://toot.cafe/users/paul_irish#main-key> <https://w3id.org/security#owner> <https://toot.cafe/users/paul_irish> .
+<https://toot.cafe/users/slightlyoff/following> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://www.w3.org/ns/activitystreams#OrderedCollection> .
+<https://toot.cafe/users/slightlyoff/following> <https://www.w3.org/ns/activitystreams#totalItems> "567"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://toot.cafe/users/slightlyoff/following> <https://www.w3.org/ns/activitystreams#first> <https://toot.cafe/users/slightlyoff/following?page=1> .
+<https://mastodon.social/users/rust_discussions> <https://www.w3.org/ns/activitystreams#icon> _:ef0571b25387af2d0cc0ab2083d5339d .
+<https://mastodon.social/users/rust_discussions> <http://joinmastodon.org/ns#featuredTags> <https://mastodon.social/users/rust_discussions/collections/tags> .
+<https://mastodon.social/users/rust_discussions> <https://www.w3.org/ns/activitystreams#published> "2022-01-04T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://mastodon.social/users/rust_discussions> <https://www.w3.org/ns/activitystreams#following> <https://mastodon.social/users/rust_discussions/following> .
+<https://mastodon.social/users/rust_discussions> <https://www.w3.org/ns/activitystreams#tag> _:dfcefe55cf7d6c41db5637afadeb4d05 .
+<https://mastodon.social/users/rust_discussions> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://www.w3.org/ns/activitystreams#Service> .
+<https://mastodon.social/users/rust_discussions> <https://www.w3.org/ns/activitystreams#followers> <https://mastodon.social/users/rust_discussions/followers> .
+<https://mastodon.social/users/rust_discussions> <https://www.w3.org/ns/activitystreams#url> <https://mastodon.social/@rust_discussions> .
+<https://mastodon.social/users/rust_discussions> <https://www.w3.org/ns/activitystreams#summary> "<p>Articles, projects and tutorials about <a href=\"https://mastodon.social/tags/RustLang\" class=\"mention hashtag\" rel=\"tag\">#<span>RustLang</span></a>.</p><p>Weekly newsletter: <a href=\"https://discu.eu/weekly/rust\" target=\"_blank\" rel=\"nofollow noopener noreferrer\"><span class=\"invisible\">https://</span><span class=\"\">discu.eu/weekly/rust</span><span class=\"invisible\"></span></a></p>" .
+<https://mastodon.social/users/rust_discussions> <http://joinmastodon.org/ns#devices> <https://mastodon.social/users/rust_discussions/collections/devices> .
+<https://mastodon.social/users/rust_discussions> <https://www.w3.org/ns/activitystreams#name> "Rust Weekly" .
+<https://mastodon.social/users/rust_discussions> <https://www.w3.org/ns/activitystreams#endpoints> _:c02a06b8138ae98844e185b58f03db42 .
+<https://mastodon.social/users/rust_discussions> <https://w3id.org/security#publicKey> <https://mastodon.social/users/rust_discussions#main-key> .
+<https://mastodon.social/users/rust_discussions> <https://www.w3.org/ns/activitystreams#outbox> <https://mastodon.social/users/rust_discussions/outbox> .
+<https://mastodon.social/users/rust_discussions> <https://www.w3.org/ns/activitystreams#attachment> _:86418721e16e7fed0be89e2c0cb58e1 .
+<https://mastodon.social/users/rust_discussions> <https://www.w3.org/ns/activitystreams#attachment> _:fa23ea4dd7b1abc12086fcc41d90355b .
+<https://mastodon.social/users/rust_discussions> <https://www.w3.org/ns/activitystreams#preferredUsername> "rust_discussions" .
+<https://mastodon.social/users/rust_discussions> <http://joinmastodon.org/ns#featured> <https://mastodon.social/users/rust_discussions/collections/featured> .
+<https://mastodon.social/users/rust_discussions> <http://joinmastodon.org/ns#discoverable> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<https://mastodon.social/users/rust_discussions> <https://www.w3.org/ns/activitystreams#manuallyApprovesFollowers> "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<https://mastodon.social/users/rust_discussions> <http://www.w3.org/ns/ldp#inbox> <https://mastodon.social/users/rust_discussions/inbox> .
+<https://mastodon.social/users/rust_discussions> <https://www.w3.org/ns/activitystreams#image> _:1879f8f80948e4c23ce80f2b0557d617 .
+<https://fosstodon.org/users/caridy/following?page=1> <https://www.w3.org/ns/activitystreams#partOf> <https://fosstodon.org/users/caridy/following> .
+<https://fosstodon.org/users/caridy/following?page=1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://www.w3.org/ns/activitystreams#OrderedCollectionPage> .
+<https://fosstodon.org/users/caridy/following?page=1> <https://www.w3.org/ns/activitystreams#items> _:81793ca737a7d03c3b8c84fd26338558 .
+<https://fosstodon.org/users/caridy/following?page=1> <https://www.w3.org/ns/activitystreams#totalItems> "12"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://fosstodon.org/users/nzakas#main-key> <https://w3id.org/security#publicKeyPem> "-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA0AjG911v0SthFjM/YQoc\nUopvWu3u2D9vqCK8RCPb0XGBrLJiuH09dUYUZ+lnMQwCbQvLDg5bqsYtqC1Wj1EM\n+qBGy4I213dn5NOu3PQu0J+LkBNiI/yBrO6+H+GZ64wpJdtJOlAyD4MUMKVuiMR0\n7t+mOYJbaRyh6eEgyD93NX4bt5rYbM50mfYTDGtqVbVJTmd0M5/uF77M9a+8ywC3\n3Vs1uOBY7FV4IVditoglVda/XtobBcDMKDpFlAuRiPJOjZO4WNv4GF0dWZCzFVKL\nIF//HBQ3oyfjuh8+43wL3Te1er8sMDKbiXOrq9AwtmNbZ2p/r4SCbkSG9HloF1Pd\niQIDAQAB\n-----END PUBLIC KEY-----\n" .
+<https://fosstodon.org/users/nzakas#main-key> <https://w3id.org/security#owner> <https://fosstodon.org/users/nzakas> .
+<https://indieweb.social/users/addyosmani#main-key> <https://w3id.org/security#publicKeyPem> "-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA+kc0DrawxQXRp+MVBIq/\nMdmAunncBk2Ye9U95Z7i5Fbxu/BihAEsH2HapjYQky9p9azo3M3s6O8Egb9Dxjno\nZyn8/sE29Oe0nPtl+Dd5XUqM084Mb5EUwG54oxs6Mow+BA42spffCaNhJuE4fiON\nbsVgrc9DltRvOq1s8DC2jMtf34vDmo7iWmULu6gwKv3wajzajh5PfPiA8ry+FEai\np5nWEmyzpZQyMQLCBv5Cr62cPTsuqFH5MrYJhmQNJ+XehcB+t1qe9gDEhKgEXrq0\n06vwzxnlIxnv+UWn8YOn39QDVEVDRCQymAZZsfKPtzH9jwcMqFkUQ8Fe/aqy0zp+\nqQIDAQAB\n-----END PUBLIC KEY-----\n" .
+<https://indieweb.social/users/addyosmani#main-key> <https://w3id.org/security#owner> <https://indieweb.social/users/addyosmani> .
+<https://a11y.info/users/scottohara> <https://www.w3.org/ns/activitystreams#icon> _:9c3d2a6dc889e2c785b587a7c463d0a6 .
+<https://a11y.info/users/scottohara> <http://joinmastodon.org/ns#featuredTags> <https://a11y.info/users/scottohara/collections/tags> .
+<https://a11y.info/users/scottohara> <https://www.w3.org/ns/activitystreams#published> "2018-08-20T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://a11y.info/users/scottohara> <https://www.w3.org/ns/activitystreams#following> <https://a11y.info/users/scottohara/following> .
+<https://a11y.info/users/scottohara> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://www.w3.org/ns/activitystreams#Person> .
+<https://a11y.info/users/scottohara> <https://www.w3.org/ns/activitystreams#followers> <https://a11y.info/users/scottohara/followers> .
+<https://a11y.info/users/scottohara> <https://www.w3.org/ns/activitystreams#url> <https://a11y.info/@scottohara> .
+<https://a11y.info/users/scottohara> <https://www.w3.org/ns/activitystreams#summary> "<p>I do accessibility stuff. I like it.</p>" .
+<https://a11y.info/users/scottohara> <http://joinmastodon.org/ns#devices> <https://a11y.info/users/scottohara/collections/devices> .
+<https://a11y.info/users/scottohara> <https://www.w3.org/ns/activitystreams#name> "Scott O'Hara" .
+<https://a11y.info/users/scottohara> <https://www.w3.org/ns/activitystreams#endpoints> _:af999c27bcc99d51bab5dade9de2c5cc .
+<https://a11y.info/users/scottohara> <https://w3id.org/security#publicKey> <https://a11y.info/users/scottohara#main-key> .
+<https://a11y.info/users/scottohara> <https://www.w3.org/ns/activitystreams#outbox> <https://a11y.info/users/scottohara/outbox> .
+<https://a11y.info/users/scottohara> <https://www.w3.org/ns/activitystreams#attachment> _:24398d974e9597ccd77ccd58bae6eed5 .
+<https://a11y.info/users/scottohara> <https://www.w3.org/ns/activitystreams#attachment> _:37eb3ffe75611fbb0a4fb7655ccb1024 .
+<https://a11y.info/users/scottohara> <https://www.w3.org/ns/activitystreams#attachment> _:8f149f528da3bdd104d35fda2516ea26 .
+<https://a11y.info/users/scottohara> <https://www.w3.org/ns/activitystreams#preferredUsername> "scottohara" .
+<https://a11y.info/users/scottohara> <http://joinmastodon.org/ns#featured> <https://a11y.info/users/scottohara/collections/featured> .
+<https://a11y.info/users/scottohara> <http://joinmastodon.org/ns#discoverable> "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<https://a11y.info/users/scottohara> <https://www.w3.org/ns/activitystreams#manuallyApprovesFollowers> "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<https://a11y.info/users/scottohara> <http://www.w3.org/ns/ldp#inbox> <https://a11y.info/users/scottohara/inbox> .
+<https://a11y.info/users/scottohara> <https://www.w3.org/ns/activitystreams#image> _:a30538801d5c2d4864242bfe92387625 .
+_:22ac4fb0802a0bc623d29d041113ddf <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:c7d99710ab17def23fc7612c9b604837 .
+_:22ac4fb0802a0bc623d29d041113ddf <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://macaw.social/users/april> .
+_:2f224f51a5150a7e446f0eeaafcdfa1 <https://www.w3.org/ns/activitystreams#sharedInbox> <https://mastodon.social/inbox> .
+_:49af351d1f40fac002e33218d458c2e <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org#PropertyValue> .
+_:49af351d1f40fac002e33218d458c2e <https://www.w3.org/ns/activitystreams#name> "Interests" .
+_:49af351d1f40fac002e33218d458c2e <http://schema.org#value> "<a href=\"https://front-end.social/tags/html\" class=\"mention hashtag\" rel=\"tag\">#<span>html</span></a> <a href=\"https://front-end.social/tags/css\" class=\"mention hashtag\" rel=\"tag\">#<span>css</span></a> <a href=\"https://front-end.social/tags/a11y\" class=\"mention hashtag\" rel=\"tag\">#<span>a11y</span></a> <a href=\"https://front-end.social/tags/inclusiveDesign\" class=\"mention hashtag\" rel=\"tag\">#<span>inclusiveDesign</span></a>" .
+_:7675f2b80ba90a5909dbde8e3a0b085 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:84f0b1a076c0277a4a3c834b879c8701 .
+_:7675f2b80ba90a5909dbde8e3a0b085 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://mastodon.social/users/michele_riva> .
+_:86418721e16e7fed0be89e2c0cb58e1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org#PropertyValue> .
+_:86418721e16e7fed0be89e2c0cb58e1 <https://www.w3.org/ns/activitystreams#name> "Other bots" .
+_:86418721e16e7fed0be89e2c0cb58e1 <http://schema.org#value> "<a href=\"https://discu.eu/social\" target=\"_blank\" rel=\"nofollow noopener noreferrer me\"><span class=\"invisible\">https://</span><span class=\"\">discu.eu/social</span><span class=\"invisible\"></span></a>" .
+_:93c7c84b71e4e4bce77dc2a07d4944a <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:c16acf3ec0bb701757e58377391a6954 .
+_:93c7c84b71e4e4bce77dc2a07d4944a <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://hachyderm.io/users/timmywil> .
+_:aaabbf92db148a56c83c668f41d357e <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:cf560d7b841ce0e81b7fd9d04c477d34 .
+_:aaabbf92db148a56c83c668f41d357e <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://sunny.garden/users/paulhebert> .
+_:c1f1a35789850b2706199042ec044a1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:3021ad86852f1661c41ba667f3e119af .
+_:c1f1a35789850b2706199042ec044a1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://mastodon.social/users/robpalmer> .
+_:e8a671fbe1b9fb972d383bca26096ba <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:2a3e7a2531fafaebad40411096fa95de .
+_:e8a671fbe1b9fb972d383bca26096ba <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://infosec.exchange/users/paperghost> .
+_:f1fbe48021994cc82ad3734644289b7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:a0e6a0fccf89477f13846212d2c72156 .
+_:f1fbe48021994cc82ad3734644289b7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://vis.social/users/colin> .
+_:f5f748c266586194075954938eaf91c <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:86fc835577aabca2f1b893ae2b495f53 .
+_:f5f748c266586194075954938eaf91c <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://mastodonapp.uk/users/eddedmondson> .
+_:fbcd9541a07e02a9fa32288a7a34a3c <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org#PropertyValue> .
+_:fbcd9541a07e02a9fa32288a7a34a3c <https://www.w3.org/ns/activitystreams#name> "Letterboxd" .
+_:fbcd9541a07e02a9fa32288a7a34a3c <http://schema.org#value> "<a href=\"https://letterboxd.com/yaypie\" target=\"_blank\" rel=\"nofollow noopener noreferrer me\"><span class=\"invisible\">https://</span><span class=\"\">letterboxd.com/yaypie</span><span class=\"invisible\"></span></a>" .
+_:1101f3b1bffe4731d716f77da1c6f9b4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:1edbd2256a52876863020edae128871f .
+_:1101f3b1bffe4731d716f77da1c6f9b4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://pie.gd/users/yaypie> .
+_:1305259eba6ec19016e5d03ee9c7298d <https://www.w3.org/ns/activitystreams#sharedInbox> <https://toot.cafe/inbox> .
+_:14067f8e9242e547f0068909db3efb49 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:2e24c7a7158be7eb135670eba9877b59 .
+_:14067f8e9242e547f0068909db3efb49 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://front-end.social/users/bramus> .
+_:148d5e3975d38bfcdaa1becab79830d8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:6145150c40d38a11af53bee77f6b0645 .
+_:148d5e3975d38bfcdaa1becab79830d8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://mastodon.technology/users/ericwbailey> .
+_:14b6f99571d496d5dea9afad50ad7e7c <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://www.w3.org/ns/activitystreams#Image> .
+_:14b6f99571d496d5dea9afad50ad7e7c <https://www.w3.org/ns/activitystreams#url> <https://assets.toot.cafe/accounts/avatars/000/002/283/original/56c6671ff8e9e8fe.png> .
+_:14b6f99571d496d5dea9afad50ad7e7c <https://www.w3.org/ns/activitystreams#mediaType> "image/png" .
+_:15205b8d4325b43f65a49c2472d381b4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:f24d40d72d870a3eb384cf1f79c5f2f1 .
+_:15205b8d4325b43f65a49c2472d381b4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://floss.social/users/janriemer> .
+_:16ac8fea04b999b77eb6bd605e606557 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:16ac8fea04b999b77eb6bd605e606557 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://hachyderm.io/users/indigitalcolor> .
+_:1879f8f80948e4c23ce80f2b0557d617 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://www.w3.org/ns/activitystreams#Image> .
+_:1879f8f80948e4c23ce80f2b0557d617 <https://www.w3.org/ns/activitystreams#url> <https://files.mastodon.social/accounts/headers/107/566/518/328/455/139/original/958b649ddced0afb.jpeg> .
+_:1879f8f80948e4c23ce80f2b0557d617 <https://www.w3.org/ns/activitystreams#mediaType> "image/jpeg" .
+_:19cdeb5e5df56b2337aacdaeb9c7b2fe <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:8220c94b166214c3f6f19771bbf28d45 .
+_:19cdeb5e5df56b2337aacdaeb9c7b2fe <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://fosstodon.org/users/caridy> .
+_:1a3f9b13b10644487ae113a8a6d953d9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://www.w3.org/ns/activitystreams#Image> .
+_:1a3f9b13b10644487ae113a8a6d953d9 <https://www.w3.org/ns/activitystreams#url> <https://cdn.masto.host/indiewebsocial/accounts/avatars/109/287/031/855/178/346/original/cf196e0fd49f38cd.png> .
+_:1a3f9b13b10644487ae113a8a6d953d9 <https://www.w3.org/ns/activitystreams#mediaType> "image/png" .
+_:1bdd59bfb8010813925de42c231a151d <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:a138815f2b11ed1fa991f42e9a3f8bfe .
+_:1bdd59bfb8010813925de42c231a151d <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://a11y.info/users/scottohara> .
+_:1d78e7ad1a2e6472906926cc833be2c3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:49fd0ad491d07dac03b886c193c7550a .
+_:1d78e7ad1a2e6472906926cc833be2c3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://front-end.social/users/melanie> .
+_:1e50639175f5f2c4f235433d7d075423 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:e246dc79bd71e12964d52e6477382d34 .
+_:1e50639175f5f2c4f235433d7d075423 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://x86.social/users/cooper> .
+_:1e84a989d33958e0950fd682d9052636 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:15205b8d4325b43f65a49c2472d381b4 .
+_:1e84a989d33958e0950fd682d9052636 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://hachyderm.io/users/davy> .
+_:1edbd2256a52876863020edae128871f <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:1bdd59bfb8010813925de42c231a151d .
+_:1edbd2256a52876863020edae128871f <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://toot.cafe/users/slightlyoff> .
+_:20711a1ab20bbcbeb12552ec4768f20c <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:449bde313cfcfef4b988bc365735df06 .
+_:20711a1ab20bbcbeb12552ec4768f20c <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://social.seattle.wa.us/users/tall> .
+_:21997f5f80fc83517942f0d4adce398f <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:babc3a0cdeedc560523df10a6eb24b5f .
+_:21997f5f80fc83517942f0d4adce398f <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://mstdn.social/users/kathygriffin> .
+_:24398d974e9597ccd77ccd58bae6eed5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org#PropertyValue> .
+_:24398d974e9597ccd77ccd58bae6eed5 <https://www.w3.org/ns/activitystreams#name> "Website" .
+_:24398d974e9597ccd77ccd58bae6eed5 <http://schema.org#value> "<a href=\"https://www.scottohara.me\" target=\"_blank\" rel=\"nofollow noopener noreferrer me\"><span class=\"invisible\">https://www.</span><span class=\"\">scottohara.me</span><span class=\"invisible\"></span></a>" .
+_:280b9e5adaaba8c8b7ca8a754b26aa3b <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://www.w3.org/ns/activitystreams#Image> .
+_:280b9e5adaaba8c8b7ca8a754b26aa3b <https://www.w3.org/ns/activitystreams#url> <https://cdn.masto.host/indiewebsocial/accounts/avatars/109/292/572/142/538/251/original/7b76516635fcba95.png> .
+_:280b9e5adaaba8c8b7ca8a754b26aa3b <https://www.w3.org/ns/activitystreams#mediaType> "image/png" .
+_:28bbe66e82ad2ef1a5515a2aedb3b4e4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://www.w3.org/ns/activitystreams#Hashtag> .
+_:28bbe66e82ad2ef1a5515a2aedb3b4e4 <https://www.w3.org/ns/activitystreams#name> "#softwareengineering" .
+_:28bbe66e82ad2ef1a5515a2aedb3b4e4 <https://www.w3.org/ns/activitystreams#href> <https://indieweb.social/tags/softwareengineering> .
+_:28e0d335d947df65e5aa6040b6ed933f <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:73fc6fa6877ce7cc7621126bbda8fb94 .
+_:28e0d335d947df65e5aa6040b6ed933f <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://mastodon.social/users/tootapp> .
+_:2a17b551a5c9481dd447dbc2dfd30691 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org#PropertyValue> .
+_:2a17b551a5c9481dd447dbc2dfd30691 <https://www.w3.org/ns/activitystreams#name> "LinkedIn" .
+_:2a17b551a5c9481dd447dbc2dfd30691 <http://schema.org#value> "<a href=\"https://www.linkedin.com/in/addyosmani/\" target=\"_blank\" rel=\"nofollow noopener noreferrer me\"><span class=\"invisible\">https://www.</span><span class=\"\">linkedin.com/in/addyosmani/</span><span class=\"invisible\"></span></a>" .
+_:2a3e7a2531fafaebad40411096fa95de <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:2a3e7a2531fafaebad40411096fa95de <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://hachyderm.io/users/tvdv> .
+_:2a62a021088201ac094772903e4068e6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:73fb9092266e9f629ea1733ecf7113f7 .
+_:2a62a021088201ac094772903e4068e6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://front-end.social/users/mxbck> .
+_:2a92f7c9b20c38fc9be6674d5ae9d825 <https://www.w3.org/ns/activitystreams#sharedInbox> <https://fosstodon.org/inbox> .
+_:2cceb66e2d6933d95e7635bec5d08c03 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:434336fb9bed74f672be9d5cd5399324 .
+_:2cceb66e2d6933d95e7635bec5d08c03 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://mastodon.social/users/lcasdev> .
+_:2d12fcb93ecb971b5dd476b263834df7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:1101f3b1bffe4731d716f77da1c6f9b4 .
+_:2d12fcb93ecb971b5dd476b263834df7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://toot.cafe/users/paul_irish> .
+_:2e24c7a7158be7eb135670eba9877b59 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:a30aa8121ce04d8118eba74d7f8b47b8 .
+_:2e24c7a7158be7eb135670eba9877b59 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://mastodon.social/users/justmarkup> .
+_:2e38e410cc6bdc83ca25805d23c29a26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:c3061cbc7df090333e2159b8006e0237 .
+_:2e38e410cc6bdc83ca25805d23c29a26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://front-end.social/users/Aaron> .
+_:2f923a87cfcd42c03074a1bb0dc5bd47 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:e1232575f559e62c685432033e813c1e .
+_:2f923a87cfcd42c03074a1bb0dc5bd47 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://union.place/users/meggawat> .
+_:3021ad86852f1661c41ba667f3e119af <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:85a6cf0eee15cd791167de25512d5a0b .
+_:3021ad86852f1661c41ba667f3e119af <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://indieweb.social/users/dalmaer> .
+_:3279d7b463b2d4a54635f63a01952b2d <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://www.w3.org/ns/activitystreams#Hashtag> .
+_:3279d7b463b2d4a54635f63a01952b2d <https://www.w3.org/ns/activitystreams#name> "#a11y" .
+_:3279d7b463b2d4a54635f63a01952b2d <https://www.w3.org/ns/activitystreams#href> <https://front-end.social/tags/a11y> .
+_:352765c77b8a28b9fd94ebff4d1fa83e <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:ba312b669270fe578e15e5e46bc422ad .
+_:352765c77b8a28b9fd94ebff4d1fa83e <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://macaw.social/users/thinkingfish> .
+_:368be0095173f986b3774b5e64759b54 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org#PropertyValue> .
+_:368be0095173f986b3774b5e64759b54 <https://www.w3.org/ns/activitystreams#name> "github" .
+_:368be0095173f986b3774b5e64759b54 <http://schema.org#value> "<a href=\"https://github.com/pamelafox\" target=\"_blank\" rel=\"nofollow noopener noreferrer me\"><span class=\"invisible\">https://</span><span class=\"\">github.com/pamelafox</span><span class=\"invisible\"></span></a>" .
+_:3745d97043aa8a8ad9929d2743a407ad <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://www.w3.org/ns/activitystreams#Image> .
+_:3745d97043aa8a8ad9929d2743a407ad <https://www.w3.org/ns/activitystreams#url> <https://cdn.fosstodon.org/accounts/avatars/109/263/221/618/464/726/original/f5e760e8e6958e53.jpeg> .
+_:3745d97043aa8a8ad9929d2743a407ad <https://www.w3.org/ns/activitystreams#mediaType> "image/jpeg" .
+_:378939a9ece8ca4017a16713c02f14d8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:a28611fe4c90aa492cb13e182d276ca4 .
+_:378939a9ece8ca4017a16713c02f14d8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://law-and-politics.online/users/Teri_Kanefield> .
+_:3793e89c3d5755a0f0f7857fec37bf50 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:c158401afc59be15305fee60c6704342 .
+_:3793e89c3d5755a0f0f7857fec37bf50 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://a11y.info/users/jasonday> .
+_:37bf5d8f8df1d8359f30a9520f7d2feb <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:b6bbeeda32d97fd99ef34e92bec7357f .
+_:37bf5d8f8df1d8359f30a9520f7d2feb <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://hachyderm.io/users/olavo> .
+_:37eb3ffe75611fbb0a4fb7655ccb1024 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org#PropertyValue> .
+_:37eb3ffe75611fbb0a4fb7655ccb1024 <https://www.w3.org/ns/activitystreams#name> "GitHub" .
+_:37eb3ffe75611fbb0a4fb7655ccb1024 <http://schema.org#value> "<a href=\"https://github.com/scottaohara\" target=\"_blank\" rel=\"nofollow noopener noreferrer me\"><span class=\"invisible\">https://</span><span class=\"\">github.com/scottaohara</span><span class=\"invisible\"></span></a>" .
+_:3c8364849892f92729625d62213777b7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org#PropertyValue> .
+_:3c8364849892f92729625d62213777b7 <https://www.w3.org/ns/activitystreams#name> "web" .
+_:3c8364849892f92729625d62213777b7 <http://schema.org#value> "<a href=\"https://paul.irish\" target=\"_blank\" rel=\"nofollow noopener noreferrer me\"><span class=\"invisible\">https://</span><span class=\"\">paul.irish</span><span class=\"invisible\"></span></a>" .
+_:3f24b1575711a6bce54044dd93b53f22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:65f6f94ccdea9e069d882d1db7f88a14 .
+_:3f24b1575711a6bce54044dd93b53f22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://hachyderm.io/users/notwoods> .
+_:40296aa8e619e9b820aea7afcdd06227 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:b34ac7a446d28530c9b73d623aee7123 .
+_:40296aa8e619e9b820aea7afcdd06227 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://mastodon.social/users/rich_harris> .
+_:403749fa2921c9797af920f0a45e2d81 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:5a632d77aebccb9886125fa1be628b00 .
+_:403749fa2921c9797af920f0a45e2d81 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://pleroma.id/users/leap123> .
+_:414d216edfa330269ffe56788c83ad08 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org#PropertyValue> .
+_:414d216edfa330269ffe56788c83ad08 <https://www.w3.org/ns/activitystreams#name> "Website" .
+_:414d216edfa330269ffe56788c83ad08 <http://schema.org#value> "<a href=\"https://addyosmani.com/\" target=\"_blank\" rel=\"nofollow noopener noreferrer me\"><span class=\"invisible\">https://</span><span class=\"\">addyosmani.com/</span><span class=\"invisible\"></span></a>" .
+_:434336fb9bed74f672be9d5cd5399324 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:7ac1be1022bfac84563008684e22c5bc .
+_:434336fb9bed74f672be9d5cd5399324 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://mastodon.social/users/codehag> .
+_:43caf287152ee72849130e9064d678f1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org#PropertyValue> .
+_:43caf287152ee72849130e9064d678f1 <https://www.w3.org/ns/activitystreams#name> "GitHub" .
+_:43caf287152ee72849130e9064d678f1 <http://schema.org#value> "<a href=\"https://github.com/rgrove\" target=\"_blank\" rel=\"nofollow noopener noreferrer me\"><span class=\"invisible\">https://</span><span class=\"\">github.com/rgrove</span><span class=\"invisible\"></span></a>" .
+_:449bde313cfcfef4b988bc365735df06 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:f2857e4049f51c3a8c4a83a6f94274bc .
+_:449bde313cfcfef4b988bc365735df06 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://front-end.social/users/geoff> .
+_:463efb42fe392760cb4d20897dae3756 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:77875de5c27c856e33a3489ba531b01c .
+_:463efb42fe392760cb4d20897dae3756 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://mastodon.archive.org/users/brewsterkahle> .
+_:472125a9d3b5278ec076a75c0ccf9f32 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:acaa5ffb16a064cc5b794fb77d0ad3b9 .
+_:472125a9d3b5278ec076a75c0ccf9f32 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://hachyderm.io/users/jeffposnick> .
+_:489346df57333b326f03971620a240f6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:d6fc1d3ca726d448f167017d3a652808 .
+_:489346df57333b326f03971620a240f6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://hachyderm.io/users/venikunche> .
+_:4915a5182c9dec66379cedff8c1d8c09 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:4915a5182c9dec66379cedff8c1d8c09 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://types.pl/users/mvsamuel> .
+_:49fd0ad491d07dac03b886c193c7550a <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:5f57cc533c8818212d640d7c9ed281cb .
+_:49fd0ad491d07dac03b886c193c7550a <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://front-end.social/users/keithjgrant> .
+_:4acd1585bf84bfce4b54d61bca3d6aac <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:e8a671fbe1b9fb972d383bca26096ba .
+_:4acd1585bf84bfce4b54d61bca3d6aac <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://hachyderm.io/users/rmondello> .
+_:4f889d25237ce9d36cf1c9afe265b59f <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:5af27f60530f9cafc8637d1854f1a7e6 .
+_:4f889d25237ce9d36cf1c9afe265b59f <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://eigenmagic.net/users/sundress> .
+_:4fa7d9c1dd2ca3b0985dbcfe5ceba4e1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:53c2618da4a84fb583bb9b4a4526e92f .
+_:4fa7d9c1dd2ca3b0985dbcfe5ceba4e1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://hachyderm.io/users/timmywil> .
+_:5039736e223069ed85a750f7a6a8c31a <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:e6c2b59e0f5832e80f1e22e182e9f8c7 .
+_:5039736e223069ed85a750f7a6a8c31a <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://hachyderm.io/users/nova> .
+_:50785cce6ad852b8e0e3bb45368d7103 <https://www.w3.org/ns/activitystreams#sharedInbox> <https://fosstodon.org/inbox> .
+_:521b24bf23888ca220068ea6bdb0436e <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://www.w3.org/ns/activitystreams#Image> .
+_:521b24bf23888ca220068ea6bdb0436e <https://www.w3.org/ns/activitystreams#url> <https://cdn.fosstodon.org/accounts/avatars/109/286/678/672/897/748/original/00c2135a4cc9fdab.jpg> .
+_:521b24bf23888ca220068ea6bdb0436e <https://www.w3.org/ns/activitystreams#mediaType> "image/jpeg" .
+_:523b353444c77d5c41262ad53ed9df02 <https://www.w3.org/ns/activitystreams#sharedInbox> <https://front-end.social/inbox> .
+_:52caa6e33271dd6f490342064cb6ffc6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org#PropertyValue> .
+_:52caa6e33271dd6f490342064cb6ffc6 <https://www.w3.org/ns/activitystreams#name> "Also" .
+_:52caa6e33271dd6f490342064cb6ffc6 <http://schema.org#value> "Making <span class=\"h-card\"><a href=\"https://toot.cafe/@phae\" class=\"u-url mention\">@<span>phae</span></a></span> tea ☕" .
+_:538413e4617da207df0dc01d291d447d <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:a588b947af340c2e60ec5a5d3a64e9a4 .
+_:538413e4617da207df0dc01d291d447d <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://social.petergoes.nl/users/petergoes> .
+_:53c2618da4a84fb583bb9b4a4526e92f <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:59c0c9f6e78eed52d34c667cebc01e83 .
+_:53c2618da4a84fb583bb9b4a4526e92f <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://typo.social/users/drott> .
+_:55d0c2508d33d7fc319c3fc2de92865d <https://www.w3.org/ns/activitystreams#sharedInbox> <https://toot.cafe/inbox> .
+_:59c0c9f6e78eed52d34c667cebc01e83 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:538413e4617da207df0dc01d291d447d .
+_:59c0c9f6e78eed52d34c667cebc01e83 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://bolha.us/users/fabio> .
+_:59df086739a188ddcdb3d685bf2f412f <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://www.w3.org/ns/activitystreams#Image> .
+_:59df086739a188ddcdb3d685bf2f412f <https://www.w3.org/ns/activitystreams#url> <https://cdn.masto.host/frontendsocial/accounts/avatars/109/289/623/322/834/700/original/0c542902f8b510ab.png> .
+_:59df086739a188ddcdb3d685bf2f412f <https://www.w3.org/ns/activitystreams#mediaType> "image/png" .
+_:5a632d77aebccb9886125fa1be628b00 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:f2e947e5a913a7df97037030332cb100 .
+_:5a632d77aebccb9886125fa1be628b00 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://hachyderm.io/users/devdevcharlie> .
+_:5a971f5b1219c2ac3a342d6f75cdd65e <https://www.w3.org/ns/activitystreams#sharedInbox> <https://fosstodon.org/inbox> .
+_:5af27f60530f9cafc8637d1854f1a7e6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:d86822ed74ed1a1958bddc943ae02ae3 .
+_:5af27f60530f9cafc8637d1854f1a7e6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://hachyderm.io/users/troutgirl> .
+_:5c7393d0d40b0103e7ba8c0d1d54ba3e <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:f14da23b88ca365e734a992ac3843d02 .
+_:5c7393d0d40b0103e7ba8c0d1d54ba3e <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://mastodon.social/users/wilfredh> .
+_:5e2aba13e31a0a28f5dad4f737310c4f <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:846d9aa07cb6b1cf41694ded0bd35640 .
+_:5e2aba13e31a0a28f5dad4f737310c4f <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://mefi.social/users/eemeli> .
+_:5f57cc533c8818212d640d7c9ed281cb <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:148d5e3975d38bfcdaa1becab79830d8 .
+_:5f57cc533c8818212d640d7c9ed281cb <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://tech.lgbt/users/Marco> .
+_:60e35a9e9eea6de1e47a908ff57e1ad8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org#PropertyValue> .
+_:60e35a9e9eea6de1e47a908ff57e1ad8 <https://www.w3.org/ns/activitystreams#name> "🎥 Accessibility course" .
+_:60e35a9e9eea6de1e47a908ff57e1ad8 <http://schema.org#value> "<a href=\"https://practical-accessibility.today\" target=\"_blank\" rel=\"nofollow noopener noreferrer me\"><span class=\"invisible\">https://</span><span class=\"\">practical-accessibility.today</span><span class=\"invisible\"></span></a>" .
+_:6145150c40d38a11af53bee77f6b0645 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:3793e89c3d5755a0f0f7857fec37bf50 .
+_:6145150c40d38a11af53bee77f6b0645 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://toot.cafe/users/yatil> .
+_:61c61ad46f4cf9a3e4df28ae91896f29 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:61c61ad46f4cf9a3e4df28ae91896f29 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://eigenmagic.net/users/sundress> .
+_:61d84ff1a13dcc111028d9c57f901268 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:61c61ad46f4cf9a3e4df28ae91896f29 .
+_:61d84ff1a13dcc111028d9c57f901268 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://front-end.social/users/matuzo> .
+_:620b5081214930dbbe74763ebbe69367 <https://www.w3.org/ns/activitystreams#sharedInbox> <https://mastodon.social/inbox> .
+_:6322d231595358d163cd4c65d93410f6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://www.w3.org/ns/activitystreams#Image> .
+_:6322d231595358d163cd4c65d93410f6 <https://www.w3.org/ns/activitystreams#url> <https://files.mastodon.social/accounts/avatars/000/007/220/original/608471246ddf6aee.jpg> .
+_:6322d231595358d163cd4c65d93410f6 <https://www.w3.org/ns/activitystreams#mediaType> "image/jpeg" .
+_:65f6f94ccdea9e069d882d1db7f88a14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:a3a46c10dd1d6ef2ffc7ea13487cc588 .
+_:65f6f94ccdea9e069d882d1db7f88a14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://fosstodon.org/users/mattiasbuelens> .
+_:6777ca1cfad62c43a4ca42a0658abb91 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://www.w3.org/ns/activitystreams#Hashtag> .
+_:6777ca1cfad62c43a4ca42a0658abb91 <https://www.w3.org/ns/activitystreams#name> "#management" .
+_:6777ca1cfad62c43a4ca42a0658abb91 <https://www.w3.org/ns/activitystreams#href> <https://indieweb.social/tags/management> .
+_:6d6ef832d952f6258d468e5ba8931499 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:77956a5720584682e0d0edb714675df2 .
+_:6d6ef832d952f6258d468e5ba8931499 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://mastodon.social/users/Gargron> .
+_:6e2e219a4e190a74fea0134ea133541d <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://www.w3.org/ns/activitystreams#Image> .
+_:6e2e219a4e190a74fea0134ea133541d <https://www.w3.org/ns/activitystreams#url> <https://cdn.masto.host/indiewebsocial/accounts/headers/109/292/572/142/538/251/original/9e181ba3dafb6b91.jpeg> .
+_:6e2e219a4e190a74fea0134ea133541d <https://www.w3.org/ns/activitystreams#mediaType> "image/jpeg" .
+_:6f971d7843cadcc9bccbb89075a3f6f7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:1d78e7ad1a2e6472906926cc833be2c3 .
+_:6f971d7843cadcc9bccbb89075a3f6f7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://front-end.social/users/ericwbailey> .
+_:6fd34a11ab22aae46e74a53dd7fc063a <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:6fd34a11ab22aae46e74a53dd7fc063a <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://mastodon.social/users/raymondcamden> .
+_:707bad9bc431eb2e1f4ff6b24f20c50f <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:aa5c5025ed3b03b1ff4aea7f4449771f .
+_:707bad9bc431eb2e1f4ff6b24f20c50f <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://indieweb.social/users/antonsten> .
+_:70b1dd3a35ec59a49f5ea0f6a7b9b29f <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:20711a1ab20bbcbeb12552ec4768f20c .
+_:70b1dd3a35ec59a49f5ea0f6a7b9b29f <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://wandering.shop/users/emmah> .
+_:711d17b38455179044aa25ed69d37143 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:5c7393d0d40b0103e7ba8c0d1d54ba3e .
+_:711d17b38455179044aa25ed69d37143 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://functional.cafe/users/juliobiason> .
+_:73fb9092266e9f629ea1733ecf7113f7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:aaabbf92db148a56c83c668f41d357e .
+_:73fb9092266e9f629ea1733ecf7113f7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://front-end.social/users/michelle> .
+_:73fc6fa6877ce7cc7621126bbda8fb94 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:1e50639175f5f2c4f235433d7d075423 .
+_:73fc6fa6877ce7cc7621126bbda8fb94 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://mastodon.social/users/WAHa_06x36> .
+_:744beb37baa617efb9ca97780979884f <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://www.w3.org/ns/activitystreams#Image> .
+_:744beb37baa617efb9ca97780979884f <https://www.w3.org/ns/activitystreams#url> <https://files.mastodon.social/accounts/headers/000/007/220/original/d6aa365077cefc85.jpeg> .
+_:744beb37baa617efb9ca97780979884f <https://www.w3.org/ns/activitystreams#mediaType> "image/jpeg" .
+_:754db7b9bf50517a10a351f7c3068430 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org#PropertyValue> .
+_:754db7b9bf50517a10a351f7c3068430 <https://www.w3.org/ns/activitystreams#name> "Twitter" .
+_:754db7b9bf50517a10a351f7c3068430 <http://schema.org#value> "<a href=\"https://twitter.com/addyosmani\" target=\"_blank\" rel=\"nofollow noopener noreferrer me\"><span class=\"invisible\">https://</span><span class=\"\">twitter.com/addyosmani</span><span class=\"invisible\"></span></a>" .
+_:77875de5c27c856e33a3489ba531b01c <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:ff59ec8f2f10a3c8ff2031fd9e222c5f .
+_:77875de5c27c856e33a3489ba531b01c <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://infosec.exchange/users/hdm> .
+_:77956a5720584682e0d0edb714675df2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:bc2d41cb1d844e69f3e7f7ba9a932fe7 .
+_:77956a5720584682e0d0edb714675df2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://mastodon.social/users/michaelficarra> .
+_:793b69fdb74456f0eaa9afc99b2c0098 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://www.w3.org/ns/activitystreams#Image> .
+_:793b69fdb74456f0eaa9afc99b2c0098 <https://www.w3.org/ns/activitystreams#url> <https://cdn.masto.host/frontendsocial/accounts/headers/109/289/623/322/834/700/original/1eb61e7d2a024254.jpg> .
+_:793b69fdb74456f0eaa9afc99b2c0098 <https://www.w3.org/ns/activitystreams#mediaType> "image/jpeg" .
+_:7aa767dc87c8a87ed12ce07b24cc5fd5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org#PropertyValue> .
+_:7aa767dc87c8a87ed12ce07b24cc5fd5 <https://www.w3.org/ns/activitystreams#name> "Blog" .
+_:7aa767dc87c8a87ed12ce07b24cc5fd5 <http://schema.org#value> "<a href=\"https://infrequently.org\" target=\"_blank\" rel=\"nofollow noopener noreferrer me\"><span class=\"invisible\">https://</span><span class=\"\">infrequently.org</span><span class=\"invisible\"></span></a>" .
+_:7ac1be1022bfac84563008684e22c5bc <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:cc6632837b838f42924601f0de595391 .
+_:7ac1be1022bfac84563008684e22c5bc <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://mastodon.xyz/users/mathias> .
+_:7f0640a18c7e34340611e4a5e69a7546 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:be73e96acff92c9dcdd69eb828963a86 .
+_:7f0640a18c7e34340611e4a5e69a7546 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://a11y.info/users/craigabbott> .
+_:807200655cbcc69f138f7f1ebca61224 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org#PropertyValue> .
+_:807200655cbcc69f138f7f1ebca61224 <https://www.w3.org/ns/activitystreams#name> "Previously" .
+_:807200655cbcc69f138f7f1ebca61224 <http://schema.org#value> "Chrome, Project Fugu 🐡, PWAs, W3C TAG, Web Components, TC39 &amp; ES6, Chrome Frame, Dojo" .
+_:81793ca737a7d03c3b8c84fd26338558 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:b745b29a98191278c2fde246b0630123 .
+_:81793ca737a7d03c3b8c84fd26338558 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://fosstodon.org/users/rbuckton> .
+_:8220c94b166214c3f6f19771bbf28d45 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:8220c94b166214c3f6f19771bbf28d45 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://fosstodon.org/users/pamelafox> .
+_:846d9aa07cb6b1cf41694ded0bd35640 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:9882fef2ed72a72bbff0f3ff3e770084 .
+_:846d9aa07cb6b1cf41694ded0bd35640 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://hachyderm.io/users/littledan> .
+_:84f0b1a076c0277a4a3c834b879c8701 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:4915a5182c9dec66379cedff8c1d8c09 .
+_:84f0b1a076c0277a4a3c834b879c8701 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://fosstodon.org/users/lirantal> .
+_:8536a6e0050f9e395f7a76c4a4b7ddf2 <https://www.w3.org/ns/activitystreams#sharedInbox> <https://indieweb.social/inbox> .
+_:85a6cf0eee15cd791167de25512d5a0b <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:2d12fcb93ecb971b5dd476b263834df7 .
+_:85a6cf0eee15cd791167de25512d5a0b <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://mastodon.social/users/jaffathecake> .
+_:8643f0dbbefaa2de203642efd5a53268 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:3f24b1575711a6bce54044dd93b53f22 .
+_:8643f0dbbefaa2de203642efd5a53268 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://hachyderm.io/users/aweary> .
+_:86fc835577aabca2f1b893ae2b495f53 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:8a2ff8f42c6d44351279d6de444f5342 .
+_:86fc835577aabca2f1b893ae2b495f53 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://hachyderm.io/users/mekkaokereke> .
+_:8a2ff8f42c6d44351279d6de444f5342 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:4acd1585bf84bfce4b54d61bca3d6aac .
+_:8a2ff8f42c6d44351279d6de444f5342 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://mastodon.me.uk/users/edjeff> .
+_:8bbc0c607b781876ed1be860a9a7d312 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:a2f24ef3d10c6553b9ff9e7b0059615c .
+_:8bbc0c607b781876ed1be860a9a7d312 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://indieweb.social/users/addyosmani> .
+_:8cdd67eec97aa1ef77e30b2ee901450f <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org#PropertyValue> .
+_:8cdd67eec97aa1ef77e30b2ee901450f <https://www.w3.org/ns/activitystreams#name> "💌 Newsletter" .
+_:8cdd67eec97aa1ef77e30b2ee901450f <http://schema.org#value> "<a href=\"https://sarasoueidan.com/newsletter\" target=\"_blank\" rel=\"nofollow noopener noreferrer me\"><span class=\"invisible\">https://</span><span class=\"\">sarasoueidan.com/newsletter</span><span class=\"invisible\"></span></a>" .
+_:8d2ca13e35d8f04ab1fee29446f2b4c3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://www.w3.org/ns/activitystreams#Hashtag> .
+_:8d2ca13e35d8f04ab1fee29446f2b4c3 <https://www.w3.org/ns/activitystreams#name> "#leadership" .
+_:8d2ca13e35d8f04ab1fee29446f2b4c3 <https://www.w3.org/ns/activitystreams#href> <https://indieweb.social/tags/leadership> .
+_:8f149f528da3bdd104d35fda2516ea26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org#PropertyValue> .
+_:8f149f528da3bdd104d35fda2516ea26 <https://www.w3.org/ns/activitystreams#name> "Twitter" .
+_:8f149f528da3bdd104d35fda2516ea26 <http://schema.org#value> "<a href=\"https://twitter.com/scottohara\" target=\"_blank\" rel=\"nofollow noopener noreferrer me\"><span class=\"invisible\">https://</span><span class=\"\">twitter.com/scottohara</span><span class=\"invisible\"></span></a>" .
+_:90264539a3e8d3226e91e4acd7216bf7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:90264539a3e8d3226e91e4acd7216bf7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://mastodon.cipherbliss.com/users/ciurana> .
+_:902647999c0831a83ed543e418524163 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org#PropertyValue> .
+_:902647999c0831a83ed543e418524163 <https://www.w3.org/ns/activitystreams#name> "website" .
+_:902647999c0831a83ed543e418524163 <http://schema.org#value> "<a href=\"https://www.pamelafox.org\" target=\"_blank\" rel=\"nofollow noopener noreferrer me\"><span class=\"invisible\">https://www.</span><span class=\"\">pamelafox.org</span><span class=\"invisible\"></span></a>" .
+_:957a3381b653b59e9bf8e2f49d4477fb <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://www.w3.org/ns/activitystreams#Image> .
+_:957a3381b653b59e9bf8e2f49d4477fb <https://www.w3.org/ns/activitystreams#url> <https://cdn.masto.host/indiewebsocial/accounts/headers/109/287/031/855/178/346/original/5ded2308b4d290b3.jpeg> .
+_:957a3381b653b59e9bf8e2f49d4477fb <https://www.w3.org/ns/activitystreams#mediaType> "image/jpeg" .
+_:95d7646f3eb4979e5280faedcd2e538d <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org#PropertyValue> .
+_:95d7646f3eb4979e5280faedcd2e538d <https://www.w3.org/ns/activitystreams#name> "🔗 Website" .
+_:95d7646f3eb4979e5280faedcd2e538d <http://schema.org#value> "<a href=\"https://sarasoueidan.com\" target=\"_blank\" rel=\"nofollow noopener noreferrer me\"><span class=\"invisible\">https://</span><span class=\"\">sarasoueidan.com</span><span class=\"invisible\"></span></a>" .
+_:9882fef2ed72a72bbff0f3ff3e770084 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:8643f0dbbefaa2de203642efd5a53268 .
+_:9882fef2ed72a72bbff0f3ff3e770084 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://hachyderm.io/users/jeffposnick> .
+_:9c3d2a6dc889e2c785b587a7c463d0a6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://www.w3.org/ns/activitystreams#Image> .
+_:9c3d2a6dc889e2c785b587a7c463d0a6 <https://www.w3.org/ns/activitystreams#url> <https://cdn.masto.host/a11yinfo/accounts/avatars/000/000/081/original/0bbbf998c43dac3a.jpg> .
+_:9c3d2a6dc889e2c785b587a7c463d0a6 <https://www.w3.org/ns/activitystreams#mediaType> "image/jpeg" .
+_:9e859638606226ee0e2d89cb5676abc4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:a2dd2d982cdc8776c206c9ffa1bbf4dc .
+_:9e859638606226ee0e2d89cb5676abc4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://hachyderm.io/users/braddunbar> .
+_:a0a87609eeffdf5b1d88d5abbff17c0b <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:2a62a021088201ac094772903e4068e6 .
+_:a0a87609eeffdf5b1d88d5abbff17c0b <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://front-end.social/users/matuzo> .
+_:a0e6a0fccf89477f13846212d2c72156 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:4fa7d9c1dd2ca3b0985dbcfe5ceba4e1 .
+_:a0e6a0fccf89477f13846212d2c72156 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://hachyderm.io/users/elan> .
+_:a138815f2b11ed1fa991f42e9a3f8bfe <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:8bbc0c607b781876ed1be860a9a7d312 .
+_:a138815f2b11ed1fa991f42e9a3f8bfe <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://mastodon.social/users/rust_discussions> .
+_:a28611fe4c90aa492cb13e182d276ca4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:61d84ff1a13dcc111028d9c57f901268 .
+_:a28611fe4c90aa492cb13e182d276ca4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://masto.ai/users/nickmartin> .
+_:a2dd2d982cdc8776c206c9ffa1bbf4dc <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:16ac8fea04b999b77eb6bd605e606557 .
+_:a2dd2d982cdc8776c206c9ffa1bbf4dc <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://hachyderm.io/users/evanw> .
+_:a2f24ef3d10c6553b9ff9e7b0059615c <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:19cdeb5e5df56b2337aacdaeb9c7b2fe .
+_:a2f24ef3d10c6553b9ff9e7b0059615c <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://front-end.social/users/SaraSoueidan> .
+_:a30538801d5c2d4864242bfe92387625 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://www.w3.org/ns/activitystreams#Image> .
+_:a30538801d5c2d4864242bfe92387625 <https://www.w3.org/ns/activitystreams#url> <https://cdn.masto.host/a11yinfo/accounts/headers/000/000/081/original/4e6a1b58eee7546a.jpg> .
+_:a30538801d5c2d4864242bfe92387625 <https://www.w3.org/ns/activitystreams#mediaType> "image/jpeg" .
+_:a30aa8121ce04d8118eba74d7f8b47b8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:a30aa8121ce04d8118eba74d7f8b47b8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://front-end.social/users/Aaron> .
+_:a3a46c10dd1d6ef2ffc7ea13487cc588 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:b46bfc00c57c0ea4c7794b471287960f .
+_:a3a46c10dd1d6ef2ffc7ea13487cc588 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://social.spooky.click/users/matthew> .
+_:a588b947af340c2e60ec5a5d3a64e9a4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:463efb42fe392760cb4d20897dae3756 .
+_:a588b947af340c2e60ec5a5d3a64e9a4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://mastodon.social/users/dangillmor> .
+_:a589062fc4625f063c8be51d7845843c <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:ffa3b2b97f30a0a2b5cc607b3ab124b6 .
+_:a589062fc4625f063c8be51d7845843c <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://mastodon.social/users/webdev_discussions> .
+_:a5f95eeeaab82c6cdbc85b2bbdce5fc6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://www.w3.org/ns/activitystreams#Image> .
+_:a5f95eeeaab82c6cdbc85b2bbdce5fc6 <https://www.w3.org/ns/activitystreams#url> <https://files.mastodon.social/accounts/headers/109/337/031/209/399/923/original/a0bc91ee8fd71924.jpg> .
+_:a5f95eeeaab82c6cdbc85b2bbdce5fc6 <https://www.w3.org/ns/activitystreams#mediaType> "image/jpeg" .
+_:a6ccf426504adb42b0d5561a1cb88230 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://www.w3.org/ns/activitystreams#Image> .
+_:a6ccf426504adb42b0d5561a1cb88230 <https://www.w3.org/ns/activitystreams#url> <https://assets.toot.cafe/accounts/headers/000/089/043/original/98d8cfb958b6d0bf.jpg> .
+_:a6ccf426504adb42b0d5561a1cb88230 <https://www.w3.org/ns/activitystreams#mediaType> "image/jpeg" .
+_:a7cae03a8f64b8dc30e56a6d671f2ee7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:2f923a87cfcd42c03074a1bb0dc5bd47 .
+_:a7cae03a8f64b8dc30e56a6d671f2ee7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://macaw.social/users/stevej> .
+_:a891992c292b0991b0284b175f23db0a <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:472125a9d3b5278ec076a75c0ccf9f32 .
+_:a891992c292b0991b0284b175f23db0a <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://hachyderm.io/users/littledan> .
+_:aa5c5025ed3b03b1ff4aea7f4449771f <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:14067f8e9242e547f0068909db3efb49 .
+_:aa5c5025ed3b03b1ff4aea7f4449771f <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://mastodon.be/users/vitalyf> .
+_:ab59a2c8784709f34c85249c65d86d90 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:e4112036bdcdae960d0709c7312fe307 .
+_:ab59a2c8784709f34c85249c65d86d90 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://tapbots.social/users/ivory> .
+_:abddc35dcc2e2e6ba1804dbee9c3daf9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:f1fbe48021994cc82ad3734644289b7 .
+_:abddc35dcc2e2e6ba1804dbee9c3daf9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://omfg.town/users/dansinker> .
+_:acaa5ffb16a064cc5b794fb77d0ad3b9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:f5f748c266586194075954938eaf91c .
+_:acaa5ffb16a064cc5b794fb77d0ad3b9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://digipres.club/users/foone> .
+_:af999c27bcc99d51bab5dade9de2c5cc <https://www.w3.org/ns/activitystreams#sharedInbox> <https://a11y.info/inbox> .
+_:b01c02153dd85f00dc6f6d069366bd5f <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org#PropertyValue> .
+_:b01c02153dd85f00dc6f6d069366bd5f <https://www.w3.org/ns/activitystreams#name> "Twitter" .
+_:b01c02153dd85f00dc6f6d069366bd5f <http://schema.org#value> "<a href=\"https://twitter.com/yaypie\" target=\"_blank\" rel=\"nofollow noopener noreferrer me\"><span class=\"invisible\">https://</span><span class=\"\">twitter.com/yaypie</span><span class=\"invisible\"></span></a>" .
+_:b34ac7a446d28530c9b73d623aee7123 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:2cceb66e2d6933d95e7635bec5d08c03 .
+_:b34ac7a446d28530c9b73d623aee7123 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://mastodon.social/users/dherman> .
+_:b46bfc00c57c0ea4c7794b471287960f <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:b55f7798ad636b8c68ebe51bcd68dd74 .
+_:b46bfc00c57c0ea4c7794b471287960f <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://mastodon.lol/users/jamiebuilds> .
+_:b52b0ad6ce443cd1e12bdfefb65633f8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://www.w3.org/ns/activitystreams#Image> .
+_:b52b0ad6ce443cd1e12bdfefb65633f8 <https://www.w3.org/ns/activitystreams#url> <https://assets.toot.cafe/accounts/avatars/000/089/043/original/d7093f627df8db2e.jpg> .
+_:b52b0ad6ce443cd1e12bdfefb65633f8 <https://www.w3.org/ns/activitystreams#mediaType> "image/jpeg" .
+_:b55f7798ad636b8c68ebe51bcd68dd74 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:7675f2b80ba90a5909dbde8e3a0b085 .
+_:b55f7798ad636b8c68ebe51bcd68dd74 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://toot.cafe/users/developit> .
+_:b6b8e6f18a54e795e257af159a5e9445 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://www.w3.org/ns/activitystreams#Image> .
+_:b6b8e6f18a54e795e257af159a5e9445 <https://www.w3.org/ns/activitystreams#url> <https://files.pie.gd/accounts/avatars/109/311/752/560/431/373/original/6c336577b9a69de7.png> .
+_:b6b8e6f18a54e795e257af159a5e9445 <https://www.w3.org/ns/activitystreams#mediaType> "image/png" .
+_:b6bbeeda32d97fd99ef34e92bec7357f <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:4f889d25237ce9d36cf1c9afe265b59f .
+_:b6bbeeda32d97fd99ef34e92bec7357f <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://cybervillains.com/users/jschuh> .
+_:b745b29a98191278c2fde246b0630123 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:6d6ef832d952f6258d468e5ba8931499 .
+_:b745b29a98191278c2fde246b0630123 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://fosstodon.org/users/nzakas> .
+_:b75fb6946cfd8d7c907b880e8987f6a9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:b9e730f54b326267db1fb705577c2e0c .
+_:b75fb6946cfd8d7c907b880e8987f6a9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://mastodon.social/users/hn_discussions> .
+_:b9e730f54b326267db1fb705577c2e0c <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:a589062fc4625f063c8be51d7845843c .
+_:b9e730f54b326267db1fb705577c2e0c <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://mastodon.social/users/programming_discussions> .
+_:ba312b669270fe578e15e5e46bc422ad <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:5039736e223069ed85a750f7a6a8c31a .
+_:ba312b669270fe578e15e5e46bc422ad <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://mastodon.social/users/libei> .
+_:babc3a0cdeedc560523df10a6eb24b5f <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:cb673148b1b946dab8490e0f35c57b4d .
+_:babc3a0cdeedc560523df10a6eb24b5f <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://historians.social/users/michaelhattem> .
+_:bc2d41cb1d844e69f3e7f7ba9a932fe7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:40296aa8e619e9b820aea7afcdd06227 .
+_:bc2d41cb1d844e69f3e7f7ba9a932fe7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://mastodon.social/users/leobalter> .
+_:bca71551df10623cc600dba9d0b3552b <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org#PropertyValue> .
+_:bca71551df10623cc600dba9d0b3552b <https://www.w3.org/ns/activitystreams#name> "Website" .
+_:bca71551df10623cc600dba9d0b3552b <http://schema.org#value> "<a href=\"https://wonko.com\" target=\"_blank\" rel=\"nofollow noopener noreferrer me\"><span class=\"invisible\">https://</span><span class=\"\">wonko.com</span><span class=\"invisible\"></span></a>" .
+_:be73e96acff92c9dcdd69eb828963a86 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:707bad9bc431eb2e1f4ff6b24f20c50f .
+_:be73e96acff92c9dcdd69eb828963a86 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://bell.bz/users/andy> .
+_:c02a06b8138ae98844e185b58f03db42 <https://www.w3.org/ns/activitystreams#sharedInbox> <https://mastodon.social/inbox> .
+_:c158401afc59be15305fee60c6704342 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:c158401afc59be15305fee60c6704342 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://a11y.info/users/feather> .
+_:c16acf3ec0bb701757e58377391a6954 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:df2774320d7f9bd741301a4defa913c9 .
+_:c16acf3ec0bb701757e58377391a6954 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://front-end.social/users/eeeps> .
+_:c192e725ac5b038c39671e5a09c73604 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://www.w3.org/ns/activitystreams#Image> .
+_:c192e725ac5b038c39671e5a09c73604 <https://www.w3.org/ns/activitystreams#url> <https://cdn.fosstodon.org/accounts/avatars/109/287/837/143/496/950/original/f4476d477e8d5536.png> .
+_:c192e725ac5b038c39671e5a09c73604 <https://www.w3.org/ns/activitystreams#mediaType> "image/png" .
+_:c3061cbc7df090333e2159b8006e0237 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:c516cfd8d4e237669683f8236f3f1c9b .
+_:c3061cbc7df090333e2159b8006e0237 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://front-end.social/users/tink> .
+_:c4f10a1ae3ebc3c0087546d0b54aed0f <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:c4f10a1ae3ebc3c0087546d0b54aed0f <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://toot.cafe/users/developit> .
+_:c516cfd8d4e237669683f8236f3f1c9b <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:6f971d7843cadcc9bccbb89075a3f6f7 .
+_:c516cfd8d4e237669683f8236f3f1c9b <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://fediverse.zachleat.com/users/zachleat> .
+_:c7d99710ab17def23fc7612c9b604837 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:ef455938c12640d7f8bd2575d121c802 .
+_:c7d99710ab17def23fc7612c9b604837 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://eigenmagic.net/users/sundress> .
+_:c9437317b1bc8c45198882dfa54f1576 <https://www.w3.org/ns/activitystreams#sharedInbox> <https://pie.gd/inbox> .
+_:cb673148b1b946dab8490e0f35c57b4d <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:378939a9ece8ca4017a16713c02f14d8 .
+_:cb673148b1b946dab8490e0f35c57b4d <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://dbg.social/users/ngaitonde> .
+_:cb81a811117d2e9898b7e67339545bc3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org#PropertyValue> .
+_:cb81a811117d2e9898b7e67339545bc3 <https://www.w3.org/ns/activitystreams#name> "Verified by" .
+_:cb81a811117d2e9898b7e67339545bc3 <http://schema.org#value> "<a href=\"https://fedified.com\" target=\"_blank\" rel=\"nofollow noopener noreferrer me\"><span class=\"invisible\">https://</span><span class=\"\">fedified.com</span><span class=\"invisible\"></span></a>" .
+_:cc6632837b838f42924601f0de595391 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:fac1397d7f8e2e1bbb78cefda476af52 .
+_:cc6632837b838f42924601f0de595391 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://toot.cafe/users/nolan> .
+_:cef21c462bda92ef3f4d3e244cbfcc58 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://www.w3.org/ns/activitystreams#Hashtag> .
+_:cef21c462bda92ef3f4d3e244cbfcc58 <https://www.w3.org/ns/activitystreams#name> "#webperformance" .
+_:cef21c462bda92ef3f4d3e244cbfcc58 <https://www.w3.org/ns/activitystreams#href> <https://indieweb.social/tags/webperformance> .
+_:cf560d7b841ce0e81b7fd9d04c477d34 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:7f0640a18c7e34340611e4a5e69a7546 .
+_:cf560d7b841ce0e81b7fd9d04c477d34 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://indieweb.social/users/addyosmani> .
+_:d0153be9b80a4edbb3f969820c81050c <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:d0153be9b80a4edbb3f969820c81050c <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://mastodon.social/users/compsci_discussions> .
+_:d263a5dcbc2e079e2f2f74b8ea2a5651 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:2e38e410cc6bdc83ca25805d23c29a26 .
+_:d263a5dcbc2e079e2f2f74b8ea2a5651 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://front-end.social/users/heydon> .
+_:d42483c22e4ad7c8874a8cc4535f7a34 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org#PropertyValue> .
+_:d42483c22e4ad7c8874a8cc4535f7a34 <https://www.w3.org/ns/activitystreams#name> "Currently" .
+_:d42483c22e4ad7c8874a8cc4535f7a34 <http://schema.org#value> "Microsoft Edge" .
+_:d51bc10b9852d443deb55d96a7ea3f9c <https://www.w3.org/ns/activitystreams#sharedInbox> <https://indieweb.social/inbox> .
+_:d56c90e91e92c6592b1dd9ce769a5ee8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:df6f9f46c557b12d5961068567e9541f .
+_:d56c90e91e92c6592b1dd9ce769a5ee8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://hachyderm.io/users/elijahmanor> .
+_:d6fc1d3ca726d448f167017d3a652808 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:a7cae03a8f64b8dc30e56a6d671f2ee7 .
+_:d6fc1d3ca726d448f167017d3a652808 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://hachyderm.io/users/elijahmanor> .
+_:d7281c2f3415bc0e664d276591d01eea <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://www.w3.org/ns/activitystreams#Image> .
+_:d7281c2f3415bc0e664d276591d01eea <https://www.w3.org/ns/activitystreams#url> <https://assets.toot.cafe/accounts/headers/000/002/283/original/0cceec00f42cce69.jpg> .
+_:d7281c2f3415bc0e664d276591d01eea <https://www.w3.org/ns/activitystreams#mediaType> "image/jpeg" .
+_:d73c766d210779d4361270a5f2957a3a <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:21997f5f80fc83517942f0d4adce398f .
+_:d73c766d210779d4361270a5f2957a3a <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://federated.saagarjha.com/users/saagar> .
+_:d86822ed74ed1a1958bddc943ae02ae3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:90264539a3e8d3226e91e4acd7216bf7 .
+_:d86822ed74ed1a1958bddc943ae02ae3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://boulder.social/users/jacobko> .
+_:de0bfaa68b09a8e49102aadf2c489fc5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:9e859638606226ee0e2d89cb5676abc4 .
+_:de0bfaa68b09a8e49102aadf2c489fc5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://hachyderm.io/users/jrburke> .
+_:df2774320d7f9bd741301a4defa913c9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:d56c90e91e92c6592b1dd9ce769a5ee8 .
+_:df2774320d7f9bd741301a4defa913c9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://mas.to/users/j9t> .
+_:df6f9f46c557b12d5961068567e9541f <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:403749fa2921c9797af920f0a45e2d81 .
+_:df6f9f46c557b12d5961068567e9541f <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://hachyderm.io/users/sarahdayan> .
+_:dfcefe55cf7d6c41db5637afadeb4d05 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://www.w3.org/ns/activitystreams#Hashtag> .
+_:dfcefe55cf7d6c41db5637afadeb4d05 <https://www.w3.org/ns/activitystreams#name> "#rustlang" .
+_:dfcefe55cf7d6c41db5637afadeb4d05 <https://www.w3.org/ns/activitystreams#href> <https://mastodon.social/tags/rustlang> .
+_:e1232575f559e62c685432033e813c1e <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:f76a92df21de28f493f5b7b679dee747 .
+_:e1232575f559e62c685432033e813c1e <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://indieweb.social/users/dnnydnl> .
+_:e1edc209784b1da7ccd265351d21aed5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://www.w3.org/ns/activitystreams#Image> .
+_:e1edc209784b1da7ccd265351d21aed5 <https://www.w3.org/ns/activitystreams#url> <https://files.mastodon.social/accounts/avatars/109/337/031/209/399/923/original/cea9970deb562b0f.jpg> .
+_:e1edc209784b1da7ccd265351d21aed5 <https://www.w3.org/ns/activitystreams#mediaType> "image/jpeg" .
+_:e246dc79bd71e12964d52e6477382d34 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:ef52b3b5a9975ee04735de280e1f4553 .
+_:e246dc79bd71e12964d52e6477382d34 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://infosec.exchange/users/github> .
+_:e4112036bdcdae960d0709c7312fe307 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:352765c77b8a28b9fd94ebff4d1fa83e .
+_:e4112036bdcdae960d0709c7312fe307 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://strings.io/users/jerome> .
+_:e6c2b59e0f5832e80f1e22e182e9f8c7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:28e0d335d947df65e5aa6040b6ed933f .
+_:e6c2b59e0f5832e80f1e22e182e9f8c7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://cybervillains.com/users/jschuh> .
+_:e82d1293f9f231a441f007a29d373fa7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://www.w3.org/ns/activitystreams#Hashtag> .
+_:e82d1293f9f231a441f007a29d373fa7 <https://www.w3.org/ns/activitystreams#name> "#webdevelopment" .
+_:e82d1293f9f231a441f007a29d373fa7 <https://www.w3.org/ns/activitystreams#href> <https://indieweb.social/tags/webdevelopment> .
+_:e9812b28bdd9fde9da7f18078588ff27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://www.w3.org/ns/activitystreams#Image> .
+_:e9812b28bdd9fde9da7f18078588ff27 <https://www.w3.org/ns/activitystreams#url> <https://files.pie.gd/accounts/headers/109/311/752/560/431/373/original/c598fa7fafc61278.jpg> .
+_:e9812b28bdd9fde9da7f18078588ff27 <https://www.w3.org/ns/activitystreams#mediaType> "image/jpeg" .
+_:ef0571b25387af2d0cc0ab2083d5339d <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://www.w3.org/ns/activitystreams#Image> .
+_:ef0571b25387af2d0cc0ab2083d5339d <https://www.w3.org/ns/activitystreams#url> <https://files.mastodon.social/accounts/avatars/107/566/518/328/455/139/original/27a03dc7d6b7f0d5.jpg> .
+_:ef0571b25387af2d0cc0ab2083d5339d <https://www.w3.org/ns/activitystreams#mediaType> "image/jpeg" .
+_:ef455938c12640d7f8bd2575d121c802 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:a891992c292b0991b0284b175f23db0a .
+_:ef455938c12640d7f8bd2575d121c802 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://social.banes.me/users/chris> .
+_:ef52b3b5a9975ee04735de280e1f4553 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:c4f10a1ae3ebc3c0087546d0b54aed0f .
+_:ef52b3b5a9975ee04735de280e1f4553 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://hachyderm.io/users/md> .
+_:f14da23b88ca365e734a992ac3843d02 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:b75fb6946cfd8d7c907b880e8987f6a9 .
+_:f14da23b88ca365e734a992ac3843d02 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://mastodon.social/users/laarc_discussions> .
+_:f24d40d72d870a3eb384cf1f79c5f2f1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:711d17b38455179044aa25ed69d37143 .
+_:f24d40d72d870a3eb384cf1f79c5f2f1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://social.linux.pizza/users/musicmatze> .
+_:f2857e4049f51c3a8c4a83a6f94274bc <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:d73c766d210779d4361270a5f2957a3a .
+_:f2857e4049f51c3a8c4a83a6f94274bc <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://hachyderm.io/users/elijahmanor> .
+_:f2e947e5a913a7df97037030332cb100 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:de0bfaa68b09a8e49102aadf2c489fc5 .
+_:f2e947e5a913a7df97037030332cb100 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://hachyderm.io/users/simona> .
+_:f473c1d7611f85c9bdca3db63e08a9c2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:1e84a989d33958e0950fd682d9052636 .
+_:f473c1d7611f85c9bdca3db63e08a9c2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://mastodon.xyz/users/leowzukw> .
+_:f76a92df21de28f493f5b7b679dee747 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:37bf5d8f8df1d8359f30a9520f7d2feb .
+_:f76a92df21de28f493f5b7b679dee747 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://twit.social/users/jman> .
+_:fa23ea4dd7b1abc12086fcc41d90355b <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://schema.org#PropertyValue> .
+_:fa23ea4dd7b1abc12086fcc41d90355b <https://www.w3.org/ns/activitystreams#name> "Newsletter" .
+_:fa23ea4dd7b1abc12086fcc41d90355b <http://schema.org#value> "<a href=\"https://discu.eu/weekly/rust\" target=\"_blank\" rel=\"nofollow noopener noreferrer me\"><span class=\"invisible\">https://</span><span class=\"\">discu.eu/weekly/rust</span><span class=\"invisible\"></span></a>" .
+_:fac1397d7f8e2e1bbb78cefda476af52 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:fac1397d7f8e2e1bbb78cefda476af52 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://fosstodon.org/users/rauschma> .
+_:ff59ec8f2f10a3c8ff2031fd9e222c5f <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:6fd34a11ab22aae46e74a53dd7fc063a .
+_:ff59ec8f2f10a3c8ff2031fd9e222c5f <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://mastodon.xyz/users/mlong> .
+_:ffa3b2b97f30a0a2b5cc607b3ab124b6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:d0153be9b80a4edbb3f969820c81050c .
+_:ffa3b2b97f30a0a2b5cc607b3ab124b6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://mastodon.social/users/devops_discussions> .
+<https://paa.pub/users/lukedary#main-key> <https://w3id.org/security#owner> <https://paa.pub/users/lukedary> <https://paa.pub/> .
+<https://paa.pub/users/lukedary> <https://www.w3.org/ns/activitystreams#icon> _:9c1c7a6e9d0c96246f0e900b3b42ff90 <https://paa.pub/> .
+<https://paa.pub/users/lukedary> <https://paa.pub/ns#discoverable> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> <https://paa.pub/> .
+<https://paa.pub/users/lukedary> <https://www.w3.org/ns/activitystreams#published> "2022-11-04T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> <https://paa.pub/> .
+<https://paa.pub/users/lukedary> <https://www.w3.org/ns/activitystreams#following> <https://paa.pub/users/lukedary/following> <https://paa.pub/> .
+<https://paa.pub/users/lukedary> <https://paa.pub/ns#featuredTags> <https://paa.pub/users/lukedary/collections/tags> <https://paa.pub/> .
+<https://paa.pub/users/lukedary> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://www.w3.org/ns/activitystreams#Person> <https://paa.pub/> .
+<https://paa.pub/users/lukedary> <https://www.w3.org/ns/activitystreams#followers> <https://paa.pub/users/lukedary/followers> <https://paa.pub/> .
+<https://paa.pub/users/lukedary> <https://www.w3.org/ns/activitystreams#url> <https://fosstodon.org/@nzakas> <https://paa.pub/> .
+<https://paa.pub/users/lukedary> <https://www.w3.org/ns/activitystreams#summary> "<p>Creator of ESLint. Author, programmer, speaker, coach.</p>" <https://paa.pub/> .
+<https://paa.pub/users/lukedary> <https://www.w3.org/ns/activitystreams#name> "Nicholas C. Zakas" <https://paa.pub/> .
+<https://paa.pub/users/lukedary> <https://www.w3.org/ns/activitystreams#endpoints> _:f072eba2df87312e9da6bccfa11a53e3 <https://paa.pub/> .
+<https://paa.pub/users/lukedary> <https://w3id.org/security#publicKey> <https://paa.pub/users/lukedary#main-key> <https://paa.pub/> .
+<https://paa.pub/users/lukedary> <https://www.w3.org/ns/activitystreams#outbox> <https://paa.pub/users/lukedary/outbox> <https://paa.pub/> .
+<https://paa.pub/users/lukedary> <https://paa.pub/ns#devices> <https://paa.pub/users/lukedary/collections/devices> <https://paa.pub/> .
+<https://paa.pub/users/lukedary> <https://paa.pub/ns#featured> <https://paa.pub/users/lukedary/collections/featured> <https://paa.pub/> .
+<https://paa.pub/users/lukedary> <https://www.w3.org/ns/activitystreams#preferredUsername> "nzakas" <https://paa.pub/> .
+<https://paa.pub/users/lukedary> <https://www.w3.org/ns/activitystreams#manuallyApprovesFollowers> "false"^^<http://www.w3.org/2001/XMLSchema#boolean> <https://paa.pub/> .
+<https://paa.pub/users/lukedary> <http://www.w3.org/ns/ldp#inbox> <https://paa.pub/users/lukedary/inbox> <https://paa.pub/> .
+_:9c1c7a6e9d0c96246f0e900b3b42ff90 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://www.w3.org/ns/activitystreams#Image> <https://paa.pub/> .
+_:9c1c7a6e9d0c96246f0e900b3b42ff90 <https://www.w3.org/ns/activitystreams#url> <https://cdn.fosstodon.org/accounts/avatars/109/286/678/672/897/748/original/00c2135a4cc9fdab.jpg> <https://paa.pub/> .
+_:9c1c7a6e9d0c96246f0e900b3b42ff90 <https://www.w3.org/ns/activitystreams#mediaType> "image/jpeg" <https://paa.pub/> .
+_:f072eba2df87312e9da6bccfa11a53e3 <https://www.w3.org/ns/activitystreams#sharedInbox> <https://fosstodon.org/inbox> <https://paa.pub/> .
