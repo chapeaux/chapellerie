@@ -166,7 +166,7 @@ spec:
               mountPath: /data
           terminationMessagePolicy: File
           image: >-
-            image-registry.openshift-image-registry.svc:5000/ldary24-dev/oxigraph@sha256:8ba12b976515e4b30ae844409c96e52b325268ae1f5e9a21e997f4e4459ec550
+            oxigraph/oxigraph
           args:
             - '--location'
             - /data
